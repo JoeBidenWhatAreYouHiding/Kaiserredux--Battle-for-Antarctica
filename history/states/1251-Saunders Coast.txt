@@ -10,7 +10,7 @@ state={
 	state_category = rural
 
 	history = {
-		owner = ANT
+		owner = AAR
 		victory_points = {
 			15059 10
 		}
@@ -21,7 +21,7 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = ANT
+		add_core_of = AAR
 	}
 
 }
