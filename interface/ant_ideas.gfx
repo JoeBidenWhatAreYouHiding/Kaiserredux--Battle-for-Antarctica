@@ -1,8 +1,0 @@
-spriteTypes = {
-
-	spriteType = {
-		name = "GFX_idea_penguin_army"
-		texturefile = "gfx/interface/ideas/ideas/ANT_penguin_army.tga"
-	}
-
-}
