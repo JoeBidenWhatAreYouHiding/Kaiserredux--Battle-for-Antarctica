@@ -1,0 +1,26 @@
+state={
+	id=1237
+	name="STATE_1106" # Deception Island
+	manpower = 1000
+	
+	state_category = wasteland
+
+	history={
+		owner = ARG
+		victory_points = {
+			15041 1
+		}
+		buildings = {
+			15041 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15041
+
+	}
+}

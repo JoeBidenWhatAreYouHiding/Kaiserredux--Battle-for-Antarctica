@@ -1,0 +1,20 @@
+state={
+	id=1268
+	name="STATE_1137"
+	provinces={
+		15082 15162 15114 15100 15104 15093 15094
+
+	}
+	manpower = 200000
+
+	state_category = rural
+
+	history = {
+		owner = NOR
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+}

@@ -1,0 +1,22 @@
+###########################
+# Pictures for Antarctica Events
+###########################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_report_event_ant_rad_socialist_trotsky"
+		texturefile = "gfx/event_pictures/report_event_ant_rad_socialist_trotsky.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ant_trotskys_mind"
+		texturefile = "gfx/event_pictures/report_event_ant_trotskys_mind.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ant_intro_penguins"
+		texturefile = "gfx/event_pictures/report_event_ant_intro_penguins.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ant_penguin_city"
+		texturefile = "gfx/event_pictures/report_event_ant_penguin_city.dds"
+	}
+}

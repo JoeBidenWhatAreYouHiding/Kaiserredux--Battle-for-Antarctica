@@ -1,0 +1,26 @@
+state={
+	id=1235
+	name="STATE_1235" # Stonington Island
+	manpower = 1000
+	
+	state_category = wasteland
+
+	history={
+		owner = ARG
+		victory_points = {
+			15039 1
+		}
+		buildings = {
+			15039 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15039
+
+	}
+}

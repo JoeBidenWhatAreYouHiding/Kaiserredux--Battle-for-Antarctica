@@ -1,0 +1,27 @@
+state={
+	id=1232
+	name="STATE_1101" # Laurie Island
+	manpower = 20
+	
+	state_category = wasteland
+
+	history={
+		owner = ARG
+		victory_points = {
+			15037 1
+		}
+		buildings = {
+			infrastructure = 1
+			15037 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15037
+
+	}
+}

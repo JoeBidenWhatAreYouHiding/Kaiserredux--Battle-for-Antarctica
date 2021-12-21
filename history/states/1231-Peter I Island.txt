@@ -1,0 +1,23 @@
+state={
+	id=1231
+	name="STATE_1100" # Peter I Island
+	manpower = 1000
+	
+	state_category = wasteland
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 0
+			15036 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15036
+
+	}
+}

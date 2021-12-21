@@ -1,0 +1,127 @@
+continent = {
+	name = antarctica
+	army = {
+		male = {
+			"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+			"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+		}
+	}
+	
+	political = {
+		totalist = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		syndicalist = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		social_conservative = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+		national_populist = {
+			male = {
+				"gfx/leaders/ANT/Portrait_ANT_Generic_1.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_2.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_3.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_4.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_5.dds"
+				"gfx/leaders/ANT/Portrait_ANT_Generic_6.dds"
+			}
+		}
+	}
+}

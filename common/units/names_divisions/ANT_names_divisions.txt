@@ -1,0 +1,499 @@
+﻿ANT_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ANT_GAR_01 }
+
+	fallback_name = "%d. Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Division" }
+		2 = { "Squaawk Division" }
+		3 = { "Squaaawk Division" }
+		4 = { "Squaaaawk Division" }
+		5 = { "Squaaaaawk Division" }
+		6 = { "Squaaaaaawk Division" }
+		7 = { "Squawk! Division" }
+		8 = { "Squaawk! Division" }
+		9 = { "Squaaawk! Division" }
+		10 = { "Squaaaawk! Division" }
+		11 = { "Squaaaaawk! Division" }
+		12 = { "Squaaaaaawk! Division" }
+		13 = { "Squawk? Division" }
+		14 = { "Squaawk? Division" }
+		15 = { "Squaaawk? Division" }
+		16 = { "Squaaaawk? Division" }
+		17 = { "Squaaaaawk? Division" }
+		18 = { "Squaaaaaawk? Division" }
+		19 = { "Squawk Squawk Division" }
+		20 = { "Squawk Squaawk Division" }
+		21 = { "Squawk Squaaawk Division" }
+		22 = { "Squawk Squaaaawk Division" }
+		23 = { "Squawk Squaaaaawk Division" }
+		24 = { "Squawk Squaaaaaawk Division" }
+		25 = { "Squaawk Squawk Division" }
+		26 = { "%d. Division" }
+		27 = { "%d. Division" }
+		28 = { "%d. Division" }
+		29 = { "%d. Division" }
+		30 = { "%d. Division" }
+	}
+}
+
+ANT_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%d. Cavalry"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Cavalry" }
+		2 = { "Squaawk Cavalry" }
+		3 = { "Squaaawk Cavalry" }
+		4 = { "Squaaaawk Cavalry" }
+		5 = { "Squaaaaawk Cavalry" }
+		6 = { "Squaaaaaawk Cavalry" }
+		7 = { "Squawk! Cavalry" }
+		8 = { "Squaawk! Cavalry" }
+		9 = { "Squaaawk! Cavalry" }
+		10 = { "Squaaaawk! Cavalry" }
+		11 = { "Squaaaaawk! Cavalry" }
+		12 = { "Squaaaaaawk! Cavalry" }
+		13 = { "Squawk? Cavalry" }
+		14 = { "Squaawk? Cavalry" }
+		15 = { "Squaaawk? Cavalry" }
+		16 = { "Squaaaawk? Cavalry" }
+		17 = { "Squaaaaawk? Cavalry" }
+		18 = { "Squaaaaaawk? Cavalry" }
+		19 = { "Squawk Squawk Cavalry" }
+		20 = { "Squawk Squaawk Cavalry" }
+		21 = { "Squawk Squaaawk Cavalry" }
+		22 = { "Squawk Squaaaawk Cavalry" }
+		23 = { "Squawk Squaaaaawk Cavalry" }
+		24 = { "Squawk Squaaaaaawk Cavalry" }
+		25 = { "Squaawk Squawk Cavalry" }
+		26 = { "%d. Cavalry" }
+		27 = { "%d. Cavalry" }
+		28 = { "%d. Cavalry" }
+		29 = { "%d. Cavalry" }
+		30 = { "%d. Cavalry" }
+	}
+}
+
+ANT_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%d. Motor Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Motor Div." }
+		2 = { "Squaawk Motor Div." }
+		3 = { "Squaaawk Motor Div." }
+		4 = { "Squaaaawk Motor Div." }
+		5 = { "Squaaaaawk Motor Div." }
+		6 = { "Squaaaaaawk Motor Div." }
+		7 = { "Squawk! Motor Div." }
+		8 = { "Squaawk! Motor Div." }
+		9 = { "Squaaawk! Motor Div." }
+		10 = { "Squaaaawk! Motor Div." }
+		11 = { "Squaaaaawk! Motor Div." }
+		12 = { "Squaaaaaawk! Motor Div." }
+		13 = { "Squawk? Motor Div." }
+		14 = { "Squaawk? Motor Div." }
+		15 = { "Squaaawk? Motor Div." }
+		16 = { "Squaaaawk? Motor Div." }
+		17 = { "Squaaaaawk? Motor Div." }
+		18 = { "Squaaaaaawk? Motor Div." }
+		19 = { "Squawk Squawk Motor Div." }
+		20 = { "Squawk Squaawk Motor Div." }
+		21 = { "Squawk Squaaawk Motor Div." }
+		22 = { "Squawk Squaaaawk Motor Div." }
+		23 = { "Squawk Squaaaaawk Motor Div." }
+		24 = { "Squawk Squaaaaaawk Motor Div." }
+		25 = { "Squaawk Squawk Motor Div." }
+		26 = { "%d. Motor Division" }
+		27 = { "%d. Motor Division" }
+		28 = { "%d. Motor Division" }
+		29 = { "%d. Motor Division" }
+		30 = { "%d. Motor Division" }
+	}
+}
+
+ANT_ARM_01 = {
+	name = "Armored Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%d. Armored Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Armored Div." }
+		2 = { "Squaawk Armored Div." }
+		3 = { "Squaaawk Armored Div." }
+		4 = { "Squaaaawk Armored Div." }
+		5 = { "Squaaaaawk Armored Div." }
+		6 = { "Squaaaaaawk Armored Div." }
+		7 = { "Squawk! Armored Div." }
+		8 = { "Squaawk! Armored Div." }
+		9 = { "Squaaawk! Armored Div." }
+		10 = { "Squaaaawk! Armored Div." }
+		11 = { "Squaaaaawk! Armored Div." }
+		12 = { "Squaaaaaawk! Armored Div." }
+		13 = { "Squawk? Armored Div." }
+		14 = { "Squaawk? Armored Div." }
+		15 = { "Squaaawk? Armored Div." }
+		16 = { "Squaaaawk? Armored Div." }
+		17 = { "Squaaaaawk? Armored Div." }
+		18 = { "Squaaaaaawk? Armored Div." }
+		19 = { "Squawk Squawk Armored Div." }
+		20 = { "Squawk Squaawk Armored Div." }
+		21 = { "Squawk Squaaawk Armored Div." }
+		22 = { "Squawk Squaaaawk Armored Div." }
+		23 = { "Squawk Squaaaaawk Armored Div." }
+		24 = { "Squawk Squaaaaaawk Armored Div." }
+		25 = { "Squaawk Squawk Armored Div." }
+		26 = { "%d. Armored Division" }
+		27 = { "%d. Armored Division" }
+		28 = { "%d. Armored Division" }
+		29 = { "%d. Armored Division" }
+		30 = { "%d. Armored Division" }
+	}
+}
+
+ANT_MEC_01 = {
+	name = "Mechanised Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%d. Half Track Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Half Track Div." }
+		2 = { "Squaawk Half Track Div." }
+		3 = { "Squaaawk Half Track Div." }
+		4 = { "Squaaaawk Half Track Div." }
+		5 = { "Squaaaaawk Half Track Div." }
+		6 = { "Squaaaaaawk Half Track Div." }
+		7 = { "Squawk! Half Track Div." }
+		8 = { "Squaawk! Half Track Div." }
+		9 = { "Squaaawk! Half Track Div." }
+		10 = { "Squaaaawk! Half Track Div." }
+		11 = { "Squaaaaawk! Half Track Div." }
+		12 = { "Squaaaaaawk! Half Track Div." }
+		13 = { "Squawk? Half Track Div." }
+		14 = { "Squaawk? Half Track Div." }
+		15 = { "Squaaawk? Half Track Div." }
+		16 = { "Squaaaawk? Half Track Div." }
+		17 = { "Squaaaaawk? Half Track Div." }
+		18 = { "Squaaaaaawk? Half Track Div." }
+		19 = { "Squawk Squawk Half Track Div." }
+		20 = { "Squawk Squaawk Half Track Div." }
+		21 = { "Squawk Squaaawk Half Track Div." }
+		22 = { "Squawk Squaaaawk Half Track Div." }
+		23 = { "Squawk Squaaaaawk Half Track Div." }
+		24 = { "Squawk Squaaaaaawk Half Track Div." }
+		25 = { "Squaawk Squawk Half Track Div." }
+		26 = { "%d. Half Track Division" }
+		27 = { "%d. Half Track Division" }
+		28 = { "%d. Half Track Division" }
+		29 = { "%d. Half Track Division" }
+		30 = { "%d. Half Track Division" }
+	}
+}
+
+ANT_MIL_01 = {
+	name = "Militia Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "militia" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%d. Militia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Militia" }
+		2 = { "Squaawk Militia" }
+		3 = { "Squaaawk Militia" }
+		4 = { "Squaaaawk Militia" }
+		5 = { "Squaaaaawk Militia" }
+		6 = { "Squaaaaaawk Militia" }
+		7 = { "Squawk! Militia" }
+		8 = { "Squaawk! Militia" }
+		9 = { "Squaaawk! Militia" }
+		10 = { "Squaaaawk! Militia" }
+		11 = { "Squaaaaawk! Militia" }
+		12 = { "Squaaaaaawk! Militia" }
+		13 = { "Squawk? Militia" }
+		14 = { "Squaawk? Militia" }
+		15 = { "Squaaawk? Militia" }
+		16 = { "Squaaaawk? Militia" }
+		17 = { "Squaaaaawk? Militia" }
+		18 = { "Squaaaaaawk? Militia" }
+		19 = { "Squawk Squawk Militia" }
+		20 = { "Squawk Squaawk Militia" }
+		21 = { "Squawk Squaaawk Militia" }
+		22 = { "Squawk Squaaaawk Militia" }
+		23 = { "Squawk Squaaaaawk Militia" }
+		24 = { "Squawk Squaaaaaawk Militia" }
+		25 = { "Squaawk Squawk Militia" }
+		26 = { "%d. Militia" }
+		27 = { "%d. Militia" }
+		28 = { "%d. Militia" }
+		29 = { "%d. Militia" }
+		30 = { "%d. Militia" }
+	}
+}
+
+ANT_MAR_01 = {
+	name = "Marine Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%d. Marine Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Marine Division" }
+		2 = { "Squaawk Marine Division" }
+		3 = { "Squaaawk Marine Division" }
+		4 = { "Squaaaawk Marine Division" }
+		5 = { "Squaaaaawk Marine Division" }
+		6 = { "Squaaaaaawk Marine Division" }
+		7 = { "Squawk! Marine Division" }
+		8 = { "Squaawk! Marine Division" }
+		9 = { "Squaaawk! Marine Division" }
+		10 = { "Squaaaawk! Marine Division" }
+		11 = { "Squaaaaawk! Marine Division" }
+		12 = { "Squaaaaaawk! Marine Division" }
+		13 = { "Squawk? Marine Division" }
+		14 = { "Squaawk? Marine Division" }
+		15 = { "Squaaawk? Marine Division" }
+		16 = { "Squaaaawk? Marine Division" }
+		17 = { "Squaaaaawk? Marine Division" }
+		18 = { "Squaaaaaawk? Marine Division" }
+		19 = { "Squawk Squawk Marine Division" }
+		20 = { "Squawk Squaawk Marine Division" }
+		21 = { "Squawk Squaaawk Marine Division" }
+		22 = { "Squawk Squaaaawk Marine Division" }
+		23 = { "Squawk Squaaaaawk Marine Division" }
+		24 = { "Squawk Squaaaaaawk Marine Division" }
+		25 = { "Squaawk Squawk Marine Division" }
+		26 = { "%d. Marine Division" }
+		27 = { "%d. Marine Division" }
+		28 = { "%d. Marine Division" }
+		29 = { "%d. Marine Division" }
+		30 = { "%d. Marine Division" }
+	}
+}
+
+ANT_MTN_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%d. Mountain Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Mountain Division" }
+		2 = { "Squaawk Mountain Division" }
+		3 = { "Squaaawk Mountain Division" }
+		4 = { "Squaaaawk Mountain Division" }
+		5 = { "Squaaaaawk Mountain Division" }
+		6 = { "Squaaaaaawk Mountain Division" }
+		7 = { "Squawk! Mountain Division" }
+		8 = { "Squaawk! Mountain Division" }
+		9 = { "Squaaawk! Mountain Division" }
+		10 = { "Squaaaawk! Mountain Division" }
+		11 = { "Squaaaaawk! Mountain Division" }
+		12 = { "Squaaaaaawk! Mountain Division" }
+		13 = { "Squawk? Mountain Division" }
+		14 = { "Squaawk? Mountain Division" }
+		15 = { "Squaaawk? Mountain Division" }
+		16 = { "Squaaaawk? Mountain Division" }
+		17 = { "Squaaaaawk? Mountain Division" }
+		18 = { "Squaaaaaawk? Mountain Division" }
+		19 = { "Squawk Squawk Mountain Division" }
+		20 = { "Squawk Squaawk Mountain Division" }
+		21 = { "Squawk Squaaawk Mountain Division" }
+		22 = { "Squawk Squaaaawk Mountain Division" }
+		23 = { "Squawk Squaaaaawk Mountain Division" }
+		24 = { "Squawk Squaaaaaawk Mountain Division" }
+		25 = { "Squaawk Squawk Mountain Division" }
+		26 = { "%d. Mountain Division" }
+		27 = { "%d. Mountain Division" }
+		28 = { "%d. Mountain Division" }
+		29 = { "%d. Mountain Division" }
+		30 = { "%d. Mountain Division" }
+	}
+}
+
+ANT_PAR_01 = {
+	name = "Paratrooper Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%d. Para Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Para Division" }
+		2 = { "Squaawk Para Division" }
+		3 = { "Squaaawk Para Division" }
+		4 = { "Squaaaawk Para Division" }
+		5 = { "Squaaaaawk Para Division" }
+		6 = { "Squaaaaaawk Para Division" }
+		7 = { "Squawk! Para Division" }
+		8 = { "Squaawk! Para Division" }
+		9 = { "Squaaawk! Para Division" }
+		10 = { "Squaaaawk! Para Division" }
+		11 = { "Squaaaaawk! Para Division" }
+		12 = { "Squaaaaaawk! Para Division" }
+		13 = { "Squawk? Para Division" }
+		14 = { "Squaawk? Para Division" }
+		15 = { "Squaaawk? Para Division" }
+		16 = { "Squaaaawk? Para Division" }
+		17 = { "Squaaaaawk? Para Division" }
+		18 = { "Squaaaaaawk? Para Division" }
+		19 = { "Squawk Squawk Para Division" }
+		20 = { "Squawk Squaawk Para Division" }
+		21 = { "Squawk Squaaawk Para Division" }
+		22 = { "Squawk Squaaaawk Para Division" }
+		23 = { "Squawk Squaaaaawk Para Division" }
+		24 = { "Squawk Squaaaaaawk Para Division" }
+		25 = { "Squaawk Squawk Para Division" }
+		26 = { "%d. Para Division" }
+		27 = { "%d. Para Division" }
+		28 = { "%d. Para Division" }
+		29 = { "%d. Para Division" }
+		30 = { "%d. Para Division" }
+	}
+}
+
+ANT_GAR_01 = {
+	name = "Garrison Division"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ANT_INF_01 }
+
+	fallback_name = "%s Garrison Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Squawk Garrison Division" }
+		2 = { "Squaawk Garrison Division" }
+		3 = { "Squaaawk Garrison Division" }
+		4 = { "Squaaaawk Garrison Division" }
+		5 = { "Squaaaaawk Garrison Division" }
+		6 = { "Squaaaaaawk Garrison Division" }
+		7 = { "Squawk! Garrison Division" }
+		8 = { "Squaawk! Garrison Division" }
+		9 = { "Squaaawk! Garrison Division" }
+		10 = { "Squaaaawk! Garrison Division" }
+		11 = { "Squaaaaawk! Garrison Division" }
+		12 = { "Squaaaaaawk! Garrison Division" }
+		13 = { "Squawk? Garrison Division" }
+		14 = { "Squaawk? Garrison Division" }
+		15 = { "Squaaawk? Garrison Division" }
+		16 = { "Squaaaawk? Garrison Division" }
+		17 = { "Squaaaaawk? Garrison Division" }
+		18 = { "Squaaaaaawk? Garrison Division" }
+		19 = { "Squawk Squawk Garrison Division" }
+		20 = { "Squawk Squaawk Garrison Division" }
+		21 = { "Squawk Squaaawk Garrison Division" }
+		22 = { "Squawk Squaaaawk Garrison Division" }
+		23 = { "Squawk Squaaaaawk Garrison Division" }
+		24 = { "Squawk Squaaaaaawk Garrison Division" }
+		25 = { "Squaawk Squawk Garrison Division" }
+		26 = { "%d. Garrison Division" }
+		27 = { "%d. Garrison Division" }
+		28 = { "%d. Garrison Division" }
+		29 = { "%d. Garrison Division" }
+		30 = { "%d. Garrison Division" }
+	}
+}

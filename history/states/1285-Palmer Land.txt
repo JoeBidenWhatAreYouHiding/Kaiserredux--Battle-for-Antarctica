@@ -1,0 +1,22 @@
+state={
+	id=1285
+	name="STATE_1154" # Palmer Land
+	manpower = 1000
+	
+	state_category = wasteland
+	
+	impassable = yes
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15008 15009 15010 15011 15012
+
+	}
+}

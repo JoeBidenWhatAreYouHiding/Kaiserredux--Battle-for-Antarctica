@@ -1,0 +1,26 @@
+state={
+	id=1236
+	name="STATE_1105" # Goudier Island
+	manpower = 1000
+	
+	state_category = wasteland
+
+	history={
+		owner = ARG
+		victory_points = {
+			15040 1
+		}
+		buildings = {
+			15040 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15040
+
+	}
+}

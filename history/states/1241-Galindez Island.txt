@@ -1,0 +1,26 @@
+state={
+	id=1241
+	name="STATE_1110" # Galindez Island
+	manpower = 1000
+	
+	state_category = wasteland
+
+	history={
+		owner = ARG
+		victory_points = {
+			15044 1
+		}
+		buildings = {
+			15044 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15044
+
+	}
+}

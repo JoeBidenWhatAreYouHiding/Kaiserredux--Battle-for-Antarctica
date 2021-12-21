@@ -1,0 +1,26 @@
+state={
+	id=1244
+	name="STATE_1113" # Maudheim
+	manpower = 1000
+	
+	state_category = wasteland
+
+	history={
+		owner = GER
+		victory_points = {
+			15048 1
+		}
+		buildings = {
+			15048 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15048
+
+	}
+}

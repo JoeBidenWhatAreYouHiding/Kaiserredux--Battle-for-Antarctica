@@ -1,0 +1,64 @@
+################################################################################################################################################################################################
+### ANT Ministers
+################################################################################################################################################################################################
+  
+spriteTypes = {
+
+	# Head of Government
+	spriteType = {
+		name = "GFX_idea_ANT_Leon_Trotsky_hog_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Leon_Trotsky_hog_sco.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Pengy_Penguison_hog_npo"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Pengy_Penguison_hog_npo.tga"
+	}
+	
+	# Foreign Minister
+	spriteType = {
+		name = "GFX_idea_ANT_Iceburgh_Beakman_for_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Iceburgh_Beakman_for_sco.tga"
+	}
+	
+	# Economy Minister
+	spriteType = {
+		name = "GFX_idea_ANT_Rocky_Byrd_eco_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Rocky_Byrd_eco_sco.tga"
+	}
+	
+	# Security Minister
+	spriteType = {
+		name = "GFX_idea_ANT_Peggi_Dedede_sec_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Peggi_Dedede_sec_sco.tga"
+	}
+	
+	# Head of Intel
+	spriteType = {
+		name = "GFX_idea_ANT_Alfred_Kowalski_int_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Alfred_Kowalski_int_sco.tga"
+	}
+	
+	# Chief of Staff
+	spriteType = {
+		name = "GFX_idea_ANT_Gunter_Gunterson_cos_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Gunter_Gunterson_cos_sco.tga"
+	}
+	
+	# Chief of Army
+	spriteType = {
+		name = "GFX_idea_ANT_Tennessee_McGraw_carm_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Tennessee_McGraw_carm_sco.tga"
+	}
+	
+	# Chief of Navy
+	spriteType = {
+		name = "GFX_idea_ANT_Frobisher_Black_cnav_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Frobisher_Black_cnav_sco.tga"
+	}
+	
+	# Chief of Air Force
+	spriteType = {
+		name = "GFX_idea_ANT_Zidgel_Akaggy_cair_sco"
+		texturefile = "gfx/interface/ministers/ANT/ANT_Zidgel_Akaggy_cair_sco.tga"
+	}
+}

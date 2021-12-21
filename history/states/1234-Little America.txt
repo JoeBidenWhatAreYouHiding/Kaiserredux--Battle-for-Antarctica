@@ -1,0 +1,26 @@
+state={
+	id=1234
+	name="STATE_1103" # Little America
+	manpower = 20
+	
+	state_category = wasteland
+
+	history={
+		owner = USA
+		victory_points = {
+			15038 1
+		}
+		buildings = {
+			15038 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15038
+
+	}
+}

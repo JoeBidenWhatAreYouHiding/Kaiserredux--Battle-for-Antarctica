@@ -1,0 +1,26 @@
+state={
+	id=1240
+	name="STATE_1109" # Melchior Islands
+	manpower = 1000
+	
+	state_category = wasteland
+
+	history={
+		owner = ARG
+		victory_points = {
+			15043 1
+		}
+		buildings = {
+			15043 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15043
+
+	}
+}

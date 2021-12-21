@@ -1,0 +1,26 @@
+state={
+	id=1245
+	name="STATE_1114" # Cape Margerie
+	manpower = 1000
+	
+	state_category = wasteland
+
+	history={
+		owner = NFA
+		victory_points = {
+			15049 1
+		}
+		buildings = {
+			15049 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15049
+
+	}
+}
