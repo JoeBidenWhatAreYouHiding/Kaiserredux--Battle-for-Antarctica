@@ -1,9 +1,9 @@
 state={
 	id=1238
 	name="STATE_1107" # Hope Bay
-	manpower = 1000
+	manpower = 1
 	
-	state_category = wasteland
+	state_category = zero
 
 	history={
 		owner = ARG

@@ -3,7 +3,7 @@ state={
 	name="STATE_1103" # Little America
 	manpower = 20
 	
-	state_category = wasteland
+	state_category = zero
 
 	history={
 		owner = USA

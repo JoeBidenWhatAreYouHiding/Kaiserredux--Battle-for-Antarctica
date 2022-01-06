@@ -5,9 +5,9 @@ state={
 		15057 15112 15125 15126 15127 14281 15149 15160 15161 15191 15203 15210
 
 	}
-	manpower = 200000
+	manpower = 1
 
-	state_category = rural
+	state_category = one
 
 	history = {
 		owner = CHL

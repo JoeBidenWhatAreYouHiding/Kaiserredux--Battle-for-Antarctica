@@ -5,9 +5,9 @@ state={
 		15077 15088
 
 	}
-	manpower = 200000
+	manpower = 1
 
-	state_category = rural
+	state_category = one
 
 	history = {
 		owner = AST

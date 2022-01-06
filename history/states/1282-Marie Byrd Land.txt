@@ -1,9 +1,9 @@
 state={
 	id=1282
 	name="STATE_1151" # Marie Byrd Land
-	manpower = 1000
+	manpower = 1
 	
-	state_category = wasteland
+	state_category = zero
 	
 	impassable = yes
 

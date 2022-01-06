@@ -1,9 +1,9 @@
 state={
 	id=1245
 	name="STATE_1114" # Cape Margerie
-	manpower = 1000
+	manpower = 1
 	
-	state_category = wasteland
+	state_category = zero
 
 	history={
 		owner = NFA

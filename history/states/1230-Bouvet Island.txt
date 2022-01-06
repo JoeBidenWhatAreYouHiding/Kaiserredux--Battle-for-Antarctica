@@ -1,9 +1,9 @@
 state={
 	id=1230
 	name="STATE_1099" # Bouvet Island
-	manpower = 1000
+	manpower = 1
 	
-	state_category = wasteland
+	state_category = zero
 
 	history={
 		owner = NOR

@@ -1,9 +1,9 @@
 state={
 	id=1285
 	name="STATE_1154" # Palmer Land
-	manpower = 1000
+	manpower = 1
 	
-	state_category = wasteland
+	state_category = zero
 	
 	impassable = yes
 
