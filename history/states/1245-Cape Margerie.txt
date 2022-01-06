@@ -8,10 +8,10 @@ state={
 	history={
 		owner = NFA
 		victory_points = {
-			15049 1
+			15046 1
 		}
 		buildings = {
-			15049 = {
+			15046 = {
 				naval_base = 1
 			}
 			infrastructure = 0
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		15049
+		15046
 
 	}
 }

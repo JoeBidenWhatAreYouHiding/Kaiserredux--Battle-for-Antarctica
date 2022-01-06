@@ -2,7 +2,7 @@ state={
 	id=1248
 	name="STATE_1117" #South Shetland Islands
 	provinces={
-		15223 15225 15226 15228 15229 15230 15231
+		15210 15212 15213 15215 15216 15217 15218
 
 	}
 	manpower = 10
@@ -13,7 +13,7 @@ state={
 		owner = ARG
 		buildings = {
 			infrastructure = 0
-			15223 = {
+			15210 = {
 				naval_base = 1
 			}
 		}

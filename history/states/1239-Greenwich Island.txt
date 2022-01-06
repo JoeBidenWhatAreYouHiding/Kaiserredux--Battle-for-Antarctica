@@ -8,10 +8,10 @@ state={
 	history={
 		owner = ARG
 		victory_points = {
-			14184 1
+			15040 1
 		}
 		buildings = {
-			14184 = {
+			15040 = {
 				naval_base = 1
 			}
 			infrastructure = 0
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		14184
+		15040
 
 	}
 }

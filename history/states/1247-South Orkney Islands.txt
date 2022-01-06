@@ -2,7 +2,7 @@ state={
 	id=1247
 	name="STATE_1116"
 	provinces={
-		15221 15222
+		15208 15209
 
 	}
 	manpower = 10
@@ -13,7 +13,7 @@ state={
 		owner = ARG
 		buildings = {
 			infrastructure = 0
-			15221 = {
+			15208 = {
 				naval_base = 1
 			}
 		}

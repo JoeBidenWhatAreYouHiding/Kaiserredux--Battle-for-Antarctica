@@ -8,10 +8,10 @@ state={
 	history={
 		owner = GER
 		victory_points = {
-			15048 1
+			15045 1
 		}
 		buildings = {
-			15048 = {
+			15045 = {
 				naval_base = 1
 			}
 			infrastructure = 0
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		15048
+		15045
 
 	}
 }
