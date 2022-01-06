@@ -9,7 +9,7 @@ state={
 		owner = NOR
 		buildings = {
 			infrastructure = 1
-			15238 = {
+			15225 = {
 				naval_base = 1
 			}
 		}
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		15238
+		15225
 
 	}
 }

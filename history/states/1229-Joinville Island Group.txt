@@ -9,7 +9,7 @@ state={
 		owner = ARG
 		buildings = {
 			infrastructure = 1
-			15234 = {
+			15221 = {
 				naval_base = 1
 			}
 		}
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		15234 15233 15232
+		15221 15220 15219
 
 	}
 }
