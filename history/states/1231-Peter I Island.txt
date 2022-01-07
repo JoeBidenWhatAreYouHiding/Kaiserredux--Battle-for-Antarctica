@@ -9,15 +9,15 @@ state={
 		owner = NOR
 		buildings = {
 			infrastructure = 0
-			15036 = {
+			15033 = {
 				naval_base = 1
 			}
 		}
-		owner = AAR
+		add_claim_by = AAR
 	}
 
 	provinces={
-		15036
+		15033
 
 	}
 }

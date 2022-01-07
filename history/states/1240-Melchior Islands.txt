@@ -8,10 +8,10 @@ state={
 	history={
 		add_claim_by = ARG
 		victory_points = {
-			15043 1
+			15041 1
 		}
 		buildings = {
-			15043 = {
+			15041 = {
 				naval_base = 1
 			}
 			infrastructure = 0
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		15043
+		15041
 
 	}
 }

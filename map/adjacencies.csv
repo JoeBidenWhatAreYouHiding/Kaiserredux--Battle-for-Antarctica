@@ -132,6 +132,24 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8435;6550;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
 7304;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
 10233;5205;sea;13155;-1;-1;-1;-1;;Makinac Bridge
+15208;15047;sea;13873;-1;-1;-1;-1;;South Orkney Islands
+15208;15209;sea;13873;-1;-1;-1;-1;;South Orkney Islands
+15209;15034;sea;13878;-1;-1;-1;-1;;South Orkney Islands
+15043;15212;sea;13861;-1;-1;-1;-1;;South Shetland Islands
+15215;15040;sea;13861;-1;-1;-1;-1;;South Shetland Islands
+15040;15213;sea;13859;-1;-1;-1;-1;;South Shetland Islands
+15213;15038;sea;13859;-1;-1;-1;-1;;South Shetland Islands
+15213;15216;sea;13858;-1;-1;-1;-1;;South Shetland Islands
+15217;15218;sea;13858;-1;-1;-1;-1;;South Shetland Islands
+15211;15214;sea;13858;-1;-1;-1;-1;;Palmer Archipelago
+15222;15041;sea;13858;-1;-1;-1;-1;;Palmer Archipelago
+15041;15223;sea;13858;-1;-1;-1;-1;;Palmer Archipelago
+15223;15037;sea;13858;-1;-1;-1;-1;;Palmer Archipelago
+15219;15220;sea;13864;-1;-1;-1;-1;;Joinville Island Group
+15220;15221;sea;13864;-1;-1;-1;-1;;Joinville Island Group
+15052;15224;sea;13864;-1;-1;-1;-1;;Trinity Peninsula
+15207;15042;sea;13858;-1;-1;-1;-1;;Graham Land-Galindez Island
+15168;15171;sea;13856;-1;-1;-1;-1;;Graham Land-Adelaide Island
 8108;13749;land;5081;3645;1029;3676;1019;;Rub al Khali
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
@@ -443,22 +461,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12623;1714;impassable;-1;-1;-1;-1;-1;;Yakutia
 10572;12623;impassable;-1;-1;-1;-1;-1;;Yakutia
 1805;12623;impassable;-1;-1;-1;-1;-1;;Yakutia
-15208;15047;sea;13873;-1;-1;-1;-1;;South Orkney Islands
-15208;15209;sea;13873;-1;-1;-1;-1;;South Orkney Islands
-15209;15034;sea;13878;-1;-1;-1;-1;;South Orkney Islands
-15043;15212;sea;13861;-1;-1;-1;-1;;South Shetland Islands
-15215;15040;sea;13861;-1;-1;-1;-1;;South Shetland Islands
-15040;15213;sea;13859;-1;-1;-1;-1;;South Shetland Islands
-15213;15038;sea;13859;-1;-1;-1;-1;;South Shetland Islands
-15213;15216;sea;13858;-1;-1;-1;-1;;South Shetland Islands
-15217;15218;sea;13858;-1;-1;-1;-1;;South Shetland Islands
-15211;15214;sea;13858;-1;-1;-1;-1;;Palmer Archipelago
-15222;15041;sea;13858;-1;-1;-1;-1;;Palmer Archipelago
-15041;15223;sea;13858;-1;-1;-1;-1;;Palmer Archipelago
-15223;15037;sea;13858;-1;-1;-1;-1;;Palmer Archipelago
-15219;15220;sea;13864;-1;-1;-1;-1;;Joinville Island Group
-15220;15221;sea;13864;-1;-1;-1;-1;;Joinville Island Group
-15052;15224;sea;13864;-1;-1;-1;-1;;Trinity Peninsula
-15207;15042;sea;13858;-1;-1;-1;-1;;Graham Land-Galindez Island
-15168;15171;sea;13856;-1;-1;-1;-1;;Graham Land-Adelaide Island
 -1;-1;;-1;-1;-1;-1;-1;-1;
