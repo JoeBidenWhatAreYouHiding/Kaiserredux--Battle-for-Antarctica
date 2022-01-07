@@ -1,6 +1,6 @@
 state={
 	id=1248
-	name="STATE_1117" #South Shetland Islands
+	name="STATE_1248" #South Shetland Islands
 	provinces={
 		15210 15212 15213 15215 15216 15217 15218
 

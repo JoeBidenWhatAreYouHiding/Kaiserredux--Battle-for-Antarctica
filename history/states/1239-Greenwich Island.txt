@@ -1,6 +1,6 @@
 state={
 	id=1239
-	name="STATE_1108" # Greenwich Island
+	name="STATE_1239" # Greenwich Island
 	manpower = 1
 	
 	state_category = zero

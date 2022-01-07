@@ -1,6 +1,6 @@
 state={
 	id=1283
-	name="STATE_1152" # Marie Byrd Land
+	name="STATE_1283" # Marie Byrd Land
 	manpower = 1
 	
 	state_category = zero

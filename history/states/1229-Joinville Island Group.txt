@@ -1,6 +1,6 @@
 state={
 	id=1229
-	name="STATE_1098"
+	name="STATE_1229"
 	manpower = 10
 	
 	state_category = zero
