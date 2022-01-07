@@ -10,13 +10,13 @@ state={
 	state_category = one
 
 	history = {
-		add_claim_by = ARG
+		owner = ARG
 		buildings = {
 			infrastructure = 0
 			15208 = {
 				naval_base = 1
 			}
 		}
-		owner = AAR
+		add_claim_by = AAR
 	}
 }

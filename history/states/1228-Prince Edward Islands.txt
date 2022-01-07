@@ -13,7 +13,7 @@ state={
 				naval_base = 1
 			}
 		}
-		owner = AAR
+		add_claim_by = AAR
 	}
 
 	provinces={
