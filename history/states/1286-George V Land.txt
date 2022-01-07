@@ -1,0 +1,22 @@
+state={
+	id=1286
+	name="STATE_1096" # George V Land
+	manpower = 1000
+	
+	state_category = wasteland
+	
+	impassable = yes
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		15031 15032
+
+	}
+}

@@ -9,7 +9,7 @@ state={
 		owner = SAF
 		buildings = {
 			infrastructure = 1
-			15239 = {
+			15226 = {
 				naval_base = 1
 			}
 		}
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		15239
+		15226
 
 	}
 }
