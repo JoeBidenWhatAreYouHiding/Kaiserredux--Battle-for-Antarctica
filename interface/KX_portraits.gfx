@@ -1,0 +1,13 @@
+spriteTypes = {
+	
+	frameAnimatedSpriteType = {
+        name = "GFX_AAR_leader_animated"
+        texturefile = "gfx/leaders/AAR/AAR_leader_animated.png"
+        noOfFrames = 12
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+    }
+
+}
+

@@ -1,0 +1,18 @@
+
+leader_traits = {
+
+	#### Antartica ####
+	
+	AAR_neutral_zone = {
+		random = no
+		justify_war_goal_time = 1
+		send_volunteers_tension = 1
+		generate_wargoal_tension = 1
+		production_speed_buildings_factor = -1
+		training_time_factor = 1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

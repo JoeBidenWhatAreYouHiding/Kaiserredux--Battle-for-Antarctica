@@ -6,7 +6,7 @@ state={
 	state_category = zero
 
 	history={
-		owner = ARG
+		add_claim_by = ARG
 		victory_points = {
 			15034 1
 		}
@@ -17,7 +17,7 @@ state={
 			}
 			infrastructure = 0
 		}
-		add_core_of = AAR
+		owner = AAR
 	}
 
 	provinces={
