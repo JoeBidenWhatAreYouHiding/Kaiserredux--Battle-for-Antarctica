@@ -155,7 +155,7 @@ every_owned_state = {
 set_cosmetic_tag = AAR_NOBODY
 
 create_country_leader = {
-	name = ""
+	name = " "
 	desc = "POLITICS_PENGUINS_DESC"
 	picture = "GFX_AAR_leader_animated"
 	expire = "1965.1.1"
