@@ -1,0 +1,17 @@
+spriteTypes = {
+	### ANTARTICA ###
+	spriteType = {
+		name = "GFX_idea_ANT_largest_slice"
+		texturefile = "gfx/interface/ideas/ANT/ANT_largest_slice.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_undersupplied"
+		texturefile = "gfx/interface/ideas/ANT/ANT_undersupplied.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ANT_byrd_expedition"
+		texturefile = "gfx/interface/ideas/ANT/ANT_byrd_expedition.png"
+	}
+
+}

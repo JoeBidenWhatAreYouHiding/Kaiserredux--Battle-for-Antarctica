@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+		## Shared ##
+		ANT_alone_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_alone_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_alone_tt
+			}
+		}
+		
+		## Germans ##
+		ANT_expidition_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_expidition_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_expedition_tt
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		## Entente ##
+		
+		ANT_largest_slice = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_largest_slice
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				army_morale_factor = 0.04
+			}
+		}
+		
+		ANT_undersupplied = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_undersupplied
+			modifier = {
+				supply_consumption_factor = -0.4
+				out_of_supply_factor = 0.15
+			}
+		}
+		
+		## Americans ##
+		
+		ANT_byrd_expedition = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_byrd_expedition
+			modifier = {
+				custom_modifier_tooltip = ANT_byrd_expedition_tt
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+	}
+	hidden_ideas = {
+
+		do_stuff_idea = {
+			picture = MLT_Malta_Influence
+			modifier = {
+				justify_war_goal_time = 1
+				send_volunteers_tension = 1
+				generate_wargoal_tension = 1
+				production_speed_buildings_factor = -1
+				training_time_factor = 1
+			}
+		}
+	}
+}

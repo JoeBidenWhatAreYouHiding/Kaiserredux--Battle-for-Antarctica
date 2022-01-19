@@ -28,6 +28,10 @@ EAR_national_populist_party:0 "-"
 EAR_national_populist_party_long:0 "-"
 
 ### Ideas ###
+ANT_largest_slice:0 "The Largest Slice of the Antarctic Pie"
+ANT_largest_slice_desc:0 ""
+ANT_undersupplied:0 "Undersupplied and Overstretched"
+ANT_undersupplied_desc:0 ""
 
 ### Tooltips ###
 

@@ -95,7 +95,8 @@ set_popularities = {
 
 add_ideas = {
 	do_stuff_idea
-	ANT_expidition_idea
+	ANT_largest_slice
+	ANT_undersupplied
 	ANT_alone_idea
 }
 
