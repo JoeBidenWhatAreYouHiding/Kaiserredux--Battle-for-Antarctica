@@ -1,0 +1,34 @@
+﻿l_english:
+
+### Country Names ###
+AMT:0 "American Antarctic Expedition"
+AMT_ADJ:0 "American-Antarctic "
+AMT_DEF:0 "American Antarctic Expedition"
+
+### Parties ###
+AMT_totalist_party:0 "Ostatki bol'shevikov-loyalistov"
+AMT_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov (Pingviny)"
+AMT_syndicalist_party:0 "-"
+AMT_syndicalist_party_long:0 "-"
+AMT_radical_socialist_party:0 "Frozen Wasteland"
+AMT_radical_socialist_party_long:0 "Frozen Wasteland"
+AMT_social_democrat_party:0 "-"
+AMT_social_democrat_party_long:0 "-"
+AMT_social_liberal_party:0 "-"
+AMT_social_liberal_party_long:0 "-"
+AMT_market_liberal_party:0 "-"
+AMT_market_liberal_party_long:0 "-"
+AMT_social_conservative_party:0 "-"
+AMT_social_conservative_party_long:0 "-"
+AMT_authoritarian_democrat_party:0 "Byrd's Expedition Force"
+AMT_authoritarian_democrat_party_long:0 "Byrd's Expedition Force"
+AMT_paternal_autocrat_party:0 "-"
+AMT_paternal_autocrat_party_long:0 "-"
+AMT_national_populist_party:0 "Byrd's Expedition Force"
+AMT_national_populist_party_long:0 "Byrd's Expedition Force"
+
+### Ideas ###
+
+### Tooltips ###
+
+### Focuses ###

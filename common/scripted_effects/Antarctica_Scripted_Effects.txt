@@ -1,0 +1,37 @@
+setup_new_swabia = {
+	NSW = {
+		transfer_state = 1268
+		transfer_state = 1267
+		transfer_state = 1266
+		transfer_state = 1265
+		transfer_state = 1264
+	}
+}
+
+setup_american_antarctica = {
+	AMT = {
+		transfer_state = 1253
+		transfer_state = 1252
+		transfer_state = 1250
+		transfer_state = 1251
+		transfer_state = 1249
+		transfer_state = 1234
+	}
+}
+
+setup_entente_antarctica = {
+	EAR = {
+		transfer_state = 1280
+		transfer_state = 1279
+		transfer_state = 1278
+		transfer_state = 1277
+		transfer_state = 1276
+		transfer_state = 1275
+		transfer_state = 1274
+		transfer_state = 1273
+		transfer_state = 1272
+		transfer_state = 1271
+		transfer_state = 1270
+		transfer_state = 1269
+	}
+}

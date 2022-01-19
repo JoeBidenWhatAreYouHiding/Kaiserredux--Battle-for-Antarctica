@@ -1,0 +1,34 @@
+﻿l_english:
+
+### Country Names ###
+EAR:0 "Dominion of Antarctica"
+EAR_ADJ:0 "Dominionist Antarctic"
+EAR_DEF:0 "Dominion of Antarctica"
+
+### Parties ###
+EAR_totalist_party:0 "Ostatki bol'shevikov-loyalistov"
+EAR_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov (Pingviny)"
+EAR_syndicalist_party:0 "-"
+EAR_syndicalist_party_long:0 "-"
+EAR_radical_socialist_party:0 "Frozen Wasteland"
+EAR_radical_socialist_party_long:0 "Frozen Wasteland"
+EAR_social_democrat_party:0 "-"
+EAR_social_democrat_party_long:0 "-"
+EAR_social_liberal_party:0 "-"
+EAR_social_liberal_party_long:0 "-"
+EAR_market_liberal_party:0 "-"
+EAR_market_liberal_party_long:0 "-"
+EAR_social_conservative_party:0 "-"
+EAR_social_conservative_party_long:0 "-"
+EAR_authoritarian_democrat_party:0 "Antarctic Dominion Government"
+EAR_authoritarian_democrat_party_long:0 "Antarctic Dominion Government"
+EAR_paternal_autocrat_party:0 "-"
+EAR_paternal_autocrat_party_long:0 "-"
+EAR_national_populist_party:0 "-"
+EAR_national_populist_party_long:0 "-"
+
+### Ideas ###
+
+### Tooltips ###
+
+### Focuses ###

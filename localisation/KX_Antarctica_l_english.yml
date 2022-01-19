@@ -10,3 +10,31 @@ AAR_radical_socialist_party:0 ""
 
 ### Traits ###
 AAR_neutral_zone:0 "International Neutral Zone"
+
+### Focuses ###
+ANT_Frozen_Wasteland:0 "Surviving in a Frozen Wasteland"
+ANT_Frozen_Wasteland_desc:0 ""
+
+ANT_Expand_Settlment:0 "Expand Settlement"
+ANT_Expand_Settlment_desc:0 ""
+
+ANT_Encourage_Exploration:0 "Encourage Exploration"
+ANT_Encourage_Exploration_desc:0 ""
+
+ANT_Research_Stations:0 "Research Stations"
+ANT_Research_Stations_desc:0 ""
+
+ANT_Whale_Oil:0 "Whale Oil"
+ANT_Whale_Oil_desc:0 ""
+
+ANT_Mineral_Exploration:0 "Look for Minerals"
+ANT_Mineral_Exploration_desc:0 ""
+
+ANT_Permanant_Settlment:0 "Permanent Settlements"
+ANT_Permanant_Settlment_desc:0 ""
+
+ANT_Heating_Technology:0 "Advanced Heating"
+ANT_Heating_Technology_desc:0 ""
+
+ANT_New_Economy:0 "An Ice-Cold ''Economy''"
+ANT_New_Economy_desc:0 ""

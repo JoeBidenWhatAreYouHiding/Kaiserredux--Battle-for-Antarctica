@@ -600,7 +600,7 @@ NGraphics = {
 	PORT_SHIP_OFFSET = 2.0,
 	SHIP_IN_PORT_SCALE = 0.25,
 	MAP_BUILDINGS_SHRINK_DISTANCE = 180,
-	CITY_SPRAWL_SHRINK_DISTANCE = 220.0, 			-- Start shrinking at this distance
+	CITY_SPRAWL_SHRINK_DISTANCE = 240.0, 			-- Start shrinking at this distance
 	DRAW_MAP_OBJECTS_CUTOFF = 550.0,					-- Remove map objects at this distance
 	PROVINCE_NAME_DRAW_DISTANCE = 500.0, 			-- Remove province names beyond this distance
 	DIRECTION_POINTER_DRAW_DISTANCE = 1200.0,		-- Direction pointer arrow will not be drawn beyond this distance
@@ -938,12 +938,12 @@ NGraphics = {
 	RAILWAY_MAP_ARROW_COLOR_CONSTRUCTION_VALID = { 0.957, 0.871, 0.51, 1.0 }, -- yellow, in constructionmode, railways that are valid to build
 	RAILWAY_MAP_ARROW_COLOR_CONSTRUCTION_INVALID = { 1.0, 0.0, 0.0, 1.0 }, -- red, in constructionmode, railways that are invalid to build
 	RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED = { 0.957, 0.871, 0.51, 1.0 }, -- yellow, highlighted railways, e.g when selecting a hub and showing the route back to the capital
-	RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_DAMAGED = { 1.0, 1.0, 0.2, 1.0 }, -- color of highlighted railways which were damaged
+	RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_DAMTGED = { 1.0, 1.0, 0.2, 1.0 }, -- color of highlighted railways which were dAMTged
 	RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_ONCOOLDOWN = { 1.0, 0.2, 1.0, 1.0 }, -- color of highlighted railways which are on cooldown (captured recently)
 	RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_CONSTRUCTION = { 0.957, 0.871, 0.51, 1.0 }, -- orange, shown for highlighted railways that are under construction
 	RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_BOTTLENECK = { 0.902, 0.38, 0.4, 1.0 }, -- red, shown for railways that are the bottleneck when highlighting
 	RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_BOTTLENECK_MAXLEVEL = { 0.761, 0.647, 0.812, 1.0 }, -- purple, shown for maxlevel railways that are the bottleneck when highlighting
-	RAILWAY_MAP_ARROW_COLOR_DAMAGED = { 0.8, 0.8, 0.0, 1.0 }, -- color of railways which were damaged and gives penalty to move for railway guns
+	RAILWAY_MAP_ARROW_COLOR_DAMTGED = { 0.8, 0.8, 0.0, 1.0 }, -- color of railways which were dAMTged and gives penalty to move for railway guns
 	RAILWAY_MAP_ARROW_COLOR_ONCOOLDOWN = { 0.5, 0.5, 0.5, 1.0 }, -- color of railways which are on cooldown (captured recently)
 
 	RIVER_SUPPLY_MAP_ARROW_COLOR = { 0.8, 0.8, 1.0, 0.8 },
@@ -1249,6 +1249,8 @@ NInterface = {
 	-- When selecting a module in the tank designer, for each role the module forbids a role icon may be displayed.
 	EQUIPMENT_DESIGNER_SHOW_MODULE_FORBIDS_BASE_ROLE_ICON = 0, -- If this is set to 0 no icon will be displayed if the main tank role is forbidden. If set to 1 the icon will be displayed as normal.
 	EQUIPMENT_DESIGNER_SHOW_MODULE_FORBIDS_SPECIALIZED_ROLE_ICON = 0, -- If this is set to 0 no icons will be displayed for any forbidden specialized roles. If set to 1 the icons will be displayed as normal.
+
+	SLOW_INTERFACE_THRESHOLD = 5000, -- Show warning "SLOW INTERFACE" in debug when interface refresh takes more that this (in microseconds)
 },
 
 
