@@ -16,6 +16,150 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		add_stability = 0.05
+		add_manpower = 20
+	}
+}
+
+shared_focus = {
+	id = ANT_Formalize_Claims
+	icon = GFX_goal_generic_intelligence_exchange
+	x = -3
+	y = 1
+	relative_position_id = ANT_Frozen_Wasteland
+	
+	prerequisite = {
+		focus = ANT_Frozen_Wasteland
+	}
+	cost = 7
+
+	ai_will_do = {
+		factor = 90
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Formalize_Claims"
+		every_owned_state = {
+			add_state_core = PREV
+		}
+	}
+}
+
+shared_focus = {
+	id = ANT_Our_Continent
+	icon = GFX_goal_generic_intelligence_exchange
+	x = -1
+	y = 1
+	relative_position_id = ANT_Formalize_Claims
+	
+	prerequisite = {
+		focus = ANT_Formalize_Claims
+	}
+	mutually_exclusive = {
+		focus = ANT_Peaceful_Coexistance
+	}
+	cost = 7
+
+	ai_will_do = {
+		factor = 90
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Our_Continent"
+		if = {
+			limit = {
+				tag = AMT
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NSW
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = EAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AAR
+			}
+		}
+		if = {
+			limit = {
+				tag = AAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NSW
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = EAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AMT
+			}
+		}
+		if = {
+			limit = {
+				tag = NSW
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = EAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AMT
+			}
+		}
+		if = {
+			limit = {
+				tag = EAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NSW
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AMT
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = ANT_Peaceful_Coexistance
+	icon = GFX_goal_generic_intelligence_exchange
+	x = 1
+	y = 1
+	relative_position_id = ANT_Formalize_Claims
+	
+	prerequisite = {
+		focus = ANT_Formalize_Claims
+	}
+	mutually_exclusive = {
+		focus = ANT_Our_Continent
+	}
+	cost = 7
+
+	ai_will_do = {
+		factor = 90
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Peaceful_Coexistance"
+		add_stability = 0.05
+		custom_effect_tooltip = ANT_Dont_Rock_The_Boat
 	}
 }
 
@@ -37,7 +181,15 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Expand_Settlment"
+		every_owned_state = {
+			add_manpower = 100
+			add_extra_state_shared_building_slots = 1
+		}
+		swap_ideas = {
+			remove_idea = ANT_alone_idea
+			add_idea = ANT_alone_idea2
+		}
 	}
 }
 
@@ -59,7 +211,11 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Encourage_Exploration"
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 1
+		}
+		add_manpower = 120
 	}
 }
 
@@ -84,7 +240,12 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Research_Stations"
+		add_research_slot = 1
+		swap_ideas = {
+			remove_idea = ANT_alone_idea2
+			add_idea = ANT_alone_idea3
+		}
 	}
 }
 
@@ -106,7 +267,13 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Whale_Oil"
+		random_owned_controlled_state = {
+			add_resource = {
+				type = oil
+				amount = 6
+			}
+		}
 	}
 }
 
@@ -128,7 +295,19 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Mineral_Exploration"
+		random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 10
+			}
+		}
+		random_owned_controlled_state = {
+			add_resource = {
+				type = tungsten
+				amount = 8
+			}
+		}
 	}
 }
 
@@ -153,7 +332,16 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Permanant_Settlment"
+		every_owned_state = {
+			add_manpower = 1000
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		swap_ideas = {
+			remove_idea = ANT_alone_idea3
+			add_idea = ANT_alone_idea4
+		}
 	}
 }
 
@@ -170,6 +358,9 @@ shared_focus = {
 	prerequisite = {
 		focus = ANT_Whale_Oil
 	}
+	available = {
+		has_completed_focus = ANT_Permanant_Settlment
+	}
 
 	cost = 7
 
@@ -178,7 +369,12 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Heating_Technology"
+		add_ideas = ANT_Heating_Technology
+		swap_ideas = {
+			remove_idea = ANT_alone_idea4
+			add_idea = ANT_alone_idea5
+		}
 	}
 }
 
@@ -203,7 +399,17 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_New_Economy"
+		add_ideas = ANT_New_Economy
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+		swap_ideas = {
+			remove_idea = ANT_alone_idea5
+			add_idea = ANT_alone_idea6
+		}
 	}
 }
 
@@ -224,7 +430,94 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Battle_for_Antarctica"
+		add_command_power = 100
+		army_experience = 100
+	}
+}
+
+shared_focus = {
+	id = ANT_Militarize
+	icon = GFX_goal_generic_intelligence_exchange
+	x = -3
+	y = 1
+	relative_position_id = ANT_Frozen_Wasteland
+	
+	prerequisite = {
+		focus = ANT_Frozen_Wasteland
+	}
+	cost = 7
+
+	ai_will_do = {
+		factor = 90
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Militarize"
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = ANT_Frozen_Factories
+	icon = GFX_goal_generic_intelligence_exchange
+	x = -1
+	y = 1
+	relative_position_id = ANT_Battle_for_Antarctica
+	
+	prerequisite = {
+		focus = ANT_Battle_for_Antarctica
+	}
+	cost = 7
+
+	ai_will_do = {
+		factor = 90
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Factories"
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = ANT_Flamethrowers
+	icon = GFX_goal_generic_intelligence_exchange
+	x = 1
+	y = 1
+	relative_position_id = ANT_Battle_for_Antarctica
+	
+	prerequisite = {
+		focus = ANT_Battle_for_Antarctica
+	}
+	cost = 7
+
+	ai_will_do = {
+		factor = 90
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Flamethrowers"
+		add_ideas = ANT_Flamethrowers
 	}
 }
 
@@ -246,7 +539,12 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Request_Support"
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1500
+			producer = USA
+		}
 	}
 }
 
@@ -268,7 +566,8 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Melee_Weapons"
+		add_ideas = ANT_Melee_Weapons
 	}
 }
 
@@ -293,7 +592,8 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Scavenge_Weaponry"
+		unlock_decision_tooltip = ANT_scavenge_arms
 	}
 }
 
@@ -315,7 +615,15 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Protect_Against_the_Elements"
+		random_owned_state = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}	
 	}
 }
 
@@ -337,7 +645,19 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Icebreakers"
+		add_tech_bonus = {
+			name = ALA_destroya
+			bonus = 1
+			uses = 1
+			category = dd_tech
+		}
+		add_doctrine_cost_reduction = {
+			name = naval_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = naval_doctrine
+		}
 	}
 }
 
@@ -362,7 +682,20 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Air_Connections"
+		random_owned_state = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+			add_doctrine_cost_reduction = {
+				name = ALA_FAB
+				cost_reduction = 0.7
+				uses = 1
+				category = air_doctrine
+			}
+		}
 	}
 }
 
@@ -387,7 +720,11 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Use_our_Terrain"
+		add_ideas = ANT_Use_our_Terrain
+		hidden_effect = {
+			set_technology = { tech_ski_infantry = 1 popup = no }
+		}
 	}
 }
 
@@ -412,7 +749,11 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Battle_for_Survival"
+		swap_ideas = {
+			remove_idea = ANT_Use_our_Terrain
+			add_idea = ANT_Battle_for_Survival
+		}
 	}
 }
 
@@ -436,7 +777,25 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Hire_Mercs"
+		division_template = {
+			name = "Mercenaries"
+			division_names_group = BEL_INF_01
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		random_owned_controlled_state = {
+			create_unit = {
+				division = "division_template = \"Mercenaries\" start_experience_factor = 0.1"
+				owner = ROOT
+					
+			}
+		}
 	}
 }
 
@@ -458,6 +817,18 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Wasteland"
+		log = "[GetDateText]: [Root.GetName]: Focus ANT_Learn_From_Inuit"
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1
+			uses = 1
+			category = industry
+		}
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
 	}
 }

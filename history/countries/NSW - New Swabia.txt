@@ -100,13 +100,6 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "-"
-	picture = "gfx/leaders/FUN/Portrait_KX_fun.png"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-}
-
-create_country_leader = {
 	name = "Alfred Ritscher"
 	picture = "gfx/leaders/AAR/Portrait_ANT_Alfred_Ritscher.png"
 	expire = "1965.1.1"

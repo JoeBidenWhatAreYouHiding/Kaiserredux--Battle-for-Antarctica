@@ -1,0 +1,58 @@
+ANT_arms_raiding = {	
+	ANT_scavenge_arms = {
+		icon = generic_prepare_civil_war
+
+		available = {
+		}
+		visible = {
+			
+		}
+
+		cost = 50
+
+		days_remove = 20
+		days_re_enable = 40
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ANT_scavenge_arms"
+			
+			random_list = {
+				50 = {
+					custom_effect_tooltip = ANT_fail_tt
+				} 
+				50 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -500
+						producer = ROM
+					}
+				}
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove ANT_scavenge_arms"
+			random_list = {
+				50 = {
+					custom_effect_tooltip = ANT_fail_tt
+				} 
+				50 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 500
+						producer = USA
+					}
+					add_timed_idea = {
+						idea = ANT_shitty_guns
+						days = 120
+					}
+				}
+			}
+		}
+	}
+}

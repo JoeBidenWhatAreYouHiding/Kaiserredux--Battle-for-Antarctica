@@ -6,6 +6,158 @@ ideas = {
 			picture = ANT_alone_idea
 			modifier = {
 				custom_modifier_tooltip = ANT_alone_tt
+				winter_attrition_factor = -0.2
+				acclimatization_cold_climate_gain_factor = 0.2
+				production_speed_buildings_factor = -0.9
+				MONTHLY_POPULATION = -0.9
+				conscription_factor = -0.9
+			}
+		}
+		
+		ANT_alone_idea2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_alone_idea
+			name = ANT_alone_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_alone_tt
+				winter_attrition_factor = -0.2
+				acclimatization_cold_climate_gain_factor = 0.2
+				production_speed_buildings_factor = -0.8
+				MONTHLY_POPULATION = -0.8
+				conscription_factor = -0.8
+			}
+		}
+		
+		ANT_alone_idea3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_alone_idea
+			name = ANT_alone_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_alone_tt
+				winter_attrition_factor = -0.2
+				acclimatization_cold_climate_gain_factor = 0.2
+				production_speed_buildings_factor = -0.7
+				MONTHLY_POPULATION = -0.7
+				conscription_factor = -0.7
+			}
+		}
+		
+		ANT_alone_idea4 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_alone_idea
+			name = ANT_alone_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_alone_tt
+				winter_attrition_factor = -0.2
+				acclimatization_cold_climate_gain_factor = 0.2
+				production_speed_buildings_factor = -0.6
+				MONTHLY_POPULATION = -0.6
+				conscription_factor = -0.6
+			}
+		}
+		
+		ANT_alone_idea5 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_alone_idea
+			name = ANT_alone_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_alone_tt
+				winter_attrition_factor = -0.2
+				acclimatization_cold_climate_gain_factor = 0.2
+				production_speed_buildings_factor = -0.5
+				MONTHLY_POPULATION = -0.5
+				conscription_factor = -0.5
+			}
+		}
+		
+		ANT_alone_idea6 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_alone_idea
+			name = ANT_alone_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_alone_tt
+				winter_attrition_factor = -0.2
+				acclimatization_cold_climate_gain_factor = 0.2
+				production_speed_buildings_factor = -0.4
+				MONTHLY_POPULATION = -0.4
+				conscription_factor = -0.4
+			}
+		}
+		
+		## Shared - Economy ##
+		ANT_Heating_Technology = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Heating_Technology"}
+			picture = X
+			modifier = {
+				winter_attrition_factor = -0.30
+				acclimatization_cold_climate_gain_factor = 0.3
+			}
+		}
+		
+		ANT_New_Economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_New_Economy" }
+			picture = HOL_welfare_state
+			modifier = {
+				production_speed_buildings_factor = 0.02
+				industrial_capacity_factory = 0.02
+				production_factory_max_efficiency_factor = 0.02
+				production_factory_efficiency_gain_factor = 0.02
+			}
+		}
+		
+		## Shared - Military ##
+		
+		ANT_Flamethrowers = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_New_Economy" }
+			picture = HOL_welfare_state
+			modifier = {
+				army_morale_factor = 0.05
+				army_attack_factor = 0.05
+				winter_attrition_factor = -0.05
+				army_infantry_attack_factor = 0.025
+				special_forces_attack_factor = 0.025
+			}
+		}
+		
+		ANT_Melee_Weapons = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Melee_Weapons"}
+			picture = X
+			modifier = {
+				land_reinforce_rate = 0.2
+				army_morale_factor = -0.05
+				training_time_army_factor = -0.1
+				army_org_factor = -0.05
+				conscription_factor = 0.015
+			}
+		}
+		
+		ANT_shitty_guns = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_shitty_guns"}
+			picture = tfv_can_conscription_crisis
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = -0.25
+					instant = yes
+				}
+			}
+		}
+		
+		ANT_Use_our_Terrain = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Use_our_Terrain"}
+			picture = ast_all_in
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		
+		ANT_Battle_for_Survival = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Battle_for_Survival"}
+			picture = ast_all_in
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.1
+				conscription = 0.075
 			}
 		}
 		
@@ -17,6 +169,19 @@ ideas = {
 				custom_modifier_tooltip = ANT_expedition_tt
 				stability_factor = 0.05
 				war_support_factor = 0.05
+			}
+		}
+		
+		ANT_german_support = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_german_support"}
+			picture = ANT_expidition_idea
+			modifier = {
+				political_power_cost = 0.02
+			}
+			targeted_modifier = {
+				tag = GER
+				trade_cost_for_target_factor = -0.01
+				extra_trade_to_target_factor = 0.01
 			}
 		}
 		

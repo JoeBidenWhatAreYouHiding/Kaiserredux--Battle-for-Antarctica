@@ -255,3 +255,153 @@ country_event = { #Trotsky
 	}
 }
 
+add_namespace = newswabia
+
+country_event = { #Intro
+	id = newswabia.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.1"}
+	title = newswabia.1.t
+	desc = newswabia.1.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NSW
+	}
+
+	option = {
+		name = newswabia.1.a
+		
+	}
+}
+
+country_event = { #Scizos
+	id = newswabia.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.2"}
+	title = newswabia.2.t
+	desc = newswabia.2.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = newswabia.2.a
+		set_country_flag = NSW_Ahnenerbe
+	}
+	option = {
+		name = newswabia.2.b
+		add_manpower = -200
+	}
+}
+
+country_event = { #Stuff
+	id = newswabia.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.3"}
+	title = newswabia.3.t
+	desc = newswabia.3.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = newswabia.3.a
+		hidden_effect = {
+			country_event = {	
+				id = newswabia.4
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = newswabia.3.b
+		add_political_power = 10
+	}
+}
+
+country_event = { #They gone bro
+	id = newswabia.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.4"}
+	title = newswabia.4.t
+	desc = newswabia.4.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = newswabia.4.a
+		if = {
+			limit = {
+				has_country_flag = NSW_Ahnenerbe
+			}
+			country_event = {	
+				id = newswabia.6
+				days = 2
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = NSW_Ahnenerbe
+				}
+			}
+			country_event = {	
+				id = newswabia.5
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #They gone bro
+	id = newswabia.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.5"}
+	title = newswabia.5.t
+	desc = newswabia.5.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = newswabia.5.a
+		AAR = {
+			annex_country = {
+				target = NSW
+				transfer_troops = no
+			}
+		}
+	}
+}
+
+country_event = { #They gone bro
+	id = newswabia.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.5"}
+	title = newswabia.5.t
+	desc = newswabia.5.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = newswabia.5.a
+		set_politics = {
+			ruling_party = national_populist
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_populist
+			populaity = 1
+		}
+	}
+}
+

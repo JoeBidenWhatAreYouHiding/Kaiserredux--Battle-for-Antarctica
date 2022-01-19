@@ -1,0 +1,8 @@
+ANT_arms_raiding = {
+	icon = GFX_decision_cat_annexation
+	picture = GFX_decision_cat_picture_annexation
+
+	allowed = {}
+	available = { has_completed_focus = ANT_Scavenge_Weaponry }
+}
+

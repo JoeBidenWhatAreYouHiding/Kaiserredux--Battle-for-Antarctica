@@ -20,7 +20,7 @@ focus_tree = {
 		icon = GFX_goal_ANT_new_swabia
 		x = 5
 		y = 0
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		cancelable = no
 		ai_will_do = {
@@ -41,15 +41,18 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_expedition
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		cancelable = no
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_status_of_anherbe"
+			country_event = {
+				id = newswabia.2
+				days = 2
+			}
 		}
 	}
 	
@@ -62,7 +65,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_expedition
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		cancelable = no
 		ai_will_do = {
@@ -70,12 +73,17 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			add_ideas = ANT_german_support
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 2500
+				producer = GER
+			}
 		}
 	}
 	
 	focus = {
-		id = ANT_our_continent
+		id = ANT_alone_in_the_cold
 		icon = GFX_goal_ANT_cold
 		prerequisite = {
 			focus = ANT_formalize_claims
@@ -95,6 +103,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
 			custom_effect_tooltip = ANT_alone_2_tt
+			hidden_effect = {
+				country_event = {
+					id = newswabia.3
+					days = 20
+				}
+			}
 		}
 	}
 	
@@ -102,14 +116,14 @@ focus_tree = {
 		id = ANT_ritshcher_govt
 		icon = GFX_goal_ANT_cold
 		prerequisite = {
-			focus = ANT_our_continent
+			focus = ANT_alone_in_the_cold
 		}
 		available = {
 			has_government = authoritarian_democrat
 		}
 		x = -4
 		y = 1
-		relative_position_id = ANT_our_continent
+		relative_position_id = ANT_alone_in_the_cold
 		cost = 5
 		available_if_capitulated = no
 		cancelable = no
@@ -234,14 +248,14 @@ focus_tree = {
 		id = ANT_anherbe_takeover
 		icon = GFX_goal_ANT_cold
 		prerequisite = {
-			focus = ANT_our_continent
+			focus = ANT_alone_in_the_cold
 		}
 		available = {
 			has_government = authoritarian_democrat
 		}
 		x = 4
 		y = 1
-		relative_position_id = ANT_our_continent
+		relative_position_id = ANT_alone_in_the_cold
 		cost = 5
 		available_if_capitulated = no
 		cancelable = no
@@ -371,7 +385,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 2
-		relative_position_id = ANT_our_continent
+		relative_position_id = ANT_alone_in_the_cold
 		cost = 5
 		available_if_capitulated = no
 		cancelable = no
