@@ -36,7 +36,7 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
 			picture = ANT_undersupplied
 			modifier = {
-				supply_consumption_factor = -0.4
+				supply_consumption_factor = 0.4
 				out_of_supply_factor = 0.15
 			}
 		}

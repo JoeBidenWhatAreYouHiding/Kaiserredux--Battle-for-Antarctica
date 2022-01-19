@@ -103,10 +103,106 @@ create_country_leader = {
 	name = "Richard E. Byrd"
 	picture = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd.png"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = antarctic_expedition_subtype
 
 
 ### Field Marshals - For transfering ### 
 
+create_field_marshal = {
+	name = "Richard E. Byrd"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd H_Cruzen.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 1604
+}
 
-### Corps Commanders - For transfering ### 
+### Corps Commanders ### 
+create_corps_commander = {
+	name = "Richard H. Cruzen"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard H_Cruzen.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 1604
+}
+
+create_corps_commander = {
+	name = "George J. Dufek"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_George_J_Dufek.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 1604
+}
+
+create_corps_commander = {
+	name = "George W. Gibbs Jr."
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_George_W_Gibbs_Jr.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 1604
+}
+
+### Navy Leaders ###
+create_navy_leader = {
+	name = "Richard E. Byrd"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd H_Cruzen.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 1604
+}
+
+create_navy_leader = {
+	name = "Richard H. Cruzen"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard H_Cruzen.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 1604
+}
+
+create_navy_leader = {
+	name = "George J. Dufek"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_George_J_Dufek.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 1604
+}
+
+create_navy_leader = {
+	name = "George W. Gibbs Jr."
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_George_W_Gibbs_Jr.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 1604
+}
+

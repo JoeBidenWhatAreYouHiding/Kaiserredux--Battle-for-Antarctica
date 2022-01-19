@@ -104,8 +104,8 @@ create_country_leader = {
 	name = "James Marr"
 	picture = "gfx/leaders/AAR/Portrait_ANT_James_Marr.png"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-
+	ideology = antarctic_expedition_subtype
+}
 
 ### Field Marshals ### 
 create_field_marshal = {
@@ -120,7 +120,7 @@ create_field_marshal = {
 	#id = 1604
 }
 
-### Corps Commanders - For transfering ### 
+### Corps Commanders ### 
 create_corps_commander = {
 	name = "Douglas Mawson"
 	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Douglas_Mawson.png"
