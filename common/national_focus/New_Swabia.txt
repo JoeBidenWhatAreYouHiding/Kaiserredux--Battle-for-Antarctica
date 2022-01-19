@@ -120,6 +120,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
+			has_country_flag = ANT_ritshcher_govt
 		}
 		x = -4
 		y = 1
@@ -132,7 +133,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			add_ideas = ANT_ritshcher_govt
 		}
 	}
 	
@@ -153,7 +154,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			swap_ideas = {
+				remove_idea = ANT_ritshcher_govt
+				add_idea = ANT_lonely_colonial_government
+			}
 		}
 	}
 	
@@ -174,7 +178,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			every_owned_state = {
+				add_manpower = 100
+			}
+			add_political_power = -100
 		}
 	}
 	
@@ -195,7 +202,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			add_ideas = ANT_prussia_in_antarctica
 		}
 	}
 	
@@ -216,7 +223,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			swap_ideas = {
+				remove_idea = ANT_prussia_in_antarctica
+				add_idea = ANT_antartiche_heer
+			}
 		}
 	}
 
@@ -240,7 +250,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			swap_ideas = {
+				remove_idea = {
+					remove_idea = ANT_lonely_colonial_government
+					add_idea = ANT_the_kaisers_continent
+				}
+			}
 		}
 	}
 	
@@ -251,7 +266,7 @@ focus_tree = {
 			focus = ANT_alone_in_the_cold
 		}
 		available = {
-			has_government = authoritarian_democrat
+			has_government = national_populist
 		}
 		x = 4
 		y = 1
@@ -264,7 +279,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			add_ideas = ANT_anherbe_takeover
 		}
 	}
 	
@@ -285,7 +300,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	
@@ -306,7 +323,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			swap_ideas = {
+				remove_idea = ANT_anherbe_takeover
+				add_idea = ANT_aryan_links
+			}
 		}
 	}
 	
@@ -327,7 +347,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			add_ideas = ANT_coming_of_vril
 		}
 	}
 	
@@ -348,7 +368,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			swap_ideas = {
+				remove_idea = ANT_coming_of_vril
+				add_idea = ANT_explore_the_supernatural
+			}
 		}
 	}
 
@@ -372,7 +395,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			swap_ideas = {
+				remove_idea = ANT_explore_the_supernatural
+				add_idea = ANT_esoteric_antarctica
+			}
 		}
 	}
 	
@@ -394,7 +420,19 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
 	
@@ -415,7 +453,44 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+			add_tech_bonus = {
+				name = ALB_fighter_effort
+				bonus = 1
+				uses = 1
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}
+			GER = {
+				add_doctrine_cost_reduction = {
+					name = air_doc_bonus
+					cost_reduction = 0.5
+					uses = 1
+					category = air_doctrine
+				}
+				add_tech_bonus = {
+					name = ALB_fighter_effort
+					bonus = 1
+					uses = 1
+					technology = early_fighter
+					technology = fighter1
+					technology = fighter2
+					technology = fighter3
+					technology = heavy_fighter1
+					technology = heavy_fighter2
+					technology = heavy_fighter3
+				}
+			}
 		}
 	}
 	
@@ -436,7 +511,20 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			add_tech_bonus = {
+				name = BEL_Uranium_Mining
+				bonus = 1
+				uses = 1
+				category = nuclear
+			}
+			GER = {
+				add_tech_bonus = {
+					name = BEL_Uranium_Mining
+					bonus = 1
+					uses = 1
+					category = nuclear
+				}
+			}
 		}
 	}
 	
@@ -457,7 +545,32 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			add_tech_bonus = {
+				name = ALB_new_destroyers
+				bonus = 1
+				uses = 1
+				category = dd_tech
+			}
+			add_doctrine_cost_reduction = {
+				name = naval_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+			GER = {
+				add_tech_bonus = {
+					name = ALB_new_destroyers
+					bonus = 1
+					uses = 1
+					category = dd_tech
+				}
+				add_doctrine_cost_reduction = {
+					name = naval_doc_bonus
+					cost_reduction = 0.5
+					uses = 1
+					category = naval_doctrine
+				}
+			}
 		}
 	}
 	
@@ -478,7 +591,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			add_manpower = 500
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 
@@ -502,7 +618,22 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_alone_2_tt
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			GER = {
+				add_to_faction = NSW
+			}
 		}
 	}
 

@@ -320,6 +320,7 @@ country_event = { #Stuff
 	option = {
 		name = newswabia.3.b
 		add_political_power = 10
+		set_country_flag = ANT_ritshcher_govt
 	}
 }
 
@@ -336,6 +337,7 @@ country_event = { #They gone bro
 
 	option = {
 		name = newswabia.4.a
+		add_manpower = -200
 		if = {
 			limit = {
 				has_country_flag = NSW_Ahnenerbe

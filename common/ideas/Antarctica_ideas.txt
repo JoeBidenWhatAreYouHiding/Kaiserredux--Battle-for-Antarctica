@@ -176,12 +176,112 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_german_support"}
 			picture = ANT_expidition_idea
 			modifier = {
-				political_power_cost = 0.02
+				political_power_cost = -0.02
 			}
 			targeted_modifier = {
 				tag = GER
 				trade_cost_for_target_factor = -0.01
 				extra_trade_to_target_factor = 0.01
+			}
+		}
+		## Germans - Ritscher ##
+		
+		ANT_lonely_colonial_government = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_lonely_colonial_government"}
+			picture = ANT_expidition_idea
+			modifier = {
+				political_power_gain = 0.04
+				stability_factor = 0.04
+			}
+		}
+		
+		ANT_the_kaisers_continent = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_the_kaisers_continent"}
+			picture = ANT_expidition_idea
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		ANT_prussia_in_antarctica = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_prussia_in_antarctica"}
+			picture = GER_imperial_pride
+			modifier = {
+				conscription_factor = 0.05
+				army_morale_factor = 0.15
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+		
+		ANT_antartiche_heer = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_antartiche_heer"}
+			picture = GER_imperial_pride
+			modifier = {
+				conscription_factor = 0.1
+				army_morale_factor = 0.20
+				army_defence_factor = 0.15
+				army_attack_factor = 0.15
+			}
+		}
+		
+		## Germans - Ahnenerbe ##
+		
+		ANT_anherbe_takeover = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_anherbe_takeover"}
+			picture = ANT_expidition_idea
+			modifier = {
+				political_power_gain = 0.04
+				stability_factor = 0.04
+			}
+		}
+		
+		ANT_aryan_links = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_aryan_links"}
+			picture = ANT_expidition_idea
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		ANT_coming_of_vril = {#
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ANT_coming_of_vril"}
+			picture = NEE_signs
+			modifier = {
+				conscription = 0.01
+				national_populist_drift = 0.01
+				political_power_gain = -0.05
+				research_speed_factor = 0.05
+			}
+		}
+		
+		ANT_explore_the_supernatural = {#
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ANT_explore_the_supernatural"}
+			picture = NEE_signs
+			modifier = {
+				conscription = 0.01
+				national_populist_drift = 0.01
+				political_power_gain = -0.05
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		ANT_esoteric_antarctica = {#
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ANT_esoteric_antarctica"}
+			picture = NEE_signs
+			modifier = {
+				conscription = 0.01
+				national_populist_drift = 0.01
+				political_power_gain = -0.05
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+				local_resources	= 0.02
+                production_factory_efficiency_gain_factor = 0.01
 			}
 		}
 		
