@@ -12,11 +12,13 @@ focus_tree = {
 	default = no
 	
 	shared_focus = ANT_Frozen_Wasteland
+	shared_focus = ANT_Battle_for_Antarctica
+	shared_focus = ANT_Hire_Mercs
 
 	focus = {
 		id = ANT_expedition
 		icon = GFX_goal_ANT_new_swabia
-		x = 8
+		x = 5
 		y = 0
 		cost = 10
 		available_if_capitulated = no
@@ -31,14 +33,454 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ANT_alone_in_the_cold
-		icon = GFX_goal_ANT_cold
+		id = ANT_status_of_anherbe
+		icon = GFX_goal_ANT_new_swabia
+		x = -1
+		y = 1
+		relative_position_id = ANT_expedition
 		prerequisite = {
 			focus = ANT_expedition
 		}
-		x = 8
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_formalize_claims
+		icon = GFX_goal_ANT_new_swabia
+		x = 1
 		y = 1
-		cost = 5000
+		relative_position_id = ANT_expedition
+		prerequisite = {
+			focus = ANT_expedition
+		}
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_our_continent
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_formalize_claims
+		}
+		prerequisite = {
+			focus = ANT_status_of_anherbe
+		}
+		x = 0
+		y = 2
+		relative_position_id = ANT_expedition
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_ritshcher_govt
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_our_continent
+		}
+		available = {
+			has_government = authoritarian_democrat
+		}
+		x = -4
+		y = 1
+		relative_position_id = ANT_our_continent
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_lonely_colonial_government
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_ritshcher_govt
+		}
+		x = -1
+		y = 1
+		relative_position_id = ANT_ritshcher_govt
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_encourage_settlement
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_lonely_colonial_government
+		}
+		x = -1
+		y = 2
+		relative_position_id = ANT_ritshcher_govt
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_prussia_in_antarctica
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_ritshcher_govt
+		}
+		x = 1
+		y = 1
+		relative_position_id = ANT_ritshcher_govt
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_antartiche_heer
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_prussia_in_antarctica
+		}
+		x = 1
+		y = 2
+		relative_position_id = ANT_ritshcher_govt
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+
+	focus = {
+		id = ANT_the_kaisers_continent
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_antartiche_heer
+		}
+		prerequisite = {
+			focus = ANT_encourage_settlement
+		}
+		x = 0
+		y = 3
+		relative_position_id = ANT_ritshcher_govt
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_anherbe_takeover
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_our_continent
+		}
+		available = {
+			has_government = authoritarian_democrat
+		}
+		x = 4
+		y = 1
+		relative_position_id = ANT_our_continent
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_exploring_our_lands
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_anherbe_takeover
+		}
+		x = -1
+		y = 1
+		relative_position_id = ANT_anherbe_takeover
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_aryan_links
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_exploring_our_lands
+		}
+		x = -1
+		y = 2
+		relative_position_id = ANT_anherbe_takeover
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_coming_of_vril
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_anherbe_takeover
+		}
+		x = 1
+		y = 1
+		relative_position_id = ANT_anherbe_takeover
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_explore_the_supernatural
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_coming_of_vril
+		}
+		x = 1
+		y = 2
+		relative_position_id = ANT_anherbe_takeover
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+
+	focus = {
+		id = ANT_esoteric_antarctica
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_explore_the_supernatural
+		}
+		prerequisite = {
+			focus = ANT_aryan_links
+		}
+		x = 0
+		y = 3
+		relative_position_id = ANT_anherbe_takeover
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_establish_bases
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_anherbe_takeover
+			focus = ANT_ritshcher_govt
+		}
+		x = 0
+		y = 2
+		relative_position_id = ANT_our_continent
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_air_testing
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_establish_bases
+		}
+		x = -1
+		y = 1
+		relative_position_id = ANT_establish_bases
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_nuclear_testing
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_air_testing
+		}
+		x = -1
+		y = 2
+		relative_position_id = ANT_establish_bases
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_naval_stations
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_establish_bases
+		}
+		x = 1
+		y = 1
+		relative_position_id = ANT_establish_bases
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_mapping_expeditions
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_naval_stations
+		}
+		x = 1
+		y = 2
+		relative_position_id = ANT_establish_bases
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_alone_2_tt
+		}
+	}
+
+	focus = {
+		id = ANT_mega_base
+		icon = GFX_goal_ANT_cold
+		prerequisite = {
+			focus = ANT_mapping_expeditions
+		}
+		prerequisite = {
+			focus = ANT_nuclear_testing
+		}
+		x = 0
+		y = 3
+		relative_position_id = ANT_establish_bases
+		cost = 5
 		available_if_capitulated = no
 		cancelable = no
 		ai_will_do = {

@@ -1,0 +1,35 @@
+
+focus_tree = {
+	id = KX_Antarctica_American
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AMT
+		}
+	}
+	default = no
+	
+	shared_focus = ANT_Frozen_Wasteland
+	shared_focus = ANT_Battle_for_Antarctica
+	shared_focus = ANT_Hire_Mercs
+
+	focus = {
+		id = ANT_byrd_expedition
+		icon = GFX_goal_ANT_new_swabia
+		x = 8
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
+
+}

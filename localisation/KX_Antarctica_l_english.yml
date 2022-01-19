@@ -14,27 +14,44 @@ AAR_neutral_zone:0 "International Neutral Zone"
 ### Focuses ###
 ANT_Frozen_Wasteland:0 "Surviving in a Frozen Wasteland"
 ANT_Frozen_Wasteland_desc:0 ""
-
 ANT_Expand_Settlment:0 "Expand Settlement"
 ANT_Expand_Settlment_desc:0 ""
-
 ANT_Encourage_Exploration:0 "Encourage Exploration"
 ANT_Encourage_Exploration_desc:0 ""
-
 ANT_Research_Stations:0 "Research Stations"
 ANT_Research_Stations_desc:0 ""
-
 ANT_Whale_Oil:0 "Whale Oil"
 ANT_Whale_Oil_desc:0 ""
-
 ANT_Mineral_Exploration:0 "Look for Minerals"
 ANT_Mineral_Exploration_desc:0 ""
-
 ANT_Permanant_Settlment:0 "Permanent Settlements"
 ANT_Permanant_Settlment_desc:0 ""
-
 ANT_Heating_Technology:0 "Advanced Heating"
 ANT_Heating_Technology_desc:0 ""
-
 ANT_New_Economy:0 "An Ice-Cold ''Economy''"
 ANT_New_Economy_desc:0 ""
+
+ANT_Battle_for_Antarctica:0 "The Battle for Antactica"
+ANT_Battle_for_Antarctica_desc:0 ""
+ANT_Request_Support:0 "Request More Supplies"
+ANT_Request_Support_desc:0 ""
+ANT_Melee_Weapons:0 "Melee Weapons"
+ANT_Melee_Weapons_desc:0 ""
+ANT_Scavenge_Weaponry:0 "Scavenge Weaponry"
+ANT_Scavenge_Weaponry_desc:0 ""
+ANT_Protect_Against_the_Elements:0 "Protecting Against the Elements"
+ANT_Protect_Against_the_Elements_desc:0 ""
+ANT_Icebreakers:0 "Breaking the Ice"
+ANT_Icebreakers_desc:0 ""
+ANT_Air_Connections:0 "Air Connections"
+ANT_Air_Connections_desc:0 ""
+ANT_Use_our_Terrain:0 "Use our Terrain"
+ANT_Use_our_Terrain_desc:0 ""
+ANT_Battle_for_Survival:0 "A Battle for Survival"
+ANT_Battle_for_Survival_desc:0 ""
+
+ANT_Hire_Mercs:0 "Hire Mercenaries"
+ANT_Hire_Mercs_desc:0 ""
+ANT_Learn_From_Inuit:0 "Learn from the Inuit"
+ANT_Learn_From_Inuit_desc:0 "" 
+

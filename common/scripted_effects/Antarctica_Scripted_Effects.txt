@@ -35,3 +35,9 @@ setup_entente_antarctica = {
 		transfer_state = 1269
 	}
 }
+
+debug_ANT_setup = {
+	setup_new_swabia = yes
+	setup_american_antarctica = yes
+	setup_entente_antarctica = yes
+}
