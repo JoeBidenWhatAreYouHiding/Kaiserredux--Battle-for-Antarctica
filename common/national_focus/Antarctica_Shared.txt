@@ -40,7 +40,9 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Formalize_Claims"
 		every_owned_state = {
-			add_state_core = PREV
+			ROOT = {
+				add_state_core = PREV
+			}
 		}
 	}
 }
@@ -439,12 +441,12 @@ shared_focus = {
 shared_focus = {
 	id = ANT_Militarize
 	icon = GFX_goal_generic_intelligence_exchange
-	x = -3
+	x = 3
 	y = 1
-	relative_position_id = ANT_Frozen_Wasteland
+	relative_position_id = ANT_Battle_for_Antarctica
 	
 	prerequisite = {
-		focus = ANT_Frozen_Wasteland
+		focus = ANT_Battle_for_Antarctica
 	}
 	cost = 7
 
@@ -470,10 +472,10 @@ shared_focus = {
 	icon = GFX_goal_generic_intelligence_exchange
 	x = -1
 	y = 1
-	relative_position_id = ANT_Battle_for_Antarctica
+	relative_position_id = ANT_Militarize
 	
 	prerequisite = {
-		focus = ANT_Battle_for_Antarctica
+		focus = ANT_Militarize
 	}
 	cost = 7
 
@@ -504,10 +506,10 @@ shared_focus = {
 	icon = GFX_goal_generic_intelligence_exchange
 	x = 1
 	y = 1
-	relative_position_id = ANT_Battle_for_Antarctica
+	relative_position_id = ANT_Militarize
 	
 	prerequisite = {
-		focus = ANT_Battle_for_Antarctica
+		focus = ANT_Militarize
 	}
 	cost = 7
 
@@ -683,7 +685,7 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Air_Connections"
-		random_owned_state = {
+		random_owned_controlled_state = {
 			add_building_construction = {
 				type = air_base
 				level = 2

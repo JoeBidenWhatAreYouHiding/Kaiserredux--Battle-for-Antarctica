@@ -265,9 +265,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_alone_in_the_cold
 		}
-		available = {
-			has_government = national_populist
-		}
+		
 		x = 4
 		y = 1
 		relative_position_id = ANT_alone_in_the_cold
