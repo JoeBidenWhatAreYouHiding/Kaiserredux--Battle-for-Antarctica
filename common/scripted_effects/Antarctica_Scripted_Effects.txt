@@ -7,6 +7,8 @@ setup_new_swabia = {
 		transfer_state = 1264
 		transfer_state = 1233
 		transfer_state = 1244
+		transfer_state = 1224
+		transfer_state = 1227
 	}
 }
 
@@ -38,6 +40,7 @@ setup_entente_antarctica = {
 		transfer_state = 1225
 		transfer_state = 1226
 		transfer_state = 1249
+		transfer_state = 1286
 	}
 }
 

@@ -251,10 +251,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
 			swap_ideas = {
-				remove_idea = {
-					remove_idea = ANT_lonely_colonial_government
-					add_idea = ANT_the_kaisers_continent
-				}
+				remove_idea = ANT_lonely_colonial_government
+				add_idea = ANT_the_kaisers_continent
 			}
 		}
 	}
