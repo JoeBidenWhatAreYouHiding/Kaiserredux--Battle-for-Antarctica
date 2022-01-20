@@ -122,7 +122,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_country_flag = ANT_ritshcher_govt
 		}
-		x = -4
+		x = -3
 		y = 1
 		relative_position_id = ANT_alone_in_the_cold
 		cost = 5
@@ -167,7 +167,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_lonely_colonial_government
 		}
-		x = -1
+		x = -2
 		y = 2
 		relative_position_id = ANT_ritshcher_govt
 		cost = 5
@@ -212,7 +212,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_prussia_in_antarctica
 		}
-		x = 1
+		x = 0
 		y = 2
 		relative_position_id = ANT_ritshcher_govt
 		cost = 5
@@ -239,7 +239,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_encourage_settlement
 		}
-		x = 0
+		x = -1
 		y = 3
 		relative_position_id = ANT_ritshcher_govt
 		cost = 5
@@ -264,7 +264,7 @@ focus_tree = {
 			focus = ANT_alone_in_the_cold
 		}
 		
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = ANT_alone_in_the_cold
 		cost = 5
@@ -308,7 +308,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_exploring_our_lands
 		}
-		x = -1
+		x = 0
 		y = 2
 		relative_position_id = ANT_anherbe_takeover
 		cost = 5
@@ -353,7 +353,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_coming_of_vril
 		}
-		x = 1
+		x = 2
 		y = 2
 		relative_position_id = ANT_anherbe_takeover
 		cost = 5
@@ -380,7 +380,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_aryan_links
 		}
-		x = 0
+		x = 1
 		y = 3
 		relative_position_id = ANT_anherbe_takeover
 		cost = 5

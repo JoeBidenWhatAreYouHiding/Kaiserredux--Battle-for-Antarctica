@@ -202,7 +202,7 @@ country_event = { #End of Antartic Neutrality
 	}
 }
 
-country_event_event = { #Revolution from the South
+country_event = { #Revolution from the South
 	id = antarctica.6
 	title = antarctica.6.t
 	desc = antarctica.6.d
@@ -249,7 +249,7 @@ country_event = { #Trotsky
 		drop_cosmetic_tag = yes
 		add_popularity = {
 			ideology = totalist
-			populaity = 1
+			popularity = 1
 		}
 		add_ideas = AAR_spread_revolution
 	}
@@ -294,6 +294,7 @@ country_event = { #Scizos
 	option = {
 		name = newswabia.2.b
 		add_manpower = -200
+		remove_ideas = ANT_Ahnenerbe_Tagalong_idea
 	}
 }
 
@@ -402,7 +403,7 @@ country_event = { #They gone bro
 		}
 		add_popularity = {
 			ideology = national_populist
-			populaity = 1
+			popularity = 1
 		}
 	}
 }

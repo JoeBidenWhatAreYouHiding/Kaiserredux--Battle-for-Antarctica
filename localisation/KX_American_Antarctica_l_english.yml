@@ -5,6 +5,10 @@ AMT:0 "American Antarctic Expedition"
 AMT_ADJ:0 "American-Antarctic "
 AMT_DEF:0 "American Antarctic Expedition"
 
+AMT_LITTLE_AMERICA:0 "United States of Little America"
+AMT_LITTLE_AMERICA_ADJ:0 "Little American"
+AMT_LITTLE_AMERICA_DEF:0 "the United States of Little America"
+
 ### Parties ###
 AMT_totalist_party:0 "Ostatki bol'shevikov-loyalistov"
 AMT_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov (Pingviny)"
@@ -29,7 +33,21 @@ AMT_national_populist_party_long:0 "Byrd's Expedition Force"
 
 ### Ideas ###
 
+ANT_little_america_idea:0 "Little America"
+ANT_little_america_idea_desc:0 ""
+
+ANT_byrd_expedition_idea:0 "Status of the Byrd Expedition"
+ANT_byrd_expedition_idea_desc:0 ""
+
 ### Tooltips ###
 ANT_byrd_expedition_tt:0 "§YAdmiral Byrd and his crew will Explore American Territories in Antarctica§!"
 
 ### Focuses ###
+ANT_byrd_expedition:0 "Status of the Byrd Expedition"
+ANT_byrd_expedition_desc:0 ""
+ANT_secure_backing:0 "Secure Financal Backing for the Expedition"
+ANT_secure_backing_desc:0 ""
+ANT_expand_little_america:0 "Expand Little America"
+ANT_expand_little_america_desc:0 ""
+ANT_stranded_at_the_bottom_of_the_world:0 "Stranded At the Bottom of the World"
+ANT_stranded_at_the_bottom_of_the_world_desc:0 ""

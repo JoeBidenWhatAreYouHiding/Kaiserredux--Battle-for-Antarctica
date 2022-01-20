@@ -97,6 +97,7 @@ add_ideas = {
 	do_stuff_idea
 	ANT_expidition_idea
 	ANT_alone_idea
+	ANT_Ahnenerbe_Tagalong_idea
 }
 
 create_country_leader = {

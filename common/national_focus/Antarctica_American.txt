@@ -31,5 +31,80 @@ focus_tree = {
 			custom_effect_tooltip = ANT_expedition_2_tt
 		}
 	}
+	
+	focus = {
+		id = ANT_secure_backing
+		icon = GFX_goal_ANT_new_swabia
+		x = -1
+		y = 1
+		relative_position_id = ANT_byrd_expedition
+		
+		prerequisite = {
+			focus = ANT_byrd_expedition
+		}
+		
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_expand_little_america
+		icon = GFX_goal_ANT_new_swabia
+		x = 1
+		y = 1
+		relative_position_id = ANT_byrd_expedition
+		
+		prerequisite = {
+			focus = ANT_byrd_expedition
+		}
+		
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_stranded_at_the_bottom_of_the_world
+		icon = GFX_goal_ANT_new_swabia
+		x = 0
+		y = 2
+		relative_position_id = ANT_byrd_expedition
+		
+		prerequisite = {
+			focus = ANT_expand_little_america
+		}
+		prerequisite = {
+			focus = ANT_secure_backing
+		}
+		available = {
+			has_global_flag = USA_civil_war_begun_flag
+		}
+		
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
 
 }

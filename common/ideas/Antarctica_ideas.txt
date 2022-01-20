@@ -172,6 +172,16 @@ ideas = {
 			}
 		}
 		
+		ANT_Ahnenerbe_Tagalong_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_ahnenerbe_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_expedition_tt
+				stability_factor = -0.05
+				weekly_manpower = 10
+			}
+		}
+		
 		ANT_german_support = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_german_support"}
 			picture = ANT_expidition_idea
@@ -308,13 +318,24 @@ ideas = {
 		
 		## Americans ##
 		
-		ANT_byrd_expedition = {
+		ANT_byrd_expedition_idea = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
 			picture = ANT_byrd_expedition
 			modifier = {
 				custom_modifier_tooltip = ANT_byrd_expedition_tt
 				stability_factor = 0.05
 				war_support_factor = 0.05
+			}
+		}
+		
+		ANT_little_america_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_ahnenerbe_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_expedition_tt
+				stability_factor = 0.05
+				MONTHLY_POPULATION = 0.04
+				production_speed_infrastructure_factor = 0.1
 			}
 		}
 	}
