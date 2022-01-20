@@ -1,0 +1,52 @@
+spriteTypes = {
+### Position.headOfGovernment
+	spriteType = {
+		name = "GFX_idea_AMT_Richard_Evelyn_Byrd_hog_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_Richard_Evelyn_Byrd.png"
+	}
+### Position.foreignMinister
+	spriteType = {
+		name = "GFX_idea_AMT_Richard_H_Cruzen_for_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_Richard_H_Cruzen.png"
+	}
+### Position.economyMinister
+	spriteType = {
+		name = "GFX_idea_AMT_George_J_Dufek_eco_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_George_J_Dufek.png"
+	}
+### Position.securityMinister
+	spriteType = {
+		name = "GFX_idea_AMT_George_W_Gibbs_Jr_sec_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_George_W_Gibbs_Jr.png"
+	}
+### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_AMT_Richard_Evelyn_Byrd_cos_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_Richard_Evelyn_Byrd.png"
+	}
+### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_AMT_Richard_H_Cruzen_cos_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_Richard_H_Cruzen.png"
+	}
+### Position.chiefOfArmy
+	spriteType = {
+		name = "GFX_idea_AMT_Richard_Evelyn_Byrd_carm_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_Richard_Evelyn_Byrd.png"
+	}
+### Position.chiefOfNavy
+	spriteType = {
+		name = "GFX_idea_AMT_Richard_Evelyn_Byrd_cnav_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_Richard_Evelyn_Byrd.png"
+	}
+### Position.chiefOfNavy
+	spriteType = {
+		name = "GFX_idea_AMT_George_W_Gibbs_Jr_cnav_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_George_W_Gibbs_Jr.png"
+	}
+### Position.chiefOfAirForce
+	spriteType = {
+		name = "GFX_idea_AMT_George_J_Dufek_cair_ade"
+		texturefile = "gfx/interface/ministers/AMT/AMT_George_J_Dufek.png"
+	}
+}

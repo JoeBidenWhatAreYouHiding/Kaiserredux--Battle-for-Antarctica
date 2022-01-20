@@ -1,0 +1,19 @@
+l_english:
+### head_of_government
+AMT_Richard_Evelyn_Byrd_hog_ade:0 "Richard Evelyn Byrd"
+### foreign_minister
+AMT_Richard_H_Cruzen_for_ade:0 "Richard H. Cruzen"
+### economy_minister
+AMT_George_J_Dufek_eco_ade:0 "George J. Dufek"
+### security_minister
+AMT_George_W_Gibbs_Jr_sec_ade:0 "George W. Gibbs Jr."
+### chief_of_staff
+AMT_Richard_Evelyn_Byrd_cos_ade:0 "Richard Evelyn Byrd"
+AMT_Richard_H_Cruzen_cos_ade:0 "Richard H. Cruzen"
+### chief_of_army
+AMT_Richard_Evelyn_Byrd_carm_ade:0 "Richard Evelyn Byrd"
+### chief_of_navy
+AMT_Richard_Evelyn_Byrd_cnav_ade:0 "Richard Evelyn Byrd"
+AMT_George_W_Gibbs_Jr_cnav_ade:0 "George W. Gibbs Jr."
+### chief_of_air_force
+AMT_George_J_Dufek_cair_ade:0 "George J. Dufek"

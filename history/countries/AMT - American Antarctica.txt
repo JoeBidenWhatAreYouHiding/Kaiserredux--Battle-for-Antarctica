@@ -98,6 +98,11 @@ add_ideas = {
 	ANT_byrd_expedition_idea
 	ANT_alone_idea
 	ANT_little_america_idea
+	### Ministers ###
+	AMT_Richard_Evelyn_Byrd_hog_ade
+	AMT_Richard_H_Cruzen_for_ade
+	AMT_George_J_Dufek_eco_ade
+	AMT_George_W_Gibbs_Jr_sec_ade
 }
 
 create_country_leader = {

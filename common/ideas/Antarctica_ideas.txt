@@ -176,7 +176,6 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
 			picture = ANT_ahnenerbe_idea
 			modifier = {
-				custom_modifier_tooltip = ANT_expedition_tt
 				stability_factor = -0.05
 				weekly_manpower = 10
 			}
@@ -195,6 +194,15 @@ ideas = {
 			}
 		}
 		## Germans - Ritscher ##
+		
+		ANT_ritshcher_govt = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_ritshcher_govt"}
+			picture = ANT_expidition_idea
+			modifier = {
+				political_power_gain = 0.02
+				stability_factor = 0.02
+			}
+		}
 		
 		ANT_lonely_colonial_government = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_lonely_colonial_government"}

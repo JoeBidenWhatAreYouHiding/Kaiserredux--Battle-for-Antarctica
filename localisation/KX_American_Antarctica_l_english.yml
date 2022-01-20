@@ -9,6 +9,10 @@ AMT_LITTLE_AMERICA:0 "United States of Little America"
 AMT_LITTLE_AMERICA_ADJ:0 "Little American"
 AMT_LITTLE_AMERICA_DEF:0 "the United States of Little America"
 
+AMT_ARGARTHA:0 "Agartha"
+AMT_ARGARTHA_ADJ:0 "Agartha"
+AMT_ARGARTHA_DEF:0 "Agartha"
+
 ### Parties ###
 AMT_totalist_party:0 "Ostatki bol'shevikov-loyalistov"
 AMT_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov (Pingviny)"
@@ -42,12 +46,57 @@ ANT_byrd_expedition_idea_desc:0 ""
 ### Tooltips ###
 ANT_byrd_expedition_tt:0 "§YAdmiral Byrd and his crew will Explore American Territories in Antarctica§!"
 
+### Events ###
+americanexpedition.1.t:0 "Strangers in a Strange Land"
+americanexpedition.1.d:0 ""
+americanexpedition.1.a:0 "God Bless America."
+
+
 ### Focuses ###
 ANT_byrd_expedition:0 "Status of the Byrd Expedition"
 ANT_byrd_expedition_desc:0 ""
-ANT_secure_backing:0 "Secure Financal Backing for the Expedition"
+ANT_secure_backing:0 "Secure Financial Backing for the Expedition"
 ANT_secure_backing_desc:0 ""
 ANT_expand_little_america:0 "Expand Little America"
 ANT_expand_little_america_desc:0 ""
 ANT_stranded_at_the_bottom_of_the_world:0 "Stranded At the Bottom of the World"
 ANT_stranded_at_the_bottom_of_the_world_desc:0 ""
+
+ANT_great_restructuring:0 "Evaluate Our Situation"
+ANT_great_restructuring_desc:0 ""
+
+ANT_home_away_from_home:0 "Our Home, Far Away from Home"
+ANT_home_away_from_home_desc:0 ""
+ANT_american_ammenities:0 "'American' Amenities"
+ANT_american_ammenities_desc:0 ""
+ANT_american_spirit:0 "American Spirit"
+ANT_american_spirit_desc:0 ""
+ANT_a_little_america:0 "A Little America!"
+ANT_a_little_america_desc:0 ""
+
+ANT_reveal_the_truth:0 "There Was a Hole at the Bottom of the Earth..."
+ANT_reveal_the_truth_desc:0 ""
+ANT_city_in_the_snow:0 "The Gates Opened..."
+ANT_city_in_the_snow_desc:0 ""
+ANT_strange_vessels:0 "Strange Vessels Accompanied Me..."
+ANT_strange_vessels_desc:0 ""
+ANT_argartha_found:0 "And There It Was... Agartha"
+ANT_argartha_found_desc:0 ""
+
+ANT_antarctic_admirality:0 "The Antarctic Admiralty"
+ANT_antarctic_admirality_desc:0 ""
+ANT_requisition_fleet:0 "Seize the Southern Fleets"
+ANT_requisition_fleet_desc:0 ""
+ANT_harass_southern_shipping_lines:0 "Harass Southern Shipping Lines"
+ANT_harass_southern_shipping_lines_desc:0 ""
+ANT_further_the_expeditions_reach:0 "Further the Expedition's Reach"
+ANT_further_the_expeditions_reach_desc:0 ""
+ANT_antarctic_tourism:0 "Antarctic Tourism?"
+ANT_antarctic_tourism_desc:0 ""
+
+ANT_status_of_the_americans:0 "Groveling to our American Benefactors"
+ANT_status_of_the_americans_desc:0 ""
+ANT_work_with_mac:0 "Support from MacArthur"
+ANT_work_with_mac_desc:0 ""
+ANT_old_friends_with_ford:0 "Old Friends with Ford"
+ANT_old_friends_with_ford_desc:0 ""

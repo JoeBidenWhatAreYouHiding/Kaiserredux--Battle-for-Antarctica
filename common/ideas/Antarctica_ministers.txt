@@ -1,0 +1,209 @@
+ideas = {
+	head_of_government = {
+		AMT_Richard_Evelyn_Byrd_hog_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_Evelyn_Byrd_hog_ade" 
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_old_air_marshal
+			}
+		}
+	}
+	person_of_influence = {
+		### Foreign Minister ###
+		AMT_Richard_H_Cruzen_for_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_H_Cruzen_for_ade" 
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_apologetic_clerk
+			}
+		}
+		
+		### Economy Minister ###
+		
+		AMT_George_J_Dufek_eco_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_George_J_Dufek_eco_ade" 
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_reformer
+			}
+		}
+		
+		### Security Minister ###
+		
+		AMT_George_W_Gibbs_Jr_sec_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_George_W_Gibbs_Jr_sec_ade" 
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_man_of_the_people
+			}
+		}
+	}
+	chief_of_staff = {
+		AMT_Richard_Evelyn_Byrd_cos_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AMT_Richard_Evelyn_Byrd_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_Evelyn_Byrd_cos_ade" 
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = yes
+		}
+		AMT_Richard_H_Cruzen_cos_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AMT_Richard_H_Cruzen_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_H_Cruzen_cos_ade" 
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_army = {
+		AMT_Richard_Evelyn_Byrd_carm_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AMT_Richard_Evelyn_Byrd_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_Evelyn_Byrd_carm_ade" 
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_navy = {
+		AMT_Richard_Evelyn_Byrd_cnav_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AMT_Richard_Evelyn_Byrd_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_Evelyn_Byrd_cnav_ade" 
+			}
+			traits = {
+				chief_of_navy
+				cnav_indirect_approach_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+		AMT_George_W_Gibbs_Jr_cnav_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AMT_George_W_Gibbs_Jr_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_George_W_Gibbs_Jr_cnav_ade" 
+			}
+			traits = {
+				chief_of_navy
+				cnav_decisive_battle_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_air_force = {
+		AMT_George_J_Dufek_cair_ade = {
+			allowed = { original_tag = AMT }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AMT_George_J_Dufek_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_George_J_Dufek_cair_ade" 
+			}
+			traits = {
+				chief_of_air_force
+				cair_naval_aviation_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+}

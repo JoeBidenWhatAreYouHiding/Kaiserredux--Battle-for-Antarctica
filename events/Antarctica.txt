@@ -408,3 +408,23 @@ country_event = { #They gone bro
 	}
 }
 
+add_namespace = americanexpedition
+
+country_event = { #Intro
+	id = americanexpedition.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.1"}
+	title = americanexpedition.1.t
+	desc = americanexpedition.1.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AMT
+	}
+
+	option = {
+		name = americanexpedition.1.a
+		
+	}
+}
