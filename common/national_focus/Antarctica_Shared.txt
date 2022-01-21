@@ -724,6 +724,9 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Use_our_Terrain"
 		add_ideas = ANT_Use_our_Terrain
+		random_owned_controlled_state = {	
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
 		hidden_effect = {
 			set_technology = { tech_ski_infantry = 1 popup = no }
 		}
