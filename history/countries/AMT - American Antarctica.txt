@@ -116,7 +116,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Richard E. Byrd"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd H_Cruzen.png"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -129,7 +129,7 @@ create_field_marshal = {
 ### Corps Commanders ### 
 create_corps_commander = {
 	name = "Richard H. Cruzen"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard H_Cruzen.png"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_H_Cruzen.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -166,7 +166,7 @@ create_corps_commander = {
 ### Navy Leaders ###
 create_navy_leader = {
 	name = "Richard E. Byrd"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd H_Cruzen.png"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -178,7 +178,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Richard H. Cruzen"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard H_Cruzen.png"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_H_Cruzen.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2

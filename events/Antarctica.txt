@@ -428,3 +428,302 @@ country_event = { #Intro
 		
 	}
 }
+
+country_event = { #Ford Funding
+	id = americanexpedition.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.2"}
+	title = americanexpedition.2.t
+	desc = americanexpedition.2.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = americanexpedition.2.a
+		add_political_power = 10
+	}
+}
+
+country_event = { #Well Fuck
+	id = americanexpedition.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.3"}
+	title = americanexpedition.3.t
+	desc = americanexpedition.3.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = americanexpedition.3.a
+		set_country_flag = ANT_byrd_sane
+	}
+	
+	option = {
+		name = americanexpedition.3.b
+		hidden_effect = {
+			country_event = {
+				id = americanexpedition.4
+				days = 4
+			}
+		}
+	}
+}
+
+country_event = { #Agartha found!
+	id = americanexpedition.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.4"}
+	title = americanexpedition.4.t
+	desc = americanexpedition.4.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #Madness
+		name = americanexpedition.4.a
+		set_country_flag = ANT_byrd_sane
+	}
+	
+	option = { #The Truth!
+		name = americanexpedition.4.a
+		hidden_effect = {
+			country_event = {
+				id = americanexpedition.5
+				days = 4
+			}
+		}
+	}
+}
+
+country_event = { #Agartha found!
+	id = americanexpedition.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.5"}
+	title = americanexpedition.5.t
+	desc = americanexpedition.5.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #Madness
+		name = americanexpedition.5.a
+		set_country_flag = ANT_byrd_sane
+	}
+	
+	option = { #The Truth!
+		name = americanexpedition.5.b
+		hidden_effect = {
+			country_event = {
+				id = americanexpedition.6
+				days = 4
+			}
+		}
+	}
+}
+
+country_event = { #Agartha found!
+	id = americanexpedition.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.6"}
+	title = americanexpedition.6.t
+	desc = americanexpedition.6.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #Madness
+		name = americanexpedition.6.a
+		set_country_flag = ANT_byrd_sane
+	}
+	
+	option = { #The Truth!
+		name = americanexpedition.6.b
+		hidden_effect = {
+			country_event = {
+				id = americanexpedition.7
+				days = 4
+			}
+		}
+	}
+}
+
+country_event = { #Agartha!
+	id = americanexpedition.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.7"}
+	title = americanexpedition.7.t
+	desc = americanexpedition.7.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = americanexpedition.7.a
+		set_country_flag = ANT_argartha_found
+	}
+}
+
+country_event = { #Contact with Byrd
+	id = americanexpedition.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.8"}
+	title = americanexpedition.8.t
+	desc = americanexpedition.8.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #Send Stuff
+		name = americanexpedition.8.a
+		ai_chance = {
+			factor = 50
+		}
+		AMT = {
+			country_event = {
+				id = americanexpedition.9
+				days = 2
+			}
+		}
+	}
+	
+	option = { #nah
+		name = americanexpedition.8.b
+		ai_chance = {
+			factor = 50
+		}
+		AMT = {
+			country_event = {
+				id = americanexpedition.10
+				days = 2
+			}
+		}
+	}
+	
+	option = { #Evacuate
+		name = americanexpedition.8.c
+		ai_chance = {
+			factor = 50
+		}
+		AMT = {
+			country_event = {
+				id = americanexpedition.11
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #Stuff
+	id = americanexpedition.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.9"}
+	title = americanexpedition.9.t
+	desc = americanexpedition.9.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #yay
+		name = americanexpedition.9.a
+		add_political_power = 10
+		add_ideas = ANT_Funding
+	}
+}
+
+country_event = { #no Stuff
+	id = americanexpedition.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.10"}
+	title = americanexpedition.10.t
+	desc = americanexpedition.10.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #not yay
+		name = americanexpedition.10.a
+		add_political_power = -10
+	}
+}
+
+country_event = { #A Way Home
+	id = americanexpedition.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.11"}
+	title = americanexpedition.11.t
+	desc = americanexpedition.11.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #Finally, thank god
+		name = americanexpedition.11.a
+		trigger = {
+			NOT = {
+				has_country_flag = ANT_argartha_found
+			}
+		}
+		AAR = {
+			annex_country = {
+				target = AMT
+				transfer_troops = no
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = AMT_COR
+			}
+			COR = {
+				change_tag_from = AMT
+				create_navy_leader = {
+					name = "Richard E. Byrd"
+					portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd.png"
+					traits = { }
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 1
+					#id = 1604
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = AMT_USA
+			}
+			USA = {
+				change_tag_from = AMT
+				create_navy_leader = {
+					name = "Richard E. Byrd"
+					portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd.png"
+					traits = { }
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 1
+					#id = 1604
+				}
+
+			}
+		}
+	}
+	
+	option = { #We are Home, General
+		name = americanexpedition.11.b
+	
+	}
+}

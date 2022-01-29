@@ -40,17 +40,71 @@ AMT_national_populist_party_long:0 "Byrd's Expedition Force"
 ANT_little_america_idea:0 "Little America"
 ANT_little_america_idea_desc:0 ""
 
-ANT_byrd_expedition_idea:0 "Status of the Byrd Expedition"
+ANT_byrd_expedition_idea:0 "Byrd Expedition"
 ANT_byrd_expedition_idea_desc:0 ""
+
+ANT_Funding:0 "Funding Secure"
+
+ANT_truth1:0 "The Truth..."
 
 ### Tooltips ###
 ANT_byrd_expedition_tt:0 "§YAdmiral Byrd and his crew will Explore American Territories in Antarctica§!"
+ANT_stranded_tt:0 "§RWith Our Home having Erupted in War, we have become Stranded here in Antarctica...§!"
+
+### Flags ###
+ANT_byrd_sane:0 "Nothing Out of the Ordinary"
+ANT_argartha_found:0 "§RAdmiral Byrd has Found Agartha§!"
 
 ### Events ###
 americanexpedition.1.t:0 "Strangers in a Strange Land"
 americanexpedition.1.d:0 ""
 americanexpedition.1.a:0 "God Bless America."
 
+americanexpedition.2.t:0 "Funding from Ford"
+americanexpedition.2.d:0 ""
+americanexpedition.2.a:0 "Wonderful."
+
+americanexpedition.3.t:0 "Alone."
+americanexpedition.3.d:0 ""
+americanexpedition.3.a:0 "Byrd is our only hope now!"
+
+americanexpedition.4.t:0 "The Admiral's Diary."
+americanexpedition.4.d:0 ""
+americanexpedition.4.a:0 "Its just the Polar Madness getting to him."
+americanexpedition.4.b:0 "Is there really more out there?"
+
+americanexpedition.5.t:0 "Strange Signals."
+americanexpedition.5.d:0 ""
+americanexpedition.5.a:0 "Nothing but an odd Practical Joke?"
+americanexpedition.5.b:0 "What are you seeing?"
+
+americanexpedition.6.t:0 "The Final Truth, Revealed."
+americanexpedition.6.d:0 ""
+americanexpedition.6.a:0 "Just ignore him and hope he gets better"
+americanexpedition.6.b:0 "It's... Real..."
+
+americanexpedition.7.t:0 "Agartha Found."
+americanexpedition.7.d:0 ""
+americanexpedition.7.a:0 "The Government kept me silent, but there is no Government anymore!"
+
+americanexpedition.8.t:0 "The Antarctic Expedition Contacts us."
+americanexpedition.8.d:0 ""
+americanexpedition.8.a:0 "Give them some Aid"
+americanexpedition.8.b:0 "We dont have the supplies"
+americanexpedition.8.c:0 "Offer them a way home!"
+
+americanexpedition.9.t:0 "America Sends us Supplies!"
+americanexpedition.9.d:0 ""
+americanexpedition.9.a:0 "Hoorah"
+
+americanexpedition.10.t:0 "America Sends us no Supplies..."
+americanexpedition.10.d:0 ""
+americanexpedition.10.a:0 "Damn..."
+
+americanexpedition.11.t:0 "America Evacuates us!"
+americanexpedition.11.d:0 ""
+americanexpedition.11.a:0 "Finally, we can escape this frozen hell..."
+americanexpedition.11.b:0 "No, Antarctica is our home now!"
 
 ### Focuses ###
 ANT_byrd_expedition:0 "Status of the Byrd Expedition"

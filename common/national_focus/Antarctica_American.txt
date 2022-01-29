@@ -50,8 +50,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_secure_backing"
+			country_event = {
+				id = americanexpedition.2
+				days = 2
+			}
+			add_timed_idea = {
+				idea = ANT_Funding
+				days = 300
+			}
 		}
 	}
 	
@@ -73,8 +80,18 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expand_little_america"
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+				}
+			}
+			swap_ideas = {
+				remove_idea = ANT_little_america_idea
+				add_idea = ANT_little_america_idea2
+			}
 		}
 	}
 	
@@ -102,8 +119,14 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_stranded_at_the_bottom_of_the_world"
+			custom_effect_tooltip = ANT_stranded_tt
+			hidden_effect = {
+				country_event = {
+					id = americanexpedition.3
+					days = 4
+				}
+			}
 		}
 	}
 	
@@ -128,8 +151,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_great_restructuring"
+			add_political_power = 100
+			add_stability = 0.05
 		}
 	}
 	
@@ -144,7 +168,7 @@ focus_tree = {
 			focus = ANT_great_restructuring
 		}
 		available = {
-			has_global_flag = USA_civil_war_begun_flag
+			has_country_flag = ANT_byrd_sane
 		}
 		mutually_exclusive = {
 			focus = ANT_reveal_the_truth
@@ -157,8 +181,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_home_away_from_home"
+			add_ideas = ANT_home_away_from_home
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	
@@ -173,7 +200,7 @@ focus_tree = {
 			focus = ANT_home_away_from_home
 		}
 		available = {
-			has_global_flag = USA_civil_war_begun_flag
+			has_country_flag = ANT_byrd_sane
 		}
 		
 		cost = 10
@@ -183,8 +210,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_american_ammenities"
+			swap_ideas = {
+				remove_idea = ANT_home_away_from_home
+				add_idea = ANT_home_away_from_home2
+			}
+			add_stability = 0.05
 		}
 	}
 	
@@ -199,7 +230,7 @@ focus_tree = {
 			focus = ANT_american_ammenities
 		}
 		available = {
-			has_global_flag = USA_civil_war_begun_flag
+			has_country_flag = ANT_byrd_sane
 		}
 		
 		cost = 10
@@ -209,8 +240,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_american_spirit"
+			swap_ideas = {
+				remove_idea = ANT_home_away_from_home2
+				add_idea = ANT_home_away_from_home3
+			}
 		}
 	}
 	
@@ -225,7 +259,7 @@ focus_tree = {
 			focus = ANT_american_spirit
 		}
 		available = {
-			has_global_flag = USA_civil_war_begun_flag
+			has_country_flag = ANT_byrd_sane
 		}
 		
 		cost = 10
@@ -235,8 +269,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_a_little_america"
+			swap_ideas = {
+				remove_idea = ANT_home_away_from_home3
+				add_idea = ANT_a_little_america
+			}
+			set_cosmetic_tag = AMT_LITTLE_AMERICA
 		}
 	}
 	
@@ -251,7 +289,7 @@ focus_tree = {
 			focus = ANT_great_restructuring
 		}
 		available = {
-			has_global_flag = USA_civil_war_begun_flag
+			has_country_flag = ANT_argartha_found
 		}
 		mutually_exclusive = {
 			focus = ANT_home_away_from_home
@@ -264,8 +302,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_reveal_the_truth"
+			add_ideas = ANT_truth1
+			add_stability = -0.05
 		}
 	}
 	
@@ -280,7 +319,7 @@ focus_tree = {
 			focus = ANT_reveal_the_truth
 		}
 		available = {
-			has_global_flag = USA_civil_war_begun_flag
+			has_country_flag = ANT_argartha_found
 		}
 		
 		cost = 10
@@ -290,8 +329,14 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_city_in_the_snow"
+			swap_ideas = {
+				remove_idea = ANT_truth1
+				add_idea = ANT_truth2
+			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	
@@ -306,7 +351,7 @@ focus_tree = {
 			focus = ANT_city_in_the_snow
 		}
 		available = {
-			has_global_flag = USA_civil_war_begun_flag
+			has_country_flag = ANT_argartha_found
 		}
 		
 		cost = 10
@@ -316,8 +361,18 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_strange_vessels"
+			swap_ideas = {
+				remove_idea = ANT_truth2
+				add_idea = ANT_truth3
+			}
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				bonus = 1
+				uses = 1
+				category = rocketry
+				category = jet_technology
+			}
 		}
 	}
 	
@@ -332,7 +387,7 @@ focus_tree = {
 			focus = ANT_strange_vessels
 		}
 		available = {
-			has_global_flag = USA_civil_war_begun_flag
+			has_country_flag = ANT_argartha_found
 		}
 		
 		cost = 10
@@ -342,8 +397,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_argartha_found"
+			swap_ideas = {
+				remove_idea = ANT_truth3
+				add_idea = ANT_truth4
+			}
+			set_cosmetic_tag = AMT_ARGARTHA
 		}
 	}
 	
@@ -368,8 +427,14 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_antarctic_admirality"
+			add_ideas = ANT_antarctic_admirality
+			add_doctrine_cost_reduction = {
+				name = naval_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
 		}
 	}
 	
@@ -394,8 +459,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_requisition_fleet"
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 134
+				producer = USA
+			}
 		}
 	}
 	
@@ -420,8 +489,22 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_harass_southern_shipping_lines"
+			random_owned_state = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			add_tech_bonus = {
+				name = FIN_protect_merchant_shipping
+				bonus = 1.0
+				ahead_reduction = 1
+				uses = 1
+				category = dd_tech
+			}
 		}
 	}
 	
@@ -446,8 +529,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_further_the_expeditions_reach"
+			every_owned_state = {
+				add_manpower = 100
+			}
 		}
 	}
 	
@@ -472,8 +557,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_antarctic_tourism"
+			add_ideas = ANT_antarctic_tourism
 		}
 	}
 	
@@ -498,8 +583,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_status_of_the_americans"
+			add_war_support = 0.05
+			add_command_power = 100
 		}
 	}
 	
@@ -527,8 +613,14 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_work_with_mac"
+			set_country_flag = AMT_USA
+			USA = {
+				country_event = {
+					id = americanexpedition.8
+					days = 5
+				}
+			}
 		}
 	}
 	
@@ -556,8 +648,14 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_old_friends_with_ford"
+			set_country_flag = AMT_COR
+			COR = {
+				country_event = {
+					id = americanexpedition.8
+					days = 5
+				}
+			}
 		}
 	}
 

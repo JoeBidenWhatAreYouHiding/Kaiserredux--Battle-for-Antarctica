@@ -338,12 +338,141 @@ ideas = {
 		
 		ANT_little_america_idea = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
-			picture = ANT_ahnenerbe_idea
+			picture = ANT_little_america_idea
 			modifier = {
-				custom_modifier_tooltip = ANT_expedition_tt
 				stability_factor = 0.05
 				MONTHLY_POPULATION = 0.04
 				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		
+		ANT_little_america_idea2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_little_america_idea
+			name = ANT_little_america_idea
+			modifier = {
+				stability_factor = 0.05
+				MONTHLY_POPULATION = 0.05
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+		
+		ANT_Funding = {
+			picture = atlanta_fire
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industry_repair_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		### Byrd Sane Path ###
+		ANT_home_away_from_home = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
+			picture = NFA_anti_communard
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.05
+			}
+		}
+		
+		ANT_home_away_from_home2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home2"}
+			picture = NFA_anti_communard
+			name = ANT_home_away_from_home
+			modifier = {
+				production_speed_buildings_factor = 0.08
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		ANT_home_away_from_home3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home3"}
+			picture = NFA_anti_communard
+			name = ANT_home_away_from_home
+			modifier = {
+				production_speed_buildings_factor = 0.08
+				research_speed_factor = 0.05
+				stability_factor = 0.08
+				war_support_factor = 0.05
+				army_morale_factor = 0.05
+			}
+		}
+		
+		ANT_a_little_america = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_a_little_america"}
+			picture = NFA_anti_communard
+			name = ANT_home_away_from_home
+			modifier = {
+				production_speed_buildings_factor = 0.08
+				research_speed_factor = 0.05
+				stability_factor = 0.08
+				war_support_factor = 0.08
+				army_morale_factor = 0.08
+				political_power_gain = 0.05
+			}
+		}
+		
+		ANT_antarctic_admirality = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_antarctic_admirality"}
+			picture = NFA_anti_communard
+			modifier = {
+				naval_doctrine_cost_factor = -0.1
+			}
+		}
+		
+		ANT_antarctic_tourism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_antarctic_tourism"}
+			modifier = {
+				research_speed_factor = 0.02
+				training_time_army_factor = -0.02
+				stability_factor = 0.02
+				consumer_goods_factor = -0.02
+			}
+			picture = received_attache
+		}
+		
+		### Agartha ###
+		ANT_truth1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
+			picture = NFA_anti_communard
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		
+		ANT_truth2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
+			picture = NFA_anti_communard
+			name = ANT_truth1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.05
+			}
+		}
+		
+		ANT_truth3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
+			picture = NFA_anti_communard
+			name = ANT_truth1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.08
+				war_support_factor = 0.05
+			}
+		}
+		
+		ANT_truth4 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
+			picture = NFA_anti_communard
+			name = ANT_truth1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.15
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.05
 			}
 		}
 	}
