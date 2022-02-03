@@ -26,3 +26,7 @@ NSW_paternal_autocrat_party:0 ""
 NSW_paternal_autocrat_party_long:0 ""
 NSW_national_populist_party:0 ""
 NSW_national_populist_party_long:0 ""
+
+### Ideas ###
+do_stuff_idea:0 "-"
+do_stuff_idea_desc:0 "Hi, if you are seeing this then you have found this nation on the map. Dont bother paying attention to me, im just here so things can function in the background"

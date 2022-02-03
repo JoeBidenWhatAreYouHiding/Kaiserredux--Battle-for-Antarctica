@@ -108,10 +108,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alfred Ritscher"
-	picture = "gfx/leaders/AAR/Portrait_ANT_Alfred_Ritscher.png"
+	name = "Ahnenerbe Society"
+	picture = "gfx/leaders/AAR/Portrait_ANT_Ahnenerbe_Society.png"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = occultism_subtype
 }
 
 ### Field Marshals ### 

@@ -159,7 +159,7 @@ create_country_leader = {
 	desc = "POLITICS_PENGUINS_DESC"
 	picture = "GFX_AAR_leader_animated"
 	expire = "1965.1.1"
-	ideology = anarchism_subtype
+	ideology = governmentlessness_subtype
 	traits = { AAR_neutral_zone }
 }
 

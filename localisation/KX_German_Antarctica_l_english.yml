@@ -28,8 +28,6 @@ NSL_national_populist_party:0 "Ahnenerbe Society"
 NSL_national_populist_party_long:0 "Ahnenerbe Society"
 
 ### Ideas ###
-do_stuff_idea:0 "-"
-do_stuff_idea_desc:0 "Hi, if you are seeing this then you have found this nation on the map. Dont bother paying attention to me, im just here so things can function in the background"
 
 ANT_expidition_idea:0 "The Third German Antarctic Expedition of 1936"
 ANT_expidition_idea_desc:0 "Led by famous polar explorer and captain of the Kriegsmarine Alfred Ritscher, the Neuschwabenland Expedition is the Kaiserreich’s third state-funded survey mission into the frozen wastes of Antarctica. Following the success and interest drummed up by the earlier Gauss Expedition of 1903 - which led to the creation of Kaiser Wilhelm II Land within the Antarctic landmass - this third foray into the ‘Bottom of the World’ is primarily concerned with scientific discovery, astronomy, meteorology, hydrology, and land surveying while seeking out new sources of natural minerals and whale oil. However, the expedition also has a secret mission given to Captain Ritscher by the Kaiser himself - to survey suitable locations to possibly establish a covert U-boat base, listening posts, and other military installations. Though this flies in the face of Antarctica neutrality, the ambitions of the Kaiserreich know no bounds."
@@ -41,7 +39,6 @@ ANT_german_support:0 "German Support"
 ANT_german_support_desc:0 ""
 
 ### Tooltips ###
-ANT_alone_tt:0 "§RIts Awful Quiet Down Here...§!"
 ANT_alone_2_tt:0 "§RNothing Here Besides Snow and Penguins, Right?§!"
 ANT_expedition_tt:0 "§YCaptain Ritscher and his crew will Explore German Territories in Antarctica§!"
 ANT_expedition_2_tt:0 "§YCaptain Ritscher and his crew will Continue to Explore German Territories in Antarctica, Surveying Resources, and Establishing Bases§!"
@@ -58,20 +55,20 @@ newswabia.2.a:0 "They are nothing but Crazed Lunatics, leave them be"
 newswabia.2.b:0 "Tell them to Go Home."
 
 newswabia.3.t:0 "The Whispers Grow Louder..."
-newswabia.3.d:0 ""
+newswabia.3.d:0 "The Continent we inhabit is as vast as it is unexplored, with only a fraction of the vast Antarctic tundra ever being seen by human eyes. With the Kaiserreich ever expanding into the Antarctic plains, the need for security on this white continent has become more and more pressing. While truly securing this continent is neigh impossible, the mysterious sightings and strange occurrences happening to our south has worried the Expedition high command enough to launch a formal investigation. All this despite the complaints from the Colonial Ministry, and concerns from level heads who caution us to not trespass in places where we aren't wanted. "
 newswabia.3.a:0 "Investigate them, The White Continent must be Secured for the Kaiserreich!"
-newswabia.3.b:0 "We best not poke around where we aren't wanted..."
+newswabia.3.b:0 "We best not poke around where we aren't wanted."
 
 newswabia.4.t:0 "The Expedition Dissapears!"
-newswabia.4.d:0 ""
+newswabia.4.d:0 "It appears that we were right to be concerned, the expedition sent to investigate mysterious sightings near the pole has completely disappeared! Our fragile position has been compromised even further by the troubling news of the expedition's disappearance. More and more men are fleeing, and even more are seemingly vanishing off the face of the earth, or even devolving into infighting and violence. Despite the chaos engulfing our frozen territories, Captain Ritscher is nowhere to be found..."
 newswabia.4.a:0 "Dear God..."
 
 newswabia.5.t:0 "The End of Neuschwabenland"
-newswabia.5.d:0 ""
+newswabia.5.d:0 "Its over. New Swabia is now almost completely abandoned by all human life, with the few remaining explorers and scientists fleeing to nearby Antarctic Claims, or hitching the nearest boat out of this frozen waste. The complete disappearance of Captain Ritscher and his crew has puzzled many, with people coming up with wild theories that the crew was abducted by extraterrestrials, killed by an army of exiled Bolsheviks, driven to madness by the endless snow, or that they ran out of supplies and were forced to cannibalize each other. Regardless of what happened to Ritscher's ill-fated crew, Berlin has refused to comment on the complete loss of New Swabia "
 newswabia.5.a:0 "Mankind wasn't meant to Control the Antarctic...."
 
 newswabia.6.t:0 "The Ahnenerbe Society Takes Charge"
-newswabia.6.d:0 ""
+newswabia.6.d:0 "In a baffling turn of events, Captain Ritscher's crew has never returned from their southern expedition. The complete disappearance of Captain Ritscher and his crew has puzzled many, with people coming up with wild theories that the crew was abducted by extraterrestrials, killed by an army of exiled Bolsheviks, driven to madness by the endless snow, or that they ran out of supplies and were forced to cannibalize each other. With Ritscher's and the Expedition's disappearance, the Ahnenerbe Society has taken charge of New Swabia. With few left in Germany's slice of the frozen continent left to protest, the Ahnenerbe Society is now in complete control of New Swabia. As of now nobody know what the secretive society plans to do with this frozen slab of ice"
 newswabia.6.a:0 "Hopefully they can Preserve whats left of Neuschwabenland..."
 
 ### Focuses ###
