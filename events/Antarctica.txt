@@ -81,7 +81,7 @@ country_event = { #RP Formalizes Claim
 						is_claimed_by = NOR
 					}
 				}
-				NSW = {
+				NSL = {
 					transfer_state = PREV
 				}
 			}
@@ -128,7 +128,7 @@ country_event = { #Entente Formalizes Claim
 				days = 11
 			}
 		}
-		NSW = {
+		NSL = {
 			change_tag_from = AAR
 		}
 	}
@@ -267,7 +267,7 @@ country_event = { #Intro
 	fire_only_once = yes
 	
 	trigger = {
-		tag = NSW
+		tag = NSL
 	}
 
 	option = {
@@ -289,7 +289,7 @@ country_event = { #Scizos
 
 	option = {
 		name = newswabia.2.a
-		set_country_flag = NSW_Ahnenerbe
+		set_country_flag = NSL_Ahnenerbe
 	}
 	option = {
 		name = newswabia.2.b
@@ -341,7 +341,7 @@ country_event = { #They gone bro
 		add_manpower = -200
 		if = {
 			limit = {
-				has_country_flag = NSW_Ahnenerbe
+				has_country_flag = NSL_Ahnenerbe
 			}
 			country_event = {	
 				id = newswabia.6
@@ -351,7 +351,7 @@ country_event = { #They gone bro
 		if = {
 			limit = {
 				NOT = {
-					has_country_flag = NSW_Ahnenerbe
+					has_country_flag = NSL_Ahnenerbe
 				}
 			}
 			country_event = {	
@@ -377,7 +377,7 @@ country_event = { #They gone bro
 		name = newswabia.5.a
 		AAR = {
 			annex_country = {
-				target = NSW
+				target = NSL
 				transfer_troops = no
 			}
 		}

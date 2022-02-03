@@ -1,0 +1,9 @@
+is_antarctic_tag = {
+	OR = {
+		tag = AAR
+		tag = AMT
+		tag = EAR
+		tag = NSL
+		tag = NSW
+	}
+}

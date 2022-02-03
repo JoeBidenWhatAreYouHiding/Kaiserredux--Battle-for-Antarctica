@@ -74,7 +74,7 @@ shared_focus = {
 			}
 			create_wargoal = {
 				type = annex_everything
-				target = NSW
+				target = NSL
 			}
 			create_wargoal = {
 				type = annex_everything
@@ -91,7 +91,7 @@ shared_focus = {
 			}
 			create_wargoal = {
 				type = annex_everything
-				target = NSW
+				target = NSL
 			}
 			create_wargoal = {
 				type = annex_everything
@@ -104,7 +104,7 @@ shared_focus = {
 		}
 		if = {
 			limit = {
-				tag = NSW
+				tag = NSL
 			}
 			create_wargoal = {
 				type = annex_everything
@@ -129,7 +129,7 @@ shared_focus = {
 			}
 			create_wargoal = {
 				type = annex_everything
-				target = NSW
+				target = NSL
 			}
 			create_wargoal = {
 				type = annex_everything

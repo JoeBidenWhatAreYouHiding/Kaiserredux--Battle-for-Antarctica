@@ -1,5 +1,5 @@
 setup_new_swabia = {
-	NSW = {
+	NSL = {
 		transfer_state = 1268
 		transfer_state = 1267
 		transfer_state = 1266

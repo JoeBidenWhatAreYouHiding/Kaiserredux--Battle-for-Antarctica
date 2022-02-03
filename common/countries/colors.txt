@@ -1171,7 +1171,11 @@ XNE = {
 	color = rgb { 122 4 4 }
 	color_ui = rgb { 122 4 4 }
 }
-NSW = {
+NSL = {
+	color = rgb { 58 125 206 }
+	color_ui = rgb { 58 125 206 }
+}
+NSL = {
 	color = rgb { 58 125 206 }
 	color_ui = rgb { 58 125 206 }
 }
