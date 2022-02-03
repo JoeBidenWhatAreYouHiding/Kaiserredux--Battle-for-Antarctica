@@ -1,4 +1,9 @@
 ideas = {
+
+	############################
+	######### AMT ##############
+	############################
+	
 	head_of_government = {
 		AMT_Richard_Evelyn_Byrd_hog_ade = {
 			allowed = { original_tag = AMT }
@@ -202,6 +207,215 @@ ideas = {
 			traits = {
 				chief_of_air_force
 				cair_naval_aviation_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	############################
+	######### EAR ##############
+	############################
+	head_of_government = {
+		EAR_Inter_Entente_Antarctic_Commission_hog_ade = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Inter_Entente_Antarctic_Commission_hog_ade" 
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+		}
+	}
+	person_of_influence = {
+	
+		### Foreign Minister ###
+		
+		EAR_Douglas_Mawson_for_ade = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Douglas_Mawson_for_ade" 
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_biased_intellectual
+			}
+		}
+		
+		### Economy Minister ###
+		
+		EAR_Brian_Birley_Roberts_eco_ade = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Brian_Birley_Roberts_eco_ade" 
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_administrative_genius
+			}
+		}
+	
+		### Security Minister ###
+
+		EAR_Vilhjalmur_Stefansson_sec_tot = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Vilhjalmur_Stefansson_sec_tot" 
+			}
+			traits = {
+				security_minister
+				totalist
+				sec_health_and_safety
+			}
+		}
+	}
+	chief_of_staff = {
+		EAR_Douglas_Mawson_cos_ade = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = EAR_Douglas_Mawson_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Douglas_Mawson_cos_ade" 
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = yes
+		}
+		EAR_Brian_Birley_Roberts_cos_tot = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = EAR_Brian_Birley_Roberts_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Brian_Birley_Roberts_cos_tot" 
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = yes
+		}
+		EAR_James_Marr_cos_ade = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = EAR_James_Marr_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_James_Marr_cos_ade" 
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_commando_operations
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_army = {
+		EAR_Douglas_Mawson_carm_ade = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = EAR_Douglas_Mawson_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Douglas_Mawson_carm_ade" 
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+		EAR_Vilhjalmur_Stefansson_carm_tot = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = EAR_Vilhjalmur_Stefansson_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Vilhjalmur_Stefansson_carm_tot" 
+			}
+			traits = {
+				chief_of_army
+				carm_doctrine_of_autonomy
+			}
+			cancel_if_invalid = yes
+		}
+		EAR_James_Marr_carm_ade = {
+			allowed = { original_tag = EAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = EAR_James_Marr_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_James_Marr_carm_ade" 
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
 			}
 			cancel_if_invalid = yes
 		}

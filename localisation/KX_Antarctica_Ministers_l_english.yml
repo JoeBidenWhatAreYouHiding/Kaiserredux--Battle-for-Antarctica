@@ -1,4 +1,9 @@
 l_english:
+
+################################################################################################################################################################################################
+### AMT
+################################################################################################################################################################################################
+
 ### head_of_government
 AMT_Richard_Evelyn_Byrd_hog_ade:0 "Richard Evelyn Byrd"
 ### foreign_minister
@@ -17,3 +22,26 @@ AMT_Richard_Evelyn_Byrd_cnav_ade:0 "Richard Evelyn Byrd"
 AMT_George_W_Gibbs_Jr_cnav_ade:0 "George W. Gibbs Jr."
 ### chief_of_air_force
 AMT_George_J_Dufek_cair_ade:0 "George J. Dufek"
+
+################################################################################################################################################################################################
+### EAR
+################################################################################################################################################################################################
+
+### head_of_government
+EAR_Inter_Entente_Antarctic_Commission_hog_ade:0 "Inter-Entente Antarctic Commission"
+### foreign_minister
+EAR_Douglas_Mawson_for_ade:0 "Douglas Mawson"
+### economy_minister
+EAR_Brian_Birley_Roberts_eco_ade:0 "Brian Birley Roberts"
+### security_minister
+EAR_Vilhjalmur_Stefansson_sec_ade:0 "Vilhjalmur Stefansson"
+### chief_of_staff
+EAR_Douglas_Mawson_cos_ade:0 "Douglas Mawson"
+EAR_Brian_Birley_Roberts_cos_tot:0 "Brian Birley Roberts"
+EAR_James_Marr_cos_ade:0 "James Marr"
+### chief_of_army
+EAR_Douglas_Mawson_carm_ade:0 "Douglas Mawson"
+EAR_Vilhjalmur_Stefansson_carm_ade:0 "Vilhjalmur Stefansson"
+EAR_James_Marr_carm_ade:0 "James Marr"
+### chief_of_navy
+### chief_of_air_force

@@ -98,6 +98,11 @@ add_ideas = {
 	ANT_largest_slice
 	ANT_undersupplied
 	ANT_alone_idea
+	### Ministers ###
+	EAR_Inter_Entente_Antarctic_Commission_hog_ade
+	EAR_Douglas_Mawson_for_ade
+	EAR_Brian_Birley_Roberts_eco_ade
+	EAR_Vilhjalmur_Stefansson_sec_ade
 }
 
 create_country_leader = {

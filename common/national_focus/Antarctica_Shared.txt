@@ -801,6 +801,7 @@ shared_focus = {
 					
 			}
 		}
+		set_country_flag = USES_MERCS
 	}
 }
 

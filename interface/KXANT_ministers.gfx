@@ -1,4 +1,9 @@
 spriteTypes = {
+
+  ################################################################################################################################################################################################
+  ### AMT
+  ################################################################################################################################################################################################
+
 ### Position.headOfGovernment
 	spriteType = {
 		name = "GFX_idea_AMT_Richard_Evelyn_Byrd_hog_ade"
@@ -48,5 +53,60 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_AMT_George_J_Dufek_cair_ade"
 		texturefile = "gfx/interface/ministers/AMT/AMT_George_J_Dufek.png"
+	}
+	
+  ################################################################################################################################################################################################
+  ### EAR
+  ################################################################################################################################################################################################
+
+	### Position.headOfGovernment
+	spriteType = {
+		name = "GFX_idea_EAR_Inter_Entente_Antarctic_Commission_hog_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_Inter_Entente_Antarctic_Commission.png"
+	}
+### Position.foreignMinister
+	spriteType = {
+		name = "GFX_idea_EAR_Douglas_Mawson_for_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_Douglas_Mawson.png"
+	}
+### Position.economyMinister
+	spriteType = {
+		name = "GFX_idea_EAR_Brian_Birley_Roberts_eco_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_Brian_Birley_Roberts.png"
+	}
+### Position.securityMinister
+	spriteType = {
+		name = "GFX_idea_EAR_Vilhjalmur_Stefansson_sec_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_Vilhjalmur_Stefansson.png"
+	}
+### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_EAR_Douglas_Mawson_cos_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_Douglas_Mawson.png"
+	}
+### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_EAR_Brian_Birley_Roberts_cos_tot"
+		texturefile = "gfx/interface/ministers/EAR/EAR_Brian_Birley_Roberts.png"
+	}
+### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_EAR_James_Marr_cos_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_James_Marr.png"
+	}
+### Position.chiefOfArmy
+	spriteType = {
+		name = "GFX_idea_EAR_Douglas_Mawson_carm_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_Douglas_Mawson.png"
+	}
+### Position.chiefOfArmy
+	spriteType = {
+		name = "GFX_idea_EAR_Vilhjalmur_Stefansson_carm_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_Vilhjalmur_Stefansson.png"
+	}
+### Position.chiefOfArmy
+	spriteType = {
+		name = "GFX_idea_EAR_James_Marr_carm_ade"
+		texturefile = "gfx/interface/ministers/EAR/EAR_James_Marr.png"
 	}
 }

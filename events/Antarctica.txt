@@ -686,6 +686,7 @@ country_event = { #A Way Home
 				has_country_flag = AMT_COR
 			}
 			COR = {
+				add_manpower = 500
 				change_tag_from = AMT
 				create_navy_leader = {
 					name = "Richard E. Byrd"
@@ -705,6 +706,7 @@ country_event = { #A Way Home
 				has_country_flag = AMT_USA
 			}
 			USA = {
+				add_manpower = 500
 				change_tag_from = AMT
 				create_navy_leader = {
 					name = "Richard E. Byrd"
