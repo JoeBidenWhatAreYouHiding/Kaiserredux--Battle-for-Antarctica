@@ -24,7 +24,9 @@ ideas = {
 		}
 	}
 	person_of_influence = {
+	
 		### Foreign Minister ###
+		
 		AMT_Richard_H_Cruzen_for_ade = {
 			allowed = { original_tag = AMT }
 			available = {
