@@ -20,6 +20,7 @@ setup_american_antarctica = {
 		transfer_state = 1251
 		transfer_state = 1234
 		transfer_state = 1282
+		transfer_state = 1223
 	}
 }
 

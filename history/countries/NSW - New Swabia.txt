@@ -74,7 +74,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = totalist
 	last_election = "1933.3.7"
 	election_frequency = 36
 	elections_allowed = no
