@@ -9,6 +9,7 @@ setup_new_swabia = {
 		transfer_state = 1244
 		transfer_state = 1224
 		transfer_state = 1227
+		load_oob = AAR_GER_OOB
 	}
 }
 
@@ -21,6 +22,7 @@ setup_american_antarctica = {
 		transfer_state = 1234
 		transfer_state = 1282
 		transfer_state = 1223
+		load_oob = AAR_USA_OOB
 	}
 }
 
@@ -42,6 +44,8 @@ setup_entente_antarctica = {
 		transfer_state = 1226
 		transfer_state = 1249
 		transfer_state = 1286
+		transfer_state = 1245
+		load_oob = AAR_ENT_OOB
 	}
 }
 

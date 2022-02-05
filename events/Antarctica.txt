@@ -106,7 +106,7 @@ country_event = { #Entente Formalizes Claim
 	
 	immediate = {
 		hidden_effect = {
-			setup_new_swabia = yes
+			setup_entente_antarctica = yes
 		}
 	}
 
@@ -128,7 +128,7 @@ country_event = { #Entente Formalizes Claim
 				days = 11
 			}
 		}
-		NSL = {
+		EAR = {
 			change_tag_from = AAR
 		}
 	}
@@ -199,6 +199,21 @@ country_event = { #End of Antartic Neutrality
 				set_demilitarized_zone = no
 			}
 		}
+		AMT = {
+			every_owned_state = {
+				set_demilitarized_zone = no
+			}
+		}
+		NSL = {
+			every_owned_state = {
+				set_demilitarized_zone = no
+			}
+		}
+		EAR = {
+			every_owned_state = {
+				set_demilitarized_zone = no
+			}
+		}
 	}
 }
 
@@ -252,6 +267,7 @@ country_event = { #Trotsky
 			popularity = 1
 		}
 		add_ideas = AAR_spread_revolution
+		load_oob = TROTSKY_OOB
 	}
 }
 
@@ -567,7 +583,7 @@ country_event = { #Agartha!
 
 	option = {
 		name = americanexpedition.7.a
-		set_country_flag = ANT_argartha_found
+		set_country_flag = ANT_argartha_found_flag
 	}
 }
 

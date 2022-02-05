@@ -1,0 +1,38 @@
+﻿division_template = {
+	name = "American Expedition Force"
+	division_names_group = USA_INF_01
+
+	regiments = {
+		antarctic_infantry = { x = 0 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st. American Expedition Force"
+		location = 15035
+		division_template = "American Expedition Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "2nd. American Expedition Force"
+		location = 15035
+		division_template = "American Expedition Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "3rd. American Expedition Force"
+		location = 15035
+		division_template = "American Expedition Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+

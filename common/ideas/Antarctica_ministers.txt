@@ -280,7 +280,7 @@ ideas = {
 	
 		### Security Minister ###
 
-		EAR_Vilhjalmur_Stefansson_sec_tot = {
+		EAR_Vilhjalmur_Stefansson_sec_ade = {
 			allowed = { original_tag = EAR }
 			available = {
 				custom_trigger_tooltip = {
@@ -289,11 +289,11 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea EAR_Vilhjalmur_Stefansson_sec_tot" 
+				log = "[GetDateText]: [Root.GetName]: add idea EAR_Vilhjalmur_Stefansson_sec_ade" 
 			}
 			traits = {
 				security_minister
-				totalist
+				authoritarian_democrat
 				sec_health_and_safety
 			}
 		}

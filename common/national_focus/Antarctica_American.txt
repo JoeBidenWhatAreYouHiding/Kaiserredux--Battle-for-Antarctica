@@ -18,7 +18,7 @@ focus_tree = {
 	focus = {
 		id = ANT_byrd_expedition
 		icon = GFX_goal_ANT_byrd_expedition
-		x = 0
+		x = 6
 		y = 0
 		cost = 10
 		available_if_capitulated = no
@@ -289,7 +289,7 @@ focus_tree = {
 			focus = ANT_great_restructuring
 		}
 		available = {
-			has_country_flag = ANT_argartha_found
+			has_country_flag = ANT_argartha_found_flag
 		}
 		mutually_exclusive = {
 			focus = ANT_home_away_from_home
@@ -319,7 +319,7 @@ focus_tree = {
 			focus = ANT_reveal_the_truth
 		}
 		available = {
-			has_country_flag = ANT_argartha_found
+			has_country_flag = ANT_argartha_found_flag
 		}
 		
 		cost = 10
@@ -351,7 +351,7 @@ focus_tree = {
 			focus = ANT_city_in_the_snow
 		}
 		available = {
-			has_country_flag = ANT_argartha_found
+			has_country_flag = ANT_argartha_found_flag
 		}
 		
 		cost = 10
@@ -387,7 +387,7 @@ focus_tree = {
 			focus = ANT_strange_vessels
 		}
 		available = {
-			has_country_flag = ANT_argartha_found
+			has_country_flag = ANT_argartha_found_flag
 		}
 		
 		cost = 10

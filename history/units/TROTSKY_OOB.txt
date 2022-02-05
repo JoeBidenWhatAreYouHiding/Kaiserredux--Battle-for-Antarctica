@@ -1,0 +1,188 @@
+﻿division_template = {
+	name = "Emperor Infantry"
+	division_names_group = ANT_INF_01
+
+	regiments = {
+		penguins = { x = 0 y = 0 }
+		penguins = { x = 0 y = 1 }
+		penguins = { x = 0 y = 2 }
+		penguins = { x = 1 y = 0 }
+		penguins = { x = 1 y = 1 }
+		penguins = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Chinstrap Infantry"
+	division_names_group = ANT_INF_01
+
+	regiments = {
+		penguins = { x = 0 y = 0 }
+		penguins = { x = 0 y = 1 }
+		penguins = { x = 0 y = 2 }
+		penguins = { x = 1 y = 0 }
+		penguins = { x = 1 y = 1 }
+		penguins = { x = 1 y = 2 }
+		penguins = { x = 2 y = 0 }
+		penguins = { x = 2 y = 1 }
+		penguins = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "King Garrison"
+	division_names_group = ANT_GAR_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Macaroni Militia"
+	division_names_group = ANT_MIL_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Rockhoppers"
+	division_names_group = ANT_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gentoo Marines"
+	division_names_group = ANT_MAR_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Adélie Marines"
+	division_names_group = ANT_MAR_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		penguins = { x = 1 y = 1 }
+		penguins = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 14200
+		division_template = "Emperor Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 14200
+		division_template = "Chinstrap Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 14348
+		division_template = "King Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 14296
+		division_template = "Macaroni Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 14296
+		division_template = "Rockhoppers"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14296
+		division_template = "Gentoo Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 14296
+		division_template = "Adélie Marines"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+air_wings = {
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.82
+		efficiency = 100
+	}
+}
