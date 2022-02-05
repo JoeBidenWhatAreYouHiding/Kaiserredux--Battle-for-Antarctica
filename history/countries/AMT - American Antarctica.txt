@@ -165,8 +165,8 @@ create_corps_commander = {
 
 ### Navy Leaders ###
 create_navy_leader = {
-	name = "Richard E. Byrd"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd.png"
+	name = "Richard E Byrd"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd_Admiral.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2

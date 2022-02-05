@@ -10,7 +10,7 @@ ideas = {
 				acclimatization_cold_climate_gain_factor = 0.2
 				production_speed_buildings_factor = -0.9
 				MONTHLY_POPULATION = -0.9
-				conscription_factor = -0.9
+				resistance_activity	= -1
 			}
 		}
 		
@@ -25,6 +25,7 @@ ideas = {
 				production_speed_buildings_factor = -0.8
 				MONTHLY_POPULATION = -0.8
 				conscription_factor = -0.8
+				resistance_activity	= -0.9
 			}
 		}
 		
@@ -38,7 +39,7 @@ ideas = {
 				acclimatization_cold_climate_gain_factor = 0.2
 				production_speed_buildings_factor = -0.7
 				MONTHLY_POPULATION = -0.7
-				conscription_factor = -0.7
+				resistance_activity	= -0.8
 			}
 		}
 		
@@ -52,7 +53,7 @@ ideas = {
 				acclimatization_cold_climate_gain_factor = 0.2
 				production_speed_buildings_factor = -0.6
 				MONTHLY_POPULATION = -0.6
-				conscription_factor = -0.6
+				resistance_activity	= -0.7
 			}
 		}
 		
@@ -66,7 +67,7 @@ ideas = {
 				acclimatization_cold_climate_gain_factor = 0.2
 				production_speed_buildings_factor = -0.5
 				MONTHLY_POPULATION = -0.5
-				conscription_factor = -0.5
+				resistance_activity	= -0.6
 			}
 		}
 		
@@ -80,7 +81,7 @@ ideas = {
 				acclimatization_cold_climate_gain_factor = 0.2
 				production_speed_buildings_factor = -0.4
 				MONTHLY_POPULATION = -0.4
-				conscription_factor = -0.4
+				resistance_activity	= -0.5
 			}
 		}
 		
@@ -484,7 +485,7 @@ ideas = {
 				justify_war_goal_time = 1
 				send_volunteers_tension = 1
 				generate_wargoal_tension = 1
-				production_speed_buildings_factor = -1
+				production_speed_buildings_factor = 1
 				training_time_factor = 1
 			}
 		}
