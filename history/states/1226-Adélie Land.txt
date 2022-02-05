@@ -1,7 +1,7 @@
 state={
 	id=1226
 	name="STATE_1226" # Adelei Land
-	manpower = 1
+	manpower = 10
 	
 	state_category = zero
 	

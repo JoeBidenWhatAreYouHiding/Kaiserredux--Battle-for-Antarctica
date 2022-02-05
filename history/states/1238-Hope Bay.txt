@@ -1,7 +1,7 @@
 state={
 	id=1238
 	name="STATE_1238" # Hope Bay
-	manpower = 1
+	manpower = 10
 	
 	state_category = zero
 

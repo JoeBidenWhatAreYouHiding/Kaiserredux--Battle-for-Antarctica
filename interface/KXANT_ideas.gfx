@@ -22,5 +22,30 @@ spriteTypes = {
 		name = "GFX_idea_ANT_ahnenerbe_idea"
 		texturefile = "gfx/interface/ideas/ANT/ANT_ahnenerbe_idea.png"
 	}
-
+	
+	### Laws ###
+	spriteType = {
+		name = "GFX_idea_no_military"
+		texturefile = "gfx/interface/ideas/ANT/no_military_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_battle_for_survival"
+		texturefile = "gfx/interface/ideas/ANT/battle_for_survival_idea.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_no_trade"
+		texturefile = "gfx/interface/ideas/ANT/no_trade_idea.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_antarctic_economy"
+		texturefile = "gfx/interface/ideas/ANT/antarctic_economy_idea.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_no_economy"
+		texturefile = "gfx/interface/ideas/ANT/no_economy_idea.png"
+	}
+	
 }

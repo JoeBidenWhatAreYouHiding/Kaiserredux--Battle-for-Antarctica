@@ -94,7 +94,11 @@ set_popularities = {
 }
 
 add_ideas = {
-	do_stuff_idea
+	### Laws ###
+	antarctic_economy
+	no_trade
+	battle_for_survival
+	### Spirits
 	ANT_byrd_expedition_idea
 	ANT_alone_idea
 	ANT_little_america_idea

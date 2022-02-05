@@ -45,3 +45,20 @@ EAR_Vilhjalmur_Stefansson_carm_ade:0 "Vilhjalmur Stefansson"
 EAR_James_Marr_carm_ade:0 "James Marr"
 ### chief_of_navy
 ### chief_of_air_force
+
+################################################################################################################################################################################################
+### AAR
+################################################################################################################################################################################################
+
+### head_of_government
+AAR_Blank_hog_rso:0 ""
+### foreign_minister
+AAR_Blank_for_rso:0 ""
+### economy_minister
+AAR_Blank_eco_rso:0 ""
+### security_minister
+AAR_Blank_sec_rso:0 ""
+### chief_of_staff
+### chief_of_army
+### chief_of_navy
+### chief_of_air_force

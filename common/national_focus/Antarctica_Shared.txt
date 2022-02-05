@@ -60,6 +60,9 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = ANT_Peaceful_Coexistance
 	}
+	available = {
+		date >1937.10.10
+	}
 	cost = 7
 
 	ai_will_do = {
@@ -151,6 +154,9 @@ shared_focus = {
 	}
 	mutually_exclusive = {
 		focus = ANT_Our_Continent
+	}
+	available = {
+		date >1937.10.10
 	}
 	cost = 7
 
@@ -321,7 +327,7 @@ shared_focus = {
 	relative_position_id = ANT_Frozen_Wasteland
 	
 	prerequisite = {
-		focus = ANT_Research_Stations
+		focus = ANT_Mineral_Exploration
 	}
 	prerequisite = {
 		focus = ANT_Whale_Oil
@@ -355,7 +361,7 @@ shared_focus = {
 	relative_position_id = ANT_Frozen_Wasteland
 	
 	prerequisite = {
-		focus = ANT_Research_Stations
+		focus = ANT_Mineral_Exploration
 	}
 	prerequisite = {
 		focus = ANT_Whale_Oil

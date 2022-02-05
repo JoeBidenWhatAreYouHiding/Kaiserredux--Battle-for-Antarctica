@@ -6,7 +6,26 @@ AAR_NOBODY_ADJ:0 ""
 AAR_NOBODY_DEF:0 ""
 
 #### Parties ###
+AAR_totalist_party:0 ""
+AAR_totalist_party_long:0 ""
+AAR_syndicalist_party:0 ""
+AAR_syndicalist_party_long:0 ""
 AAR_radical_socialist_party:0 ""
+AAR_radical_socialist_party_long:0 ""
+AAR_social_democrat_party:0 ""
+AAR_social_democrat_party_long:0 ""
+AAR_social_liberal_party:0 ""
+AAR_social_liberal_party_long:0 ""
+AAR_market_liberal_party:0 ""
+AAR_market_liberal_party_long:0 ""
+AAR_social_conservative_party:0 ""
+AAR_social_conservative_party_long:0 ""
+AAR_authoritarian_democrat_party:0 ""
+AAR_authoritarian_democrat_party_long:0 ""
+AAR_paternal_autocrat_party:0 ""
+AAR_paternal_autocrat_party_long:0 ""
+AAR_national_populist_party:0 ""
+AAR_national_populist_party_long:0 ""
 
 ### Traits ###
 AAR_neutral_zone:0 "International Neutral Zone"
@@ -25,6 +44,17 @@ ANT_alone_idea:0 "’Alone’ at the Bottom of the World"
 ANT_alone_idea_desc:0 "Out here in the windswept tundras and blistering icefields of Antarctica, little can survive. However, despite first appearances and common conceptions, it would seem that we are not alone in this frozen hell. From the uncharacteristically organized penguin colonies that seem to waddle with purpose at the behest of some unknown force or figure to the reported sightings of large beasts or wandering spectres seemingly from other worlds, this continent is the last true untainted and unmolested wilderness on Earth, and out here, Man is far from being the master."
 
 ANT_shitty_guns:0 "Unreliable Weaponry"
+
+### Laws ###
+no_economy:0 "Nonexistent Economy"
+antarctic_economy:0 "Antarctic 'Economy'"
+
+no_trade:0 "Complete Isolation"
+no_trade_desc:0 ""
+
+no_military:0 "No Military"
+no_military_desc:0 ""
+battle_for_survival:0 "Battle for Survival"
 
 ### Focuses ###
 ANT_Frozen_Wasteland:0 "Surviving in a Frozen Wasteland"

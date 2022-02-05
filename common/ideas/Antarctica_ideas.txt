@@ -490,4 +490,166 @@ ideas = {
 			}
 		}
 	}
+	KR_economy = {
+		law = yes
+		use_list_view = yes
+
+		no_economy = {
+			level = 9
+			allowed = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea antarctic_economy" }
+			
+			allowed = {
+				always = no
+			}
+			
+			visible = {
+				is_antarctic_tag = yes
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = -1
+				production_speed_infrastructure_factor = -1
+				production_speed_industrial_complex_factor = -1
+				consumer_goods_factor = 1
+			}
+
+			allowed_to_remove = {
+				has_completed_focus = ANT_New_Economy
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		antarctic_economy = {
+			level = 8
+			allowed = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea antarctic_economy" }
+			
+			allowed = {
+				always = no
+			}
+			
+			visible = {
+				is_antarctic_tag = yes
+			}
+
+			modifier = {
+				unit_limit_factory_bonus = -0.50
+				unit_limit_max = 50
+				consumer_goods_factor = 0.50
+				generate_wargoal_tension = 1.00
+				lend_lease_tension = 1.00
+				guarantee_tension = 0.75
+				max_fuel_factor = -0.45
+				fuel_gain_factor = -0.6
+				agency_upgrade_time = 1.0
+			}
+
+			allowed_to_remove = {
+				has_completed_focus = ANT_New_Economy
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	KR_trade_laws = {
+		law = yes
+		use_list_view = yes
+		
+		no_trade = {
+			level = 8
+			cost = 100
+			
+			allowed = {
+				always = no
+			}
+			
+			visible = {
+				is_antarctic_tag = yes
+			}
+
+			on_add = {
+				log = "[GetDateText] [Root.GetName]: add idea closed_economy"
+				custom_effect_tooltip = closed_economy_TT
+			}
+
+			removal_cost = -1
+
+			cancel_if_invalid = no
+			available = {
+				always = no
+			}
+
+			allowed_to_remove = {
+				has_completed_focus = ANT_New_Economy
+			}
+
+			modifier = {
+				min_export = 0
+			}
+		}
+	}
+	
+	KR_mobilization_laws = {
+		law = yes
+		use_list_view = yes
+
+		no_military = {
+			level = 9
+			cost = 100
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			
+			visible = {
+				is_antarctic_tag = yes
+			}
+
+			cancel_if_invalid = no
+
+			modifier = {
+				conscription = -1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		
+		battle_for_survival = {
+			level = 8
+			cost = 100
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			visible = {
+				is_antarctic_tag = yes
+			}
+
+			cancel_if_invalid = no
+
+			modifier = {
+				conscription = 1
+				winter_attrition_factor = -0.10
+				acclimatization_cold_climate_gain_factor = 0.10
+			}
+			
+			allowed_to_remove = {
+				has_completed_focus = ANT_Battle_for_Survival
+			}
+		}
+	}
 }

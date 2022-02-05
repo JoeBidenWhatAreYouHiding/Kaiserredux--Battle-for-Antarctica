@@ -1,7 +1,7 @@
 state={
 	id=1237
 	name="STATE_1237" # Deception Island
-	manpower = 1
+	manpower = 10
 	
 	state_category = zero
 

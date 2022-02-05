@@ -1,7 +1,7 @@
 state={
 	id=1233
 	name="STATE_1233" # New Swabia
-	manpower = 1
+	manpower = 10
 	
 	state_category = zero
 	

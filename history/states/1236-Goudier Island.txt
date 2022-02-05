@@ -1,7 +1,7 @@
 state={
 	id=1236
 	name="STATE_1236" # Goudier Island
-	manpower = 1
+	manpower = 10
 	
 	state_category = zero
 

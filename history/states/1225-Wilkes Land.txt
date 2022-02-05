@@ -1,7 +1,7 @@
 state={
 	id=1225
 	name="STATE_1225" # Wilkes Land
-	manpower = 1
+	manpower = 10
 	
 	state_category = zero
 	

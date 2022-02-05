@@ -3,7 +3,8 @@
 ### Tooltips ###
 ANT_trotsky_tooltip:0 "§RWARNING: This will open up Meme Mode. Be Warned, the stuff in here is 1000% more wacky then anything else in Kasierredux.§!"
 #### Parties ###
-AAR_totalist_party:0 "Bolshevik Exiles"
+AAR_trotsky_totalist_party:0 "Bolshevik Exiles"
+AAR_trotsky_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov"
 
 ### Ideas ###
 AAR_spread_revolution:0 "Spreading the Revolution"
@@ -27,6 +28,6 @@ antcommune.4.t:0 "The Revolution From The South"
 antcommune.4.d:0 "Glorious Secretary General Trotsky's invasion was a success! The capitalist pigs and traitors of the revolution shall fear the mighty armies of the great Antarctic Commune!"
 antcommune.4.a:0 "We must stop this madness!"
 
-antarcticcommune.1.1.t:0 "The Pale Horse"
-antarcticcommune.1.1.d:0 "And I looked, and behold, a pale horse! And its rider’s name was Trotsky, and an army of penguins followed him. And they were given authority over a fourth of the earth, to kill with sword and with famine and with pestilence and by wild penguins of the earth"
-antarcticcommune.1.1.a:0 "...What have I done!?"
+antarcticcommune.1.t:0 "The Pale Horse"
+antarcticcommune.1.d:0 "And I looked, and behold, a pale horse! And its rider’s name was Trotsky, and an army of penguins followed him. And they were given authority over a fourth of the earth, to kill with sword and with famine and with pestilence and by wild penguins of the earth"
+antarcticcommune.1.a:0 "...What have I done!?"

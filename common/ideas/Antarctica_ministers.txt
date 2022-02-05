@@ -422,4 +422,82 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
+	
+	############################
+	######### AAR ##############
+	############################
+	
+	head_of_government = {
+		AAR_Blank_hog_rso = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Blank_hog_rso" 
+			}
+			traits = {
+				
+			}
+		}
+	}
+	person_of_influence = {
+		
+		### Foreign Minister ###
+	
+		AAR_Blank_for_rso = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Blank_for_rso" 
+			}
+			traits = {
+				
+			}
+		}
+		
+		### Economy Minister ###
+		
+		AAR_Blank_eco_rso = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Blank_eco_rso" 
+			}
+			traits = {
+				
+			}
+		}
+		
+		### Security Minister ###
+		
+		AAR_Blank_sec_rso = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Blank_sec_rso" 
+			}
+			traits = {
+				
+			}
+		}
+	}
 }

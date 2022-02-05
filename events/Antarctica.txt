@@ -257,17 +257,7 @@ country_event = { #Trotsky
 
 	option = {
 		name = antarcticcommune.1.a
-		set_politics = {
-			ruling_party = totalist
-			elections_allowed = no
-		}
-		drop_cosmetic_tag = yes
-		add_popularity = {
-			ideology = totalist
-			popularity = 1
-		}
-		add_ideas = AAR_spread_revolution
-		load_oob = TROTSKY_OOB
+		AAR_setup_trotsky = yes
 	}
 }
 
@@ -401,10 +391,10 @@ country_event = { #They gone bro
 }
 
 country_event = { #They gone bro
-	id = newswabia.5
-	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.5"}
-	title = newswabia.5.t
-	desc = newswabia.5.d
+	id = newswabia.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.6"}
+	title = newswabia.6.t
+	desc = newswabia.6.d
 	picture = GFX_report_event_ANT_trotsky
 
 	fire_only_once = yes
@@ -412,7 +402,7 @@ country_event = { #They gone bro
 	is_triggered_only = yes
 
 	option = {
-		name = newswabia.5.a
+		name = newswabia.6.a
 		set_politics = {
 			ruling_party = national_populist
 			elections_allowed = no

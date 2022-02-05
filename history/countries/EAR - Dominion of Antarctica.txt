@@ -93,8 +93,12 @@ set_popularities = {
 	national_populist = 0
 }
 
-add_ideas = {
-	do_stuff_idea
+add_ideas = {	
+	### Laws ###
+	antarctic_economy
+	no_trade
+	battle_for_survival
+	### Spirits
 	ANT_largest_slice
 	ANT_undersupplied
 	ANT_alone_idea

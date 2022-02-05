@@ -109,4 +109,29 @@ spriteTypes = {
 		name = "GFX_idea_EAR_James_Marr_carm_ade"
 		texturefile = "gfx/interface/ministers/EAR/EAR_James_Marr.png"
 	}
+	
+  ################################################################################################################################################################################################
+  ### AAR
+  ################################################################################################################################################################################################
+	
+	### Position.headOfGovernment
+	spriteType = {
+		name = "GFX_idea_AAR_Blank_hog_rso"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Blank.png"
+	}
+### Position.foreignMinister
+	spriteType = {
+		name = "GFX_idea_AAR_Blank_for_rso"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Blank.png"
+	}
+### Position.economyMinister
+	spriteType = {
+		name = "GFX_idea_AAR_Blank_eco_rso"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Blank.png"
+	}
+### Position.securityMinister
+	spriteType = {
+		name = "GFX_idea_AAR_Blank_sec_rso"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Blank.png"
+	}
 }

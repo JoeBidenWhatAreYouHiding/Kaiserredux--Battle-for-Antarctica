@@ -5,7 +5,7 @@ state={
 		15059 15061 15104 15106 15107 15154 15161 15184
 
 	}
-	manpower = 1
+	manpower = 10
 
 	state_category = one
 
