@@ -1,7 +1,10 @@
 ﻿l_english:
 
 ### Tooltips ###
-ANT_trotsky_tooltip:0 "§RWARNING: This will open up Meme Mode. Be Warned, the stuff in here is 1000% more wacky then anything else in Kasierredux.§!"
+
+ANT_trotsky_return_tt:0 "§RThe Long-Missing leader of the old Bolshevik Revolution has returned to Liberate Antarctica...§!"
+AAR_revolution_begin_tt:0 "§RThe World Revolution will Begin...§!"
+
 #### Parties ###
 AAR_trotsky_totalist_party:0 "Bolshevik Exiles"
 AAR_trotsky_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov"
@@ -9,6 +12,42 @@ AAR_trotsky_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov"
 ### Ideas ###
 AAR_spread_revolution:0 "Spreading the Revolution"
 
+ANT_reveal_ourselves_to_the_world_idea:0 "Southern Vanguard"
+
+### Leader Traits ###
+AAR_permanent_revolutionary:0 "Permanent Revolutionary"
+
+### Focuses ###
+ANT_the_revolution_never_ended:0 "The Revolution Never Ended!"
+ANT_the_revolution_never_ended_desc:0 ""
+ANT_revenge_revenge_revenge:0 "Heralds of Revenge"
+ANT_revenge_revenge_revenge_desc:0 ""
+ANT_glorious_liberation:0 "Glorious Liberation"
+ANT_glorious_liberation_desc:0 ""
+ANT_reveal_ourselves_to_the_world:0 "Reveal Ourselves to the World"
+ANT_reveal_ourselves_to_the_world_desc:0 ""
+ANT_denounce_the_false_socialists:0 "Denounce the False Reds"
+ANT_denounce_the_false_socialists_desc:0 ""
+ANT_penguin_cavalry:0 "Tame Antarctic Wildlife"
+ANT_penguin_cavalry_desc:0 ""
+ANT_penguin_proletariat:0 "A Clean Societal Slate"
+ANT_penguin_proletariat_desc:0 ""
+ANT_antartic_liberation:0 "Liberate the Frozen Tundra"
+ANT_antartic_liberation_desc:0 ""
+ANT_land_free_of_imperialism:0 "The Last Slice of Imperialist-Free Earth"
+ANT_land_free_of_imperialism_desc:0 ""
+ANT_fourth_internationale:0 "The Fourth International"
+ANT_fourth_internationale_desc:0 ""
+ANT_eternal_antarctic_revolution:0 "Eternal Ice-Cold Revolution"
+ANT_eternal_antarctic_revolution_desc:0 ""
+ANT_general_secretary_trotsky:0 "Antarctic General Secretary Trotsky"
+ANT_general_secretary_trotsky_desc:0 ""
+ANT_gather_supplies:0 "Prepare for the World Revolution"
+ANT_gather_supplies_desc:0 ""
+ANT_cultivate_legends:0 "Cultivate Myths and Legends"
+ANT_cultivate_legends_desc:0 ""
+ANT_revolution_from_the_south:0 "The Revolution from the South"
+ANT_revolution_from_the_south_desc:0 ""
 
 ### Events ### 
 

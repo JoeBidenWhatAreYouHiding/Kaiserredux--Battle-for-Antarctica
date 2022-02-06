@@ -51,14 +51,28 @@ EAR_James_Marr_carm_ade:0 "James Marr"
 ################################################################################################################################################################################################
 
 ### head_of_government
+AAR_Leon_Trotsky_hog_tot:0 "Leon Trotsky"
 AAR_Blank_hog_rso:0 ""
 ### foreign_minister
+AAR_Dmitry_Karbyshev_for_tot:0 "Dmitry Karbyshev"
 AAR_Blank_for_rso:0 ""
 ### economy_minister
+AAR_Ivan_Konev_eco_tot:0 "Ivan Konev"
 AAR_Blank_eco_rso:0 ""
 ### security_minister
+AAR_Juan_Posadas_sec_tot:0 "Juan Posadas"
 AAR_Blank_sec_rso:0 ""
 ### chief_of_staff
+AAR_Demilitarized_cos_rso:0 "Demilitarized"
+AAR_Leon_Trotsky_cos_tot:0 "Leon Trotsky"
+AAR_Ivan_Konev_cos_tot:0 "Ivan Konev"
 ### chief_of_army
+AAR_Demilitarized_carm_rso:0 "Demilitarized"
+AAR_Leon_Trotsky_carm_tot:0 "Leon Trotsky"
+AAR_Dmitry_Karbyshev_carm_tot:0 "Dmitry Karbyshev"
 ### chief_of_navy
+AAR_Demilitarized_cnav_rso:0 "Demilitarized"
+AAR_Antarctic_Forces_cnav_tot:0 "Antarctic Forces"
 ### chief_of_air_force
+AAR_Demilitarized_cair_rso:0 "Demilitarized"
+AAR_Antarctic_Forces_cair_tot:0 "Antarctic Forces"

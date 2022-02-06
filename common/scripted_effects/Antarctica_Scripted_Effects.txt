@@ -72,6 +72,26 @@ AAR_setup_trotsky = {
 			long_name = AAR_trotsky_totalist_party_long
 			ideology = totalist
 		}
+		
+		set_country_flag = AAR_Demilitarized_dead
+		clr_country_flag = AAR_Ivan_Konev_dead
+		clr_country_flag = AAR_Leon_Trotsky_dead
+		clr_country_flag = AAR_Dmitry_Karbyshev_dead
+		clr_country_flag = AAR_Antarctic_Forces_dead
+		
+		remove_ideas = {
+			AAR_Blank_hog_rso
+			AAR_Blank_for_rso
+			AAR_Blank_eco_rso
+			AAR_Blank_sec_rso
+		}
+		add_ideas = {
+			AAR_Leon_Trotsky_hog_tot
+			AAR_Dmitry_Karbyshev_for_tot
+			AAR_Ivan_Konev_eco_tot
+			AAR_Juan_Posadas_sec_tot
+		}
+		
 		add_ideas = AAR_spread_revolution
 		add_ideas = antarctic_economy
 		add_ideas = battle_for_survival

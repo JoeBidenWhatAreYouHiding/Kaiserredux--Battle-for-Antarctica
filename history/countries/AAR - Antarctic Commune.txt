@@ -156,6 +156,11 @@ every_owned_state = {
 	set_demilitarized_zone = yes
 }
 
+set_country_flag = AAR_Ivan_Konev_dead
+set_country_flag = AAR_Leon_Trotsky_dead
+set_country_flag = AAR_Dmitry_Karbyshev_dead
+set_country_flag = AAR_Antarctic_Forces_dead
+
 set_cosmetic_tag = AAR_NOBODY
 
 create_country_leader = {

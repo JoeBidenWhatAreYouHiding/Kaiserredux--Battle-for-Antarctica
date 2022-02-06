@@ -15,4 +15,16 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	AAR_permanent_revolutionary = {
+		random = no
+		political_power_factor = -0.15
+		justify_war_goal_time = 0.15
+		subversive_activites_upkeep = -0.3
+		max_command_power = 30
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

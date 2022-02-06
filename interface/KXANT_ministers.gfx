@@ -134,4 +134,74 @@ spriteTypes = {
 		name = "GFX_idea_AAR_Blank_sec_rso"
 		texturefile = "gfx/interface/ministers/AAR/AAR_Blank.png"
 	}
+	### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_AAR_Demilitarized_cos_rso"
+		texturefile = "gfx/interface/ideas/ANT/demilitarized_idea.png"
+	}
+### Position.chiefOfArmy
+	spriteType = {
+		name = "GFX_idea_AAR_Demilitarized_carm_rso"
+		texturefile = "gfx/interface/ideas/ANT/demilitarized_idea.png"
+	}
+### Position.chiefOfNavy
+	spriteType = {
+		name = "GFX_idea_AAR_Demilitarized_cnav_rso"
+		texturefile = "gfx/interface/ideas/ANT/demilitarized_idea.png"
+	}
+### Position.chiefOfAirForce
+	spriteType = {
+		name = "GFX_idea_AAR_Demilitarized_cair_rso"
+		texturefile = "gfx/interface/ideas/ANT/demilitarized_idea.png"
+	}
+	### Position.headOfGovernment
+	spriteType = {
+		name = "GFX_idea_AAR_Leon_Trotsky_hog_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Leon_Trotsky.png"
+	}
+### Position.foreignMinister
+	spriteType = {
+		name = "GFX_idea_AAR_Dmitry_Karbyshev_for_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Dmitry_Karbyshev.png"
+	}
+### Position.economyMinister
+	spriteType = {
+		name = "GFX_idea_AAR_Ivan_Konev_eco_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Ivan_Konev.png"
+	}
+### Position.securityMinister
+	spriteType = {
+		name = "GFX_idea_AAR_Juan_Posadas_sec_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Juan_Posadas.png"
+	}
+### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_AAR_Leon_Trotsky_cos_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Leon_Trotsky.png"
+	}
+### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_AAR_Ivan_Konev_cos_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Ivan_Konev.png"
+	}
+### Position.chiefOfArmy
+	spriteType = {
+		name = "GFX_idea_AAR_Leon_Trotsky_carm_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Leon_Trotsky.png"
+	}
+### Position.chiefOfArmy
+	spriteType = {
+		name = "GFX_idea_AAR_Dmitry_Karbyshev_carm_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Dmitry_Karbyshev.png"
+	}
+	### Position.chiefOfNavy
+	spriteType = {
+		name = "GFX_idea_AAR_Antarctic_Forces_cnav_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Antarctic_Forces.png"
+	}
+### Position.chiefOfAirForce
+	spriteType = {
+		name = "GFX_idea_AAR_Antarctic_Forces_cair_tot"
+		texturefile = "gfx/interface/ministers/AAR/AAR_Antarctic_Forces.png"
+	}
 }

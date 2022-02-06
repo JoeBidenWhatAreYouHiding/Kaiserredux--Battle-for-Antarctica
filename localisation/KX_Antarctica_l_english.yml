@@ -36,6 +36,8 @@ ANT_fail_tt:0 "We Have Failed to Scavenge Arms"
 ANT_alone_tt:0 "§RIts Awful Quiet Down Here...§!"
 
 ### Decisions ###
+ANT_arms_raiding:0 "Getting Guns"
+
 ANT_scavenge_arms:0 "Scavenging Arms"
 ANT_scavenge_arms_desc:0 ""
 

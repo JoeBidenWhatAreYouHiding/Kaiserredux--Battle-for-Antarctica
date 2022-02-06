@@ -3,4 +3,8 @@ SpriteTypes = {
 		name = "GFX_goal_ANT_byrd_expedition"
 		texturefile = "gfx/interface/goals/goal_ANT_byrd_expedition.png"
 	}
+	spriteType = {
+		name = "GFX_goal_ANT_trotsky_return"
+		texturefile = "gfx/interface/goals/goal_ANT_trotsky_return.png"
+	}
 }

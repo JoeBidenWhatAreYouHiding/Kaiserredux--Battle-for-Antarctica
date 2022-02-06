@@ -1,0 +1,403 @@
+
+focus_tree = {
+	id = KX_Antarctica_Trotsky
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AAR
+		}
+	}
+	default = no
+	
+	shared_focus = ANT_Frozen_Wasteland
+	shared_focus = ANT_Battle_for_Antarctica
+	shared_focus = ANT_Hire_Mercs
+
+	focus = {
+		id = ANT_the_revolution_never_ended
+		icon = goal_ANT_trotsky_return
+		x = 5
+		y = 0
+		available = {
+			has_government = totalist
+		}
+		bypass = {
+			has_government = totalist
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_the_revolution_never_ended"
+			custom_effect_tooltip = ANT_trotsky_return_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_revenge_revenge_revenge
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = -1
+		y = 1
+		available = {
+			has_government = totalist
+		}
+		prerequisite = {
+			focus = ANT_the_revolution_never_ended
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_revenge_revenge_revenge"
+			add_command_power = 100
+			army_experience = 100
+		}
+	}
+
+	focus = {
+		id = ANT_glorious_liberation
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = ANT_the_revolution_never_ended
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_glorious_liberation"
+			add_ideas = ANT_glorious_liberation
+			create_wargoal = {
+				type = annex_everything
+				target = NSL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = EAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AMT
+			}
+		}
+	}
+
+	focus = {
+		id = ANT_reveal_ourselves_to_the_world
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = -2
+		y = 2
+		prerequisite = {
+			focus = ANT_glorious_liberation
+		}
+		prerequisite = {
+			focus = ANT_revenge_revenge_revenge
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			add_ideas = ANT_reveal_ourselves_to_the_world_idea
+			create_intelligence_agency = yes
+		}
+	}
+
+	focus = {
+		id = ANT_denounce_the_false_socialists
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = ANT_reveal_ourselves_to_the_world
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			swap_ideas = {
+				remove_idea = ANT_reveal_ourselves_to_the_world_idea
+				add_idea = ANT_reveal_ourselves_to_the_world_idea2
+			}
+			add_opinion_modifier = {
+				target = INT
+				modifier = KR_hates_govt
+			}
+		}
+	}
+	
+	focus = {
+		id = ANT_penguin_cavalry
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ANT_glorious_liberation
+		}
+		prerequisite = {
+			focus = ANT_revenge_revenge_revenge
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_penguin_cavalry"
+			custom_effect_tooltip = ANT_gain_7_divisions_tt
+			hidden_effect = {
+				load_oob = TROTSKY_PENGUINS_OOB
+			}
+		}
+	}
+
+	focus = {
+		id = ANT_penguin_proletariat
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = ANT_penguin_cavalry
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_penguin_proletariat"
+			add_ideas = ANT_penguin_proletariat
+		}
+	}
+	
+	focus = {
+		id = ANT_antartic_liberation
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = ANT_glorious_liberation
+		}
+		prerequisite = {
+			focus = ANT_revenge_revenge_revenge
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_antartic_liberation"
+			swap_ideas = {
+				remove_idea = ANT_glorious_liberation
+				add_idea = ANT_glorious_liberation2
+			}
+			add_war_support = 0.05
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = ANT_land_free_of_imperialism
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = ANT_antartic_liberation
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_land_free_of_imperialism"
+			swap_ideas = {
+				remove_idea = ANT_glorious_liberation2
+				add_idea = ANT_glorious_liberation3
+			}
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ANT_fourth_internationale
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = -2
+		y = 4
+		prerequisite = {
+			focus = ANT_land_free_of_imperialism
+		}
+		prerequisite = {
+			focus = ANT_penguin_proletariat
+		}
+		prerequisite = {
+			focus = ANT_denounce_the_false_socialists
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_fourth_internationale"
+			add_ideas = ANT_fourth_internationale
+			create_faction = "Fourth Internationale"
+		}
+	}
+	
+	focus = {
+		id = ANT_eternal_antarctic_revolution
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = 2
+		y = 4
+		prerequisite = {
+			focus = ANT_land_free_of_imperialism
+		}
+		prerequisite = {
+			focus = ANT_penguin_proletariat
+		}
+		prerequisite = {
+			focus = ANT_denounce_the_false_socialists
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_eternal_antarctic_revolution"
+			add_ideas = ANT_eternal_antarctic_revolution
+		}
+	}
+	
+	focus = {
+		id = ANT_general_secretary_trotsky
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_the_revolution_never_ended
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = ANT_land_free_of_imperialism
+		}
+		prerequisite = {
+			focus = ANT_penguin_proletariat
+		}
+		prerequisite = {
+			focus = ANT_denounce_the_false_socialists
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_general_secretary_trotsky"
+			add_political_power = 100
+			add_stability = 0.05
+			add_country_leader_trait = AAR_permanent_revolutionary
+		}
+	}
+
+	focus = {
+		id = ANT_gather_supplies
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_general_secretary_trotsky
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = ANT_general_secretary_trotsky
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_gather_supplies"
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 2500
+				producer = RUS
+			}
+			add_manpower = 1500
+		}
+	}
+
+	focus = {
+		id = ANT_cultivate_legends
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_general_secretary_trotsky
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = ANT_general_secretary_trotsky
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_cultivate_legends"
+			swap_ideas = {
+				remove_idea = ANT_reveal_ourselves_to_the_world_idea2
+				add_idea = ANT_reveal_ourselves_to_the_world_idea3
+			}
+		}
+	}
+
+	focus = {
+		id = ANT_revolution_from_the_south
+		icon = goal_ANT_trotsky_return
+		relative_position_id = ANT_general_secretary_trotsky
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ANT_cultivate_legends
+		}
+		prerequisite = {
+			focus = ANT_gather_supplies
+		}
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = AAR_revolution_begin_tt
+			ARG = {
+				country_event = {
+					id = antcommune.2
+					days = 5
+				}
+			}
+		}
+	}
+
+}

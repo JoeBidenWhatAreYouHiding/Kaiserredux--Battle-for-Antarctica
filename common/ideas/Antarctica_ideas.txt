@@ -476,6 +476,189 @@ ideas = {
 				political_power_gain = 0.05
 			}
 		}
+		
+		## Trotsky ##
+		
+		AAR_spread_revolution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AAR_spread_revolution"}
+			picture = ANT_fourth_international
+			modifier = {
+				attrition = -0.05
+				supply_consumption_factor  = -0.05
+				army_infantry_attack_factor = 0.08
+				army_infantry_defence_factor = 0.08
+				army_speed_factor = 0.07
+				army_org_Factor = 0.05
+				planning_speed = 0.05
+				no_supply_grace = 0.05
+			}
+		}
+		
+		ANT_reveal_ourselves_to_the_world_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_reveal_ourselves_to_the_world_idea"}
+			picture = ANT_fourth_international
+			modifier = {
+				intel_network_gain = 0.1
+				operation_risk = -0.4
+				agency_upgrade_time = -0.2
+			}
+		}
+		
+		ANT_reveal_ourselves_to_the_world_idea2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_reveal_ourselves_to_the_world_idea2"}
+			picture = ANT_fourth_international
+			name = ANT_reveal_ourselves_to_the_world_idea
+			modifier = {
+				intel_network_gain = 0.1
+				operation_risk = -0.4
+				agency_upgrade_time = -0.2
+			}
+			targeted_modifier = {
+				tag = INT
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+		}
+		
+		ANT_reveal_ourselves_to_the_world_idea3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_reveal_ourselves_to_the_world_idea2"}
+			picture = ANT_fourth_international
+			name = ANT_reveal_ourselves_to_the_world_idea
+			modifier = {
+				intel_network_gain = 0.1
+				operation_risk = -0.4
+				agency_upgrade_time = -0.2
+				stability_factor = 0.05
+				war_support_factor = 0.09
+				army_attack_factor = 0.09
+			}
+			targeted_modifier = {
+				tag = INT
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+		}
+		
+		ANT_penguin_proletariat = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_penguin_proletariat"}
+            allowed = { always = no }
+            removal_cost = -1
+            picture = FRA_society
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.05
+				army_speed_factor = 0.03
+            }
+		}
+		
+		ANT_glorious_liberation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_glorious_liberation"}
+			picture = ANT_fourth_international
+			modifier = {
+				conscription_factor = 0.005
+				army_morale_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = AMT
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = NSL
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = EAR
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		
+		ANT_glorious_liberation2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_glorious_liberation2"}
+			picture = ANT_fourth_international
+			name = ANT_glorious_liberation
+			modifier = {
+				conscription_factor = 0.005
+				army_morale_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = AMT
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = NSL
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = EAR
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+		}
+		
+		ANT_glorious_liberation3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_glorious_liberation3"}
+			picture = ANT_fourth_international
+			name = ANT_glorious_liberation
+			modifier = {
+				conscription_factor = 0.005
+				army_morale_factor = 0.1
+				encryption = 0.03
+				stability_weekly_factor = 0.01
+				research_speed_factor = 0.03
+				political_power_gain = 0.03
+			}
+			targeted_modifier = {
+				tag = AMT
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = NSL
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = EAR
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+		}
+		
+		ANT_fourth_internationale = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_fourth_internationale"}
+			picture = ANT_fourth_international
+			modifier = {
+				experience_gain_army = 0.05
+				production_factory_max_efficiency_factor = 0.2
+				political_power_gain = 0.04
+			}
+		}
+		
+		ANT_eternal_antarctic_revolution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_eternal_antarctic_revolution"}
+			picture = ast_abandon_the_westminster_system
+			modifier = {
+				war_support_factor = 0.10
+				political_power_factor = 0.15
+			}
+		}
+
 	}
 	hidden_ideas = {
 

@@ -2,24 +2,6 @@
 ideas = {
 ### Country Spirits ###
 	country = {# National Spirits
-		AAR_spread_revolution = {
-			picture = ANT_fourth_international
-			modifier = {
-				attrition = -0.55
-				supply_consumption_factor  = -0.55
-				army_infantry_attack_factor = 0.15
-				army_infantry_defence_factor = 0.15
-				army_speed_factor = 0.45
-				army_org_Factor = 0.25
-				planning_speed = 0.55
-				no_supply_grace = 240
-			}
-			targeted_modifier = {
-				tag = ARG
-				attack_bonus_against = 1.25
-				defense_bonus_against = 0.35
-			}
-		}
 		SAF_Banana_Dealidea = {
 		on_add = { log = "[GetDateText]: [Root.GetName]: add idea SAF_Banana_Deal"}
 		picture = DEI_solid_foodsystem

@@ -17,24 +17,6 @@ ANT_arms_raiding = {
 		ai_will_do = {
 			factor = 100
 		}
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision ANT_scavenge_arms"
-			
-			random_list = {
-				50 = {
-					custom_effect_tooltip = ANT_fail_tt
-				} 
-				50 = {
-					add_equipment_to_stockpile = {
-						type = infantry_equipment
-						amount = -500
-						producer = ROM
-					}
-				}
-			}
-		}
-
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove ANT_scavenge_arms"
 			random_list = {

@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Emperor Infantry"
+	name = "Pingvin Diviziya"
 	division_names_group = ANT_INF_01
 
 	regiments = {
@@ -16,7 +16,7 @@
 }
 
 division_template = {
-	name = "Chinstrap Infantry"
+	name = "Pingvin Diviziya"
 	division_names_group = ANT_INF_01
 
 	regiments = {
@@ -33,7 +33,7 @@ division_template = {
 }
 
 division_template = {
-	name = "King Garrison"
+	name = "Pingvin Garnizon"
 	division_names_group = ANT_GAR_01
 
 	regiments = {
@@ -45,7 +45,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Macaroni Militia"
+	name = "Pingvin Krasnaya Gvardiya"
 	division_names_group = ANT_MIL_01
 
 	regiments = {
@@ -106,7 +106,7 @@ units = {
 			name_order = 1
 		}
 		location = 15148
-		division_template = "Emperor Infantry"
+		division_template = "Pingvin Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 	}
@@ -116,7 +116,7 @@ units = {
 			name_order = 10
 		}
 		location = 15136
-		division_template = "Chinstrap Infantry"
+		division_template = "Pingvin Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 	}
@@ -126,7 +126,7 @@ units = {
 			name_order = 18
 		}
 		location = 15140
-		division_template = "King Garrison"
+		division_template = "Pingvin Garnizon"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
@@ -136,7 +136,7 @@ units = {
 			name_order = 22
 		}
 		location = 15051
-		division_template = "Macaroni Militia"
+		division_template = "Pingvin Krasnaya Gvardiya"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.5
 	}

@@ -428,6 +428,27 @@ ideas = {
 	############################
 	
 	head_of_government = {
+		AAR_Leon_Trotsky_hog_tot = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			visible = {
+				has_government = totalist
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Leon_Trotsky_hog_tot" 
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_totalist_chairman
+			}
+		}
+		
 		AAR_Blank_hog_rso = {
 			allowed = { original_tag = AAR }
 			available = {
@@ -447,7 +468,27 @@ ideas = {
 	person_of_influence = {
 		
 		### Foreign Minister ###
-	
+		
+		AAR_Dmitry_Karbyshev_for_tot = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				has_government = totalist
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Dmitry_Karbyshev_for_tot" 
+			}
+			traits = {
+				foreign_minister
+				totalist
+				for_the_cloak_n_dagger_schemer
+			}
+		}
 		AAR_Blank_for_rso = {
 			allowed = { original_tag = AAR }
 			available = {
@@ -466,6 +507,26 @@ ideas = {
 		
 		### Economy Minister ###
 		
+		AAR_Ivan_Konev_eco_tot = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				has_government = totalist
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Ivan_Konev_eco_tot" 
+			}
+			traits = {
+				economy_minister
+				totalist
+				eco_reformer
+			}
+		}
 		AAR_Blank_eco_rso = {
 			allowed = { original_tag = AAR }
 			available = {
@@ -484,6 +545,26 @@ ideas = {
 		
 		### Security Minister ###
 		
+		AAR_Juan_Posadas_sec_tot = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				has_government = totalist
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Juan_Posadas_sec_tot" 
+			}
+			traits = {
+				security_minister
+				totalist
+				sec_prince_of_terror
+			}
+		}
 		AAR_Blank_sec_rso = {
 			allowed = { original_tag = AAR }
 			available = {
@@ -498,6 +579,181 @@ ideas = {
 			traits = {
 				
 			}
+		}
+	}
+	
+	chief_of_staff = {
+		AAR_Demilitarized_cos_rso = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AAR_Demilitarized_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Demilitarized_cos_rso" 
+			}
+			traits = {
+
+			}
+			cancel_if_invalid = yes
+		}
+		AAR_Leon_Trotsky_cos_tot = {
+			allowed = { original_tag = AAR }
+			
+			visible = {
+				NOT = { has_country_flag = AAR_Leon_Trotsky_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Leon_Trotsky_cos_tot" 
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = yes
+		}
+		AAR_Ivan_Konev_cos_tot = {
+			allowed = { original_tag = AAR }
+			
+			visible = {
+				NOT = { has_country_flag = AAR_Ivan_Konev_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Ivan_Konev_cos_tot" 
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_army = {
+		AAR_Demilitarized_carm_rso = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AAR_Demilitarized_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Demilitarized_carm_rso" 
+			}
+			traits = {
+				
+			}
+			cancel_if_invalid = yes
+		}
+		AAR_Leon_Trotsky_carm_tot = {
+			allowed = { original_tag = AAR }
+			
+			visible = {
+				NOT = { has_country_flag = AAR_Leon_Trotsky_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Leon_Trotsky_carm_tot" 
+			}
+			traits = {
+				chief_of_army
+				carm_commando_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+		AAR_Dmitry_Karbyshev_carm_tot = {
+			allowed = { original_tag = AAR }
+			
+			visible = {
+				NOT = { has_country_flag = AAR_Dmitry_Karbyshev_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Dmitry_Karbyshev_carm_tot" 
+			}
+			traits = {
+				chief_of_army
+				carm_static_defence_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_navy = {
+		AAR_Demilitarized_cnav_rso = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AAR_Demilitarized_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Demilitarized_cnav_rso" 
+			}
+			traits = {
+				
+			}
+			cancel_if_invalid = yes
+		}
+		AAR_Antarctic_Forces_cnav_tot = {
+			allowed = { original_tag = AAR  }
+			
+			visible = {
+				NOT = { has_country_flag = AAR_Antarctic_Forces_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Antarctic_Forces_cnav_tot" 
+			}
+			traits = {
+				chief_of_navy
+				cnav_base_control_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_air_force = {
+		AAR_Demilitarized_cair_rso = {
+			allowed = { original_tag = AAR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = AAR_Demilitarized_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Demilitarized_cair_rso" 
+			}
+			traits = {
+
+			}
+			cancel_if_invalid = yes
+		}
+		AAR_Antarctic_Forces_cair_tot = {
+			allowed = { original_tag = AAR  }
+			
+			visible = {
+				NOT = { has_country_flag = AAR_Antarctic_Forces_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AAR_Antarctic_Forces_cair_tot" 
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = yes
 		}
 	}
 }
