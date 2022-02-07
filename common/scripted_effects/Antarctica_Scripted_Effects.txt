@@ -95,7 +95,7 @@ AAR_setup_trotsky = {
 		add_ideas = AAR_spread_revolution
 		add_ideas = antarctic_economy
 		add_ideas = battle_for_survival
-		load_oob = TROTSKY_OOB
+		load_oob = AAR_SOV_OOB
 		
 		create_country_leader = {
 			name = "Leon Trotsky"

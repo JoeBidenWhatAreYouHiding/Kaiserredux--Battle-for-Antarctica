@@ -34,6 +34,7 @@ AAR_neutral_zone:0 "International Neutral Zone"
 ANT_Dont_Rock_The_Boat:0 "We Will Aim for Peaceful Coexistence with the Other Settlements on this Frozen Continent"
 ANT_fail_tt:0 "We Have Failed to Scavenge Arms"
 ANT_alone_tt:0 "§RIts Awful Quiet Down Here...§!"
+ANT_no_army_tt:0 "§RAntarctica is a global demilitarized zone, it has no Standing Army §!"
 
 ### Decisions ###
 ANT_arms_raiding:0 "Getting Guns"

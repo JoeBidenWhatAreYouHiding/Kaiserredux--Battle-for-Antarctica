@@ -26,7 +26,7 @@ focus_tree = {
 		bypass = {
 			has_government = totalist
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -49,7 +49,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_the_revolution_never_ended
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -70,7 +70,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_the_revolution_never_ended
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -105,7 +105,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_revenge_revenge_revenge
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -132,7 +132,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_reveal_ourselves_to_the_world
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -162,7 +162,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_revenge_revenge_revenge
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -185,7 +185,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_penguin_cavalry
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -208,7 +208,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_revenge_revenge_revenge
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -233,7 +233,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_antartic_liberation
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -263,7 +263,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_denounce_the_false_socialists
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -290,7 +290,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_denounce_the_false_socialists
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -316,7 +316,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_denounce_the_false_socialists
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -338,7 +338,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_general_secretary_trotsky
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -363,7 +363,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_general_secretary_trotsky
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
@@ -389,7 +389,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ANT_gather_supplies
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1

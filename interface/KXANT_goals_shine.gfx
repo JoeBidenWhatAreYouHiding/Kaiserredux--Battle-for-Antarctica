@@ -32,7 +32,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_ANT_trotsky_return"
+		name = "GFX_goal_ANT_trotsky_return_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_trotsky_return.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -63,7 +63,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_revolution_south"
+		name = "GFX_goal_ANT_revolution_south_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_revolution_south.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -94,7 +94,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_myths"
+		name = "GFX_goal_ANT_myths_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_myths.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -125,7 +125,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_prepare_revolution"
+		name = "GFX_goal_ANT_prepare_revolution_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_prepare_revolution.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -156,7 +156,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_chairman_trotsky"
+		name = "GFX_goal_ANT_chairman_trotsky_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_chairman_trotsky.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -187,7 +187,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_third_international"
+		name = "GFX_goal_ANT_third_international_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_third_international.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -218,7 +218,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_world_revolution"
+		name = "GFX_goal_ANT_world_revolution_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_world_revolution.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -249,7 +249,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_imperialism_free"
+		name = "GFX_goal_ANT_imperialism_free_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_imperialism_free.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -280,7 +280,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_liberate"
+		name = "GFX_goal_ANT_liberate_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_liberate.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -311,7 +311,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_perfect_society"
+		name = "GFX_goal_ANT_perfect_society_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_perfect_society.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -342,7 +342,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_penguin_army"
+		name = "GFX_goal_ANT_penguin_army_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_penguin_army.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -373,7 +373,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_broadcast"
+		name = "GFX_goal_ANT_broadcast_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_broadcast.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -404,7 +404,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_false_socialists"
+		name = "GFX_goal_ANT_false_socialists_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_false_socialists.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -435,7 +435,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_glorious_liberation"
+		name = "GFX_goal_ANT_glorious_liberation_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_glorious_liberation.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -466,7 +466,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ANT_revenge"
+		name = "GFX_goal_ANT_revenge_shine"
 		texturefile = "gfx/interface/goals/goal_ANT_revenge.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
