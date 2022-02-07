@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_the_revolution_never_ended
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_trotsky_return
 		x = 5
 		y = 0
 		available = {
@@ -39,7 +39,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_revenge_revenge_revenge
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_revenge
 		relative_position_id = ANT_the_revolution_never_ended
 		x = -1
 		y = 1
@@ -63,7 +63,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_glorious_liberation
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_glorious_liberation
 		relative_position_id = ANT_the_revolution_never_ended
 		x = 1
 		y = 1
@@ -95,7 +95,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_reveal_ourselves_to_the_world
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_broadcast
 		relative_position_id = ANT_the_revolution_never_ended
 		x = -2
 		y = 2
@@ -114,12 +114,18 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
 			add_ideas = ANT_reveal_ourselves_to_the_world_idea
 			create_intelligence_agency = yes
+			add_tech_bonus = {
+				name = ALA_radio
+				bonus = 1
+				uses = 2
+				category = electronics
+			}
 		}
 	}
 
 	focus = {
 		id = ANT_denounce_the_false_socialists
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_false_socialists
 		relative_position_id = ANT_the_revolution_never_ended
 		x = -2
 		y = 3
@@ -146,7 +152,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_penguin_cavalry
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_penguin_army
 		relative_position_id = ANT_the_revolution_never_ended
 		x = 0
 		y = 2
@@ -172,7 +178,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_penguin_proletariat
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_perfect_society
 		relative_position_id = ANT_the_revolution_never_ended
 		x = 0
 		y = 3
@@ -192,7 +198,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_antartic_liberation
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_liberate
 		relative_position_id = ANT_the_revolution_never_ended
 		x = 2
 		y = 2
@@ -220,7 +226,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_land_free_of_imperialism
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_imperialism_free
 		relative_position_id = ANT_the_revolution_never_ended
 		x = 2
 		y = 3
@@ -244,7 +250,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_fourth_internationale
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_third_international
 		relative_position_id = ANT_the_revolution_never_ended
 		x = -2
 		y = 4
@@ -271,7 +277,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_eternal_antarctic_revolution
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_prepare_revolution
 		relative_position_id = ANT_the_revolution_never_ended
 		x = 2
 		y = 4
@@ -297,7 +303,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_general_secretary_trotsky
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_chairman_trotsky
 		relative_position_id = ANT_the_revolution_never_ended
 		x = 0
 		y = 4
@@ -325,7 +331,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_gather_supplies
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_world_revolution
 		relative_position_id = ANT_general_secretary_trotsky
 		x = -1
 		y = 1
@@ -350,7 +356,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_cultivate_legends
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_myths
 		relative_position_id = ANT_general_secretary_trotsky
 		x = 1
 		y = 1
@@ -373,7 +379,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_revolution_from_the_south
-		icon = goal_ANT_trotsky_return
+		icon = GFX_goal_ANT_revolution_south
 		relative_position_id = ANT_general_secretary_trotsky
 		x = 0
 		y = 2

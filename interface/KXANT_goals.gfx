@@ -7,4 +7,60 @@ SpriteTypes = {
 		name = "GFX_goal_ANT_trotsky_return"
 		texturefile = "gfx/interface/goals/goal_ANT_trotsky_return.png"
 	}
+	spriteType = {
+		name = "GFX_goal_ANT_revolution_south"
+		texturefile = "gfx/interface/goals/goal_ANT_revolution_south.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_myths"
+		texturefile = "gfx/interface/goals/goal_ANT_myths.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_prepare_revolution"
+		texturefile = "gfx/interface/goals/goal_ANT_prepare_revolution.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_chairman_trotsky"
+		texturefile = "gfx/interface/goals/goal_ANT_chairman_trotsky.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_third_international"
+		texturefile = "gfx/interface/goals/goal_ANT_third_international.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_world_revolution"
+		texturefile = "gfx/interface/goals/goal_ANT_world_revolution.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_imperialism_free"
+		texturefile = "gfx/interface/goals/goal_ANT_imperialism_free.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_liberate"
+		texturefile = "gfx/interface/goals/goal_ANT_liberate.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_perfect_society"
+		texturefile = "gfx/interface/goals/goal_ANT_perfect_society.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_penguin_army"
+		texturefile = "gfx/interface/goals/goal_ANT_penguin_army.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_broadcast"
+		texturefile = "gfx/interface/goals/goal_ANT_broadcast.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_false_socialists"
+		texturefile = "gfx/interface/goals/goal_ANT_false_socialists.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_glorious_liberation"
+		texturefile = "gfx/interface/goals/goal_ANT_glorious_liberation.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_revenge"
+		texturefile = "gfx/interface/goals/goal_ANT_revenge.png"
+	}
 }
