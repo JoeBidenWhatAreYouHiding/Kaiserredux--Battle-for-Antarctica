@@ -4,7 +4,7 @@
 
 shared_focus = {
 	id = ANT_Frozen_Wasteland
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Surviving_Frozen_Wasteland
 	x = 15
 	y = 0
 
@@ -23,7 +23,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Formalize_Claims
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Formalize_Claims
 	x = -3
 	y = 1
 	relative_position_id = ANT_Frozen_Wasteland
@@ -52,7 +52,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Our_Continent
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Our_Continent
 	x = -1
 	y = 1
 	relative_position_id = ANT_Formalize_Claims
@@ -150,7 +150,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Peaceful_Coexistance
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Peaceful_Coexistence
 	x = 1
 	y = 1
 	relative_position_id = ANT_Formalize_Claims
@@ -182,7 +182,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Expand_Settlment
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Expand_Settlement
 	x = -1
 	y = 1
 	relative_position_id = ANT_Frozen_Wasteland
@@ -212,7 +212,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Encourage_Exploration
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Encourage_Exploration
 	x = 1
 	y = 1
 	relative_position_id = ANT_Frozen_Wasteland
@@ -238,7 +238,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Research_Stations
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Research_Stations
 	x = 0
 	y = 2
 	relative_position_id = ANT_Frozen_Wasteland
@@ -268,7 +268,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Whale_Oil
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Whale_Oil
 	x = -1
 	y = 3
 	relative_position_id = ANT_Frozen_Wasteland
@@ -296,7 +296,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Mineral_Exploration
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Look_Minerals
 	x = 1
 	y = 3
 	relative_position_id = ANT_Frozen_Wasteland
@@ -330,7 +330,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Permanant_Settlment
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Permanent_Settlements
 	x = 1
 	y = 4
 	relative_position_id = ANT_Frozen_Wasteland
@@ -364,7 +364,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Heating_Technology
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Advanced_Heating
 	x = -1
 	y = 4
 	relative_position_id = ANT_Frozen_Wasteland
@@ -397,7 +397,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_New_Economy
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Ice_Cold_Economy
 	x = 0
 	y = 5
 	relative_position_id = ANT_Frozen_Wasteland
@@ -435,7 +435,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Battle_for_Antarctica
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Battle_For_Antarctica
 	x = 4
 	y = 0
 	relative_position_id = ANT_Frozen_Wasteland
@@ -455,7 +455,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Militarize
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Militarize_Territory
 	x = 3
 	y = 1
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -484,7 +484,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Frozen_Factories
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Frozen_Factories
 	x = -1
 	y = 1
 	relative_position_id = ANT_Militarize
@@ -518,7 +518,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Flamethrowers
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Invest_Flamethrowers
 	x = 1
 	y = 1
 	relative_position_id = ANT_Militarize
@@ -540,7 +540,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Request_Support
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Request_More_Supplies
 	x = -1
 	y = 1
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -567,7 +567,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Melee_Weapons
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Melee_Weapons
 	x = 1
 	y = 1
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -590,7 +590,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Scavenge_Weaponry
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Scavenge_Weaponry
 	x = 0
 	y = 2
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -616,7 +616,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Protect_Against_the_Elements
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Protecting_Against_Elements
 	x = -1
 	y = 3
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -646,7 +646,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Icebreakers
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Breaking_Ice
 	x = 1
 	y = 3
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -680,7 +680,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Air_Connections
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Air_Connections
 	x = -1
 	y = 4
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -718,7 +718,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Use_our_Terrain
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Use_Terrain
 	x = 1
 	y = 4
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -750,7 +750,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Battle_for_Survival
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Battle_For_Survival
 	x = 0
 	y = 5
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -780,7 +780,7 @@ shared_focus = {
 ### Shared ###
 shared_focus = {
 	id = ANT_Hire_Mercs
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Hire_Mercenaries
 	x = -2
 	y = 2
 	relative_position_id = ANT_Battle_for_Antarctica
@@ -822,7 +822,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ANT_Learn_From_Inuit
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_ANT_Learn_From_Inuits
 	x = -2
 	y = 5
 	relative_position_id = ANT_Battle_for_Antarctica

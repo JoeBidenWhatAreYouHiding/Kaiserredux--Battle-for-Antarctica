@@ -63,4 +63,108 @@ SpriteTypes = {
 		name = "GFX_goal_ANT_revenge"
 		texturefile = "gfx/interface/goals/goal_ANT_revenge.png"
 	}
+	spriteType = {
+		name = "GFX_goal_ANT_Melee_Weapons"
+		texturefile = "gfx/interface/goals/goal_ANT_Melee_Weapons.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Look_Minerals"
+		texturefile = "gfx/interface/goals/goal_ANT_Look_Minerals.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Learn_From_Inuits"
+		texturefile = "gfx/interface/goals/goal_ANT_Learn_From_Inuits.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Invest_Flamethrowers"
+		texturefile = "gfx/interface/goals/goal_ANT_Invest_Flamethrowers.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Ice_Cold_Economy"
+		texturefile = "gfx/interface/goals/goal_ANT_Ice_Cold_Economy.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Protecting_Against_Elements"
+		texturefile = "gfx/interface/goals/goal_ANT_Protecting_Against_Elements.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Frozen_Factories"
+		texturefile = "gfx/interface/goals/goal_ANT_Frozen_Factories.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Formalize_Claims"
+		texturefile = "gfx/interface/goals/goal_ANT_Formalize_Claims.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Expand_Settlement"
+		texturefile = "gfx/interface/goals/goal_ANT_Expand_Settlement.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Encourage_Exploration"
+		texturefile = "gfx/interface/goals/goal_ANT_Encourage_Exploration.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Breaking_Ice"
+		texturefile = "gfx/interface/goals/goal_ANT_Breaking_Ice.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Battle_For_Survival"
+		texturefile = "gfx/interface/goals/goal_ANT_Battle_For_Survival.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Air_Connections"
+		texturefile = "gfx/interface/goals/goal_ANT_Air_Connections.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Advanced_Heating"
+		texturefile = "gfx/interface/goals/goal_ANT_Advanced_Heating.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Hire_Mercenaries"
+		texturefile = "gfx/interface/goals/goal_ANT_Hire_Mercenaries.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Militarize_Territory"
+		texturefile = "gfx/interface/goals/goal_ANT_Militarize_Territory.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Request_More_Supplies"
+		texturefile = "gfx/interface/goals/goal_ANT_Request_More_Supplies.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Whale_Oil"
+		texturefile = "gfx/interface/goals/goal_ANT_Whale_Oil.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Use_Terrain"
+		texturefile = "gfx/interface/goals/goal_ANT_Use_Terrain.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Surviving_Frozen_Wasteland"
+		texturefile = "gfx/interface/goals/goal_ANT_Surviving_Frozen_Wasteland.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Scavenge_Weaponry"
+		texturefile = "gfx/interface/goals/goal_ANT_Scavenge_Weaponry.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Research_Stations"
+		texturefile = "gfx/interface/goals/goal_ANT_Research_Stations.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Permanent_Settlements"
+		texturefile = "gfx/interface/goals/goal_ANT_Permanent_Settlements.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Peaceful_Coexistence"
+		texturefile = "gfx/interface/goals/goal_ANT_Peaceful_Coexistence.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Our_Continent"
+		texturefile = "gfx/interface/goals/goal_ANT_Our_Continent.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Battle_For_Antarctica"
+		texturefile = "gfx/interface/goals/goal_ANT_Battle_For_Antarctica.png"
+	}
 }
