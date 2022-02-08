@@ -34,7 +34,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_secure_backing
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Secure_Financial_Support
 		x = -1
 		y = 1
 		relative_position_id = ANT_byrd_expedition
@@ -64,7 +64,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_expand_little_america
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Expand_Little_America
 		x = 1
 		y = 1
 		relative_position_id = ANT_byrd_expedition
@@ -97,7 +97,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_stranded_at_the_bottom_of_the_world
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Stranded_At_Bottom_World
 		x = 0
 		y = 2
 		relative_position_id = ANT_byrd_expedition
@@ -132,7 +132,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_great_restructuring
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Evaluate_Our_Situation
 		x = 2
 		y = 1
 		relative_position_id = ANT_stranded_at_the_bottom_of_the_world
@@ -159,7 +159,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_home_away_from_home
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Our_Home_Away_From_Home
 		x = -1
 		y = 1
 		relative_position_id = ANT_great_restructuring
@@ -191,7 +191,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_american_ammenities
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_American_Amenities
 		x = -1
 		y = 2
 		relative_position_id = ANT_great_restructuring
@@ -221,7 +221,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_american_spirit
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_American_Spirit
 		x = -1
 		y = 3
 		relative_position_id = ANT_great_restructuring
@@ -250,7 +250,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_a_little_america
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Little_America
 		x = -1
 		y = 4
 		relative_position_id = ANT_great_restructuring
@@ -280,7 +280,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_reveal_the_truth
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_bottom_earth
 		x = 1
 		y = 1
 		relative_position_id = ANT_great_restructuring
@@ -310,7 +310,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_city_in_the_snow
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_gates_opened
 		x = 1
 		y = 2
 		relative_position_id = ANT_great_restructuring
@@ -342,7 +342,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_strange_vessels
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_ufos
 		x = 1
 		y = 3
 		relative_position_id = ANT_great_restructuring
@@ -378,7 +378,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_argartha_found
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_agartha
 		x = 1
 		y = 4
 		relative_position_id = ANT_great_restructuring
@@ -408,7 +408,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_antarctic_admirality
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Antarctic_Admiralty
 		x = -2
 		y = 1
 		relative_position_id = ANT_stranded_at_the_bottom_of_the_world
@@ -440,7 +440,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_requisition_fleet
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Seize_Southern_Fleets
 		x = -1
 		y = 1
 		relative_position_id = ANT_antarctic_admirality
@@ -470,7 +470,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_harass_southern_shipping_lines
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Harras_Southern_Shipping_Lines
 		x = -1
 		y = 2
 		relative_position_id = ANT_antarctic_admirality
@@ -510,7 +510,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_further_the_expeditions_reach
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Further_Expedition_Reach
 		x = 1
 		y = 1
 		relative_position_id = ANT_antarctic_admirality
@@ -538,7 +538,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_antarctic_tourism
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Antarctic_Tourism
 		x = 1
 		y = 2
 		relative_position_id = ANT_antarctic_admirality
@@ -564,7 +564,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_status_of_the_americans
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_American_Benefactors
 		x = 0
 		y = 3
 		relative_position_id = ANT_antarctic_admirality
@@ -591,7 +591,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_work_with_mac
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Support_From_Mac
 		x = -1
 		y = 1
 		relative_position_id = ANT_status_of_the_americans
@@ -626,7 +626,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_old_friends_with_ford
-		icon = GFX_goal_ANT_byrd_expedition
+		icon = GFX_goal_ANT_Old_Friend_Ford
 		x = 1
 		y = 1
 		relative_position_id = ANT_status_of_the_americans

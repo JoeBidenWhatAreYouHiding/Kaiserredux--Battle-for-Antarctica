@@ -5,7 +5,7 @@ state={
 	
 	state_category = zero
 	
-	impassable = yes
+	
 
 	history={
 		add_claim_by = ARG

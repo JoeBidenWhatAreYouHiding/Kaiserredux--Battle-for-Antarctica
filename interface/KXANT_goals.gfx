@@ -167,4 +167,84 @@ SpriteTypes = {
 		name = "GFX_goal_ANT_Battle_For_Antarctica"
 		texturefile = "gfx/interface/goals/goal_ANT_Battle_For_Antarctica.png"
 	}
+	spriteType = {
+		name = "GFX_goal_ANT_Support_From_Mac"
+		texturefile = "gfx/interface/goals/goal_ANT_Support_From_Mac.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Our_Home_Away_From_Home"
+		texturefile = "gfx/interface/goals/goal_ANT_Our_Home_Away_From_Home.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Secure_Financial_Support"
+		texturefile = "gfx/interface/goals/goal_ANT_Secure_Financial_Support.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Seize_Southern_Fleets"
+		texturefile = "gfx/interface/goals/goal_ANT_Seize_Southern_Fleets.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Old_Friend_Ford"
+		texturefile = "gfx/interface/goals/goal_ANT_Old_Friend_Ford.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_American_Amenities"
+		texturefile = "gfx/interface/goals/goal_ANT_American_Amenities.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_American_Benefactors"
+		texturefile = "gfx/interface/goals/goal_ANT_American_Benefactors.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Antarctic_Admiralty"
+		texturefile = "gfx/interface/goals/goal_ANT_Antarctic_Admiralty.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Antarctic_Tourism"
+		texturefile = "gfx/interface/goals/goal_ANT_Antarctic_Tourism.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Evaluate_Our_Situation"
+		texturefile = "gfx/interface/goals/goal_ANT_Evaluate_Our_Situation.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Expand_Little_America"
+		texturefile = "gfx/interface/goals/goal_ANT_Expand_Little_America.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Further_Expedition_Reach"
+		texturefile = "gfx/interface/goals/goal_ANT_Further_Expedition_Reach.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_American_Spirit"
+		texturefile = "gfx/interface/goals/goal_ANT_American_Spirit.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Stranded_At_Bottom_World"
+		texturefile = "gfx/interface/goals/goal_ANT_Stranded_At_Bottom_World.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Little_America"
+		texturefile = "gfx/interface/goals/goal_ANT_Little_America.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Harras_Southern_Shipping_Lines"
+		texturefile = "gfx/interface/goals/goal_ANT_Harras_Southern_Shipping_Lines.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_bottom_earth"
+		texturefile = "gfx/interface/goals/goal_ANT_bottom_earth.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_agartha"
+		texturefile = "gfx/interface/goals/goal_ANT_agartha.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_ufos"
+		texturefile = "gfx/interface/goals/goal_ANT_ufos.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_gates_opened"
+		texturefile = "gfx/interface/goals/goal_ANT_gates_opened.png"
+	}
 }

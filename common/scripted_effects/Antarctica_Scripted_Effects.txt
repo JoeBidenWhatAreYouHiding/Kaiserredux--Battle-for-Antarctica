@@ -103,7 +103,7 @@ AAR_setup_trotsky = {
 			picture = "gfx/leaders/AAR/Portrait_ANT_Leon_Trotsky.png"
 			expire = "1965.1.1"
 			ideology = trotskyism_subtype
-			traits = { warmonger for_ideological_crusader hog_respected_war_hero }
+			traits = {  }
 		}
 
 		### Field Marshal

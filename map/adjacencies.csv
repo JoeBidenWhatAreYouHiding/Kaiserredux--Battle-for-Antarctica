@@ -137,8 +137,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 15209;15034;sea;14734;-1;-1;-1;-1;;South Orkney Islands
 15043;15212;sea;14717;-1;-1;-1;-1;;South Shetland Islands
 15215;15040;sea;14717;-1;-1;-1;-1;;South Shetland Islands
-15040;15213;sea;14716;-1;-1;-1;-1;;South Shetland Islands
-15213;15038;sea;14716;-1;-1;-1;-1;;South Shetland Islands
+15040;15213;sea;14715;-1;-1;-1;-1;;South Shetland Islands
+15213;15038;sea;14715;-1;-1;-1;-1;;South Shetland Islands
 15213;15216;sea;14714;-1;-1;-1;-1;;South Shetland Islands
 15217;15218;sea;14714;-1;-1;-1;-1;;South Shetland Islands
 15211;15214;sea;14714;-1;-1;-1;-1;;Palmer Archipelago
