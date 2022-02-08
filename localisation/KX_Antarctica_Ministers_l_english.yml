@@ -76,3 +76,29 @@ AAR_Antarctic_Forces_cnav_tot:0 "Antarctic Forces"
 ### chief_of_air_force
 AAR_Demilitarized_cair_rso:0 "Demilitarized"
 AAR_Antarctic_Forces_cair_tot:0 "Antarctic Forces"
+
+################################################################################################################################################################################################
+### NSL
+################################################################################################################################################################################################
+
+### head_of_government
+NSL_Alfred_Ritscher_hog_ade:0 "Alfred Ritscher"
+NSL_Karl_Maria_Wiligut_hog_npo:0 "Karl Maria Wiligut"
+### foreign_minister
+NSL_Wilhelm_Filchner_for_ade:0 "Wilhelm Filchner"
+NSL_Herman_Wirth_for_npo:0 "Herman Wirth"
+### economy_minister
+NSL_Erich_von_Drygalski_eco_ade:0 "Erich von Drygalski"
+NSL_Wolfram_Sievers_eco_npo:0 "Wolfram Sievers"
+### security_minister
+NSL_Ernst_Herrmann_sec_ade:0 "Ernst Herrmann"
+NSL_Karl_Wolff_sec_npo:0 "Karl Wolff"
+### chief_of_staff
+NSL_Ernst_Herrmann_cos_ade:0 "Ernst Herrmann"
+### chief_of_army
+NSL_Ernst_Herrmann_carm_ade:0 "Ernst Herrmann"
+### chief_of_navy
+NSL_Alfred_Ritscher_cnav_ade:0 "Alfred Ritscher"
+### chief_of_air_force
+NSL_Rudolph_Mayr_cair_ade:0 "Rudolph Mayr"
+NSL_Richardheinrich_Schirmacher_cair_ade:0 "Richardheinrich Schirmacher"

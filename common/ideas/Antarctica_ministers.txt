@@ -88,12 +88,7 @@ ideas = {
 	chief_of_staff = {
 		AMT_Richard_Evelyn_Byrd_cos_ade = {
 			allowed = { original_tag = AMT }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = AMT_Richard_Evelyn_Byrd_dead }
 			}
@@ -108,12 +103,7 @@ ideas = {
 		}
 		AMT_Richard_H_Cruzen_cos_ade = {
 			allowed = { original_tag = AMT }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = AMT_Richard_H_Cruzen_dead }
 			}
@@ -130,12 +120,7 @@ ideas = {
 	chief_of_army = {
 		AMT_Richard_Evelyn_Byrd_carm_ade = {
 			allowed = { original_tag = AMT }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = AMT_Richard_Evelyn_Byrd_dead }
 			}
@@ -152,12 +137,7 @@ ideas = {
 	chief_of_navy = {
 		AMT_Richard_Evelyn_Byrd_cnav_ade = {
 			allowed = { original_tag = AMT }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = AMT_Richard_Evelyn_Byrd_dead }
 			}
@@ -172,12 +152,7 @@ ideas = {
 		}
 		AMT_George_W_Gibbs_Jr_cnav_ade = {
 			allowed = { original_tag = AMT }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = AMT_George_W_Gibbs_Jr_dead }
 			}
@@ -194,12 +169,7 @@ ideas = {
 	chief_of_air_force = {
 		AMT_George_J_Dufek_cair_ade = {
 			allowed = { original_tag = AMT }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = AMT_George_J_Dufek_dead }
 			}
@@ -301,12 +271,7 @@ ideas = {
 	chief_of_staff = {
 		EAR_Douglas_Mawson_cos_ade = {
 			allowed = { original_tag = EAR }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = EAR_Douglas_Mawson_dead }
 			}
@@ -321,12 +286,7 @@ ideas = {
 		}
 		EAR_Brian_Birley_Roberts_cos_tot = {
 			allowed = { original_tag = EAR }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = EAR_Brian_Birley_Roberts_dead }
 			}
@@ -341,12 +301,7 @@ ideas = {
 		}
 		EAR_James_Marr_cos_ade = {
 			allowed = { original_tag = EAR }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = EAR_James_Marr_dead }
 			}
@@ -363,12 +318,7 @@ ideas = {
 	chief_of_army = {
 		EAR_Douglas_Mawson_carm_ade = {
 			allowed = { original_tag = EAR }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = EAR_Douglas_Mawson_dead }
 			}
@@ -383,12 +333,7 @@ ideas = {
 		}
 		EAR_Vilhjalmur_Stefansson_carm_tot = {
 			allowed = { original_tag = EAR }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = EAR_Vilhjalmur_Stefansson_dead }
 			}
@@ -403,12 +348,7 @@ ideas = {
 		}
 		EAR_James_Marr_carm_ade = {
 			allowed = { original_tag = EAR }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
+			
 			visible = {
 				NOT = { has_country_flag = EAR_James_Marr_dead }
 			}
@@ -752,6 +692,239 @@ ideas = {
 			traits = {
 				chief_of_air_force
 				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	head_of_government = {
+		NSL_Alfred_Ritscher_hog_ade = {
+			allowed = { original_tag = NSL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Alfred_Ritscher_hog_ade" 
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_old_admiral
+			}
+		}
+		NSL_Karl_Maria_Wiligut_hog_npo = {
+			allowed = { original_tag = NSL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Karl_Maria_Wiligut_hog_npo" 
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_spiritual_leader
+			}
+		}
+	}
+	person_of_influence = {
+	
+		### Foreign Minister ###
+		
+		NSL_Wilhelm_Filchner_for_ade = {
+			allowed = { original_tag = NSL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Wilhelm_Filchner_for_ade" 
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_general_staffer
+			}
+		}
+		NSL_Herman_Wirth_for_npo = {
+			allowed = { original_tag = NSL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Herman_Wirth_for_npo" 
+			}
+			traits = {
+				foreign_minister
+				national_populist
+				for_biased_intellectual
+			}
+		}
+		
+		### Economy Minister ###
+		
+		NSL_Erich_von_Drygalski_eco_ade = {
+			allowed = { original_tag = NSL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Erich_von_Drygalski_eco_ade" 
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_administrative_genius
+			}
+		}
+		NSL_Wolfram_Sievers_eco_npo = {
+			allowed = { original_tag = NSL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Wolfram_Sievers_eco_npo" 
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_industrial_chemist
+			}
+		}
+		
+		### Security Minister ###
+		
+		NSL_Ernst_Herrmann_sec_ade = {
+			allowed = { original_tag = NSL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Ernst_Herrmann_sec_ade" 
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_health_and_safety
+			}
+		}
+		NSL_Karl_Maria_Wiligut_sec_npo = {
+			allowed = { original_tag = NSL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Karl_Maria_Wiligut_sec_npo" 
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_secret_police_chief
+			}
+		}
+	}
+	chief_of_staff = {
+		NSL_Ernst_Herrmann_cos_ade = {
+			allowed = { original_tag = NSL }
+			
+			visible = {
+				NOT = { has_country_flag = NSL_Ernst_Herrmann_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Ernst_Herrmann_cos_ade" 
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_army = {
+		NSL_Ernst_Herrmann_carm_ade = {
+			allowed = { original_tag = NSL }
+			
+			visible = {
+				NOT = { has_country_flag = NSL_Ernst_Herrmann_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Ernst_Herrmann_carm_ade" 
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_navy = {
+		NSL_Alfred_Ritscher_cnav_ade = {
+			allowed = { original_tag = NSL }
+			
+			visible = {
+				NOT = { has_country_flag = NSL_Alfred_Ritscher_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Alfred_Ritscher_cnav_ade" 
+			}
+			traits = {
+				chief_of_navy
+				cnav_power_projection_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_air_force = {
+		NSL_Rudolph_Mayr_cair_ade = {
+			allowed = { original_tag = NSL }
+			
+			visible = {
+				NOT = { has_country_flag = NSL_Rudolph_Mayr_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Rudolph_Mayr_cair_ade" 
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+		NSL_Richardheinrich_Schirmacher_cair_ade = {
+			allowed = { original_tag = NSL }
+			
+			visible = {
+				NOT = { has_country_flag = NSL_Richardheinrich_Schirmacher_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Richardheinrich_Schirmacher_cair_ade" 
+			}
+			traits = {
+				chief_of_air_force
+				cair_vertical_envelopment_doctrine
 			}
 			cancel_if_invalid = yes
 		}

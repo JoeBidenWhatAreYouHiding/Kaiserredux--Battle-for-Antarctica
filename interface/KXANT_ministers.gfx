@@ -204,4 +204,74 @@ spriteTypes = {
 		name = "GFX_idea_AAR_Antarctic_Forces_cair_tot"
 		texturefile = "gfx/interface/ministers/AAR/AAR_Antarctic_Forces.png"
 	}
+	
+  ################################################################################################################################################################################################
+  ### NSL
+  ################################################################################################################################################################################################
+
+### Position.headOfGovernment
+	spriteType = {
+		name = "GFX_idea_NSL_Alfred_Ritscher_hog_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Alfred_Ritscher.png"
+	}
+### Position.headOfGovernment
+	spriteType = {
+		name = "GFX_idea_NSL_Karl_Maria_Wiligut_hog_npo"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Karl_Maria_Wiligut.png"
+	}
+### Position.foreignMinister
+	spriteType = {
+		name = "GFX_idea_NSL_Wilhelm_Filchner_for_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Wilhelm_Filchner.png"
+	}
+### Position.foreignMinister
+	spriteType = {
+		name = "GFX_idea_NSL_Herman_Wirth_for_npo"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Herman_Wirth.png"
+	}
+### Position.economyMinister
+	spriteType = {
+		name = "GFX_idea_NSL_Erich_von_Drygalski_eco_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Erich_von_Drygalski.png"
+	}
+### Position.economyMinister
+	spriteType = {
+		name = "GFX_idea_NSL_Wolfram_Sievers_eco_npo"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Wolfram_Sievers.png"
+	}
+### Position.securityMinister
+	spriteType = {
+		name = "GFX_idea_NSL_Ernst_Herrmann_sec_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Ernst_Herrmann.png"
+	}
+### Position.securityMinister
+	spriteType = {
+		name = "GFX_idea_NSL_Karl_Wolff_sec_npo"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Karl_Wolff.png"
+	}
+### Position.chiefOfStaff
+	spriteType = {
+		name = "GFX_idea_NSL_Ernst_Herrmann_cos_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Ernst_Herrmann.png"
+	}
+### Position.chiefOfArmy
+	spriteType = {
+		name = "GFX_idea_NSL_Ernst_Herrmann_carm_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Ernst_Herrmann.png"
+	}
+### Position.chiefOfNavy
+	spriteType = {
+		name = "GFX_idea_NSL_Alfred_Ritscher_cnav_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Alfred_Ritscher.png"
+	}
+### Position.chiefOfAirForce
+	spriteType = {
+		name = "GFX_idea_NSL_Rudolph_Mayr_cair_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Rudolph_Mayr.png"
+	}
+### Position.chiefOfAirForce
+	spriteType = {
+		name = "GFX_idea_NSL_Richardheinrich_Schirmacher_cair_ade"
+		texturefile = "gfx/interface/ministers/NSL/NSL_Richardheinrich_Schirmacher.png"
+	}
 }
