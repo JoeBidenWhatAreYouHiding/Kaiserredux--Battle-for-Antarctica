@@ -411,6 +411,65 @@ country_event = { #They gone bro
 			ideology = national_populist
 			popularity = 1
 		}
+		remove_all_ministers = yes
+		add_ideas = {
+			NSL_Karl_Maria_Wiligut_hog_npo
+			NSL_Herman_Wirth_for_npo
+			NSL_Wolfram_Sievers_eco_npo
+			NSL_Karl_Wolff_sec_npo
+		}
+		every_unit_leader = {
+			set_nationality = NSW
+		}
+		### Field Marshals ### 
+		create_field_marshal = {
+			name = "Karl Maria Wiligut"
+			portrait_path = "gfx/leaders/AAR/Portrait_ANT_Karl_Maria_Wiligut.png"
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			#id = 1604
+		}
+
+		### Corps Commanders ### 
+		create_corps_commander = {
+			name = "Herman Wirth"
+			portrait_path = "gfx/leaders/AAR/Portrait_ANT_Herman_Wirth.png"
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			#id = 1604
+		}
+
+		create_corps_commander = {
+			name = "Wolfram Sievers"
+			portrait_path = "gfx/leaders/AAR/Portrait_ANT_Wolfram_Sievers.png"
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			#id = 1604
+		}
+
+		create_corps_commander = {
+			name = "Karl Wolff"
+			portrait_path = "gfx/leaders/AAR/Portrait_ANT_Karl_Wolff.png"
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			#id = 1604
+		}
 	}
 }
 

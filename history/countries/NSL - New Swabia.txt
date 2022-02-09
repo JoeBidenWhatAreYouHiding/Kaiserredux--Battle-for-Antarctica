@@ -94,6 +94,11 @@ set_popularities = {
 }
 
 add_ideas = {
+	### Ministers ###
+	NSL_Alfred_Ritscher_hog_ade
+	NSL_Wilhelm_Filchner_for_ade
+	NSL_Erich_von_Drygalski_eco_ade
+	NSL_Ernst_Herrmann_sec_ade
 	### Laws ###
 	antarctic_economy
 	no_trade
@@ -119,9 +124,10 @@ create_country_leader = {
 }
 
 ### Field Marshals ### 
+
 create_field_marshal = {
-	name = "Alfred Ritscher"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Alfred_Ritscher.png"
+	name = "Ernst Herrmann"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Ernst_Herrmann.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -130,6 +136,7 @@ create_field_marshal = {
 	logistics_skill = 1
 	#id = 1604
 }
+
 
 ### Corps Commanders ### 
 create_corps_commander = {
@@ -157,8 +164,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ernst Herrmann"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Ernst_Herrmann.png"
+	name = "Alfred Ritscher"
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Alfred_Ritscher.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
