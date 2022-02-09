@@ -828,7 +828,7 @@ ideas = {
 				sec_health_and_safety
 			}
 		}
-		NSL_Karl_Maria_Wiligut_sec_npo = {
+		NSL_Karl_Wolff_sec_npo = {
 			allowed = { original_tag = NSL }
 			available = {
 				custom_trigger_tooltip = {
@@ -837,7 +837,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NSL_Karl_Maria_Wiligut_sec_npo" 
+				log = "[GetDateText]: [Root.GetName]: add idea NSL_Karl_Wolff_sec_npo" 
 			}
 			traits = {
 				security_minister

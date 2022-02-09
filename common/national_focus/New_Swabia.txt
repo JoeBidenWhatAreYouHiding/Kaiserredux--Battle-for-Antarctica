@@ -34,7 +34,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_status_of_anherbe
-		icon = GFX_goal_ANT_new_swabia
+		icon = GFX_goal_ANT_Status_Ahnenerbe_Expedition
 		x = -1
 		y = 1
 		relative_position_id = ANT_expedition
@@ -58,7 +58,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_formalize_claims
-		icon = GFX_goal_ANT_new_swabia
+		icon = GFX_goal_ANT_Formalize_German_Claims
 		x = 1
 		y = 1
 		relative_position_id = ANT_expedition
@@ -114,7 +114,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_ritshcher_govt
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Ritscher_Expedition_Survives
 		prerequisite = {
 			focus = ANT_alone_in_the_cold
 		}
@@ -139,7 +139,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_lonely_colonial_government
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Lonely_Colonial_Government
 		prerequisite = {
 			focus = ANT_ritshcher_govt
 		}
@@ -163,7 +163,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_encourage_settlement
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Rewards_For_Settlement
 		prerequisite = {
 			focus = ANT_lonely_colonial_government
 		}
@@ -187,7 +187,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_prussia_in_antarctica
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_New_Prussia_Frozen_Waste
 		prerequisite = {
 			focus = ANT_ritshcher_govt
 		}
@@ -208,7 +208,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_antartiche_heer
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Antarktische_Heer
 		prerequisite = {
 			focus = ANT_prussia_in_antarctica
 		}
@@ -232,7 +232,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_the_kaisers_continent
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Kaisers_Continent
 		prerequisite = {
 			focus = ANT_antartiche_heer
 		}
@@ -259,7 +259,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_anherbe_takeover
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Ahnenerbe_Takeover
 		prerequisite = {
 			focus = ANT_alone_in_the_cold
 		}
@@ -281,7 +281,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_exploring_our_lands
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Exploring_Frozen_Continent
 		prerequisite = {
 			focus = ANT_anherbe_takeover
 		}
@@ -304,7 +304,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_aryan_links
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Aryan_Links
 		prerequisite = {
 			focus = ANT_exploring_our_lands
 		}
@@ -328,7 +328,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_coming_of_vril
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Vril
 		prerequisite = {
 			focus = ANT_anherbe_takeover
 		}
@@ -349,7 +349,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_explore_the_supernatural
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Explore_Supernatural
 		prerequisite = {
 			focus = ANT_coming_of_vril
 		}
@@ -373,7 +373,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_esoteric_antarctica
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Esoteric_Antarctica
 		prerequisite = {
 			focus = ANT_explore_the_supernatural
 		}
@@ -400,7 +400,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_establish_bases
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Establish_More_Bases
 		prerequisite = {
 			focus = ANT_anherbe_takeover
 			focus = ANT_ritshcher_govt
@@ -434,7 +434,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_air_testing
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_German_Air_Testing
 		prerequisite = {
 			focus = ANT_establish_bases
 		}
@@ -492,7 +492,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_nuclear_testing
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Covert_Atomic_Tests
 		prerequisite = {
 			focus = ANT_air_testing
 		}
@@ -526,7 +526,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_naval_stations
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_New_Naval_Stations
 		prerequisite = {
 			focus = ANT_establish_bases
 		}
@@ -572,7 +572,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_mapping_expeditions
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Mapping_Expeditions
 		prerequisite = {
 			focus = ANT_naval_stations
 		}
@@ -596,7 +596,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_mega_base
-		icon = GFX_goal_ANT_cold
+		icon = GFX_goal_ANT_Expand_Bases
 		prerequisite = {
 			focus = ANT_mapping_expeditions
 		}

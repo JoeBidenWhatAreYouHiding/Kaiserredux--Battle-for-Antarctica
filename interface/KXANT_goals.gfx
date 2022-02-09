@@ -247,4 +247,84 @@ SpriteTypes = {
 		name = "GFX_goal_ANT_gates_opened"
 		texturefile = "gfx/interface/goals/goal_ANT_gates_opened.png"
 	}
+	spriteType = {
+		name = "GFX_goal_ANT_Formalize_German_Claims"
+		texturefile = "gfx/interface/goals/goal_ANT_Formalize_German_Claims.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Ahnenerbe_Takeover"
+		texturefile = "gfx/interface/goals/goal_ANT_Ahnenerbe_Takeover.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Antarktische_Heer"
+		texturefile = "gfx/interface/goals/goal_ANT_Antarktische_Heer.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Aryan_Links"
+		texturefile = "gfx/interface/goals/goal_ANT_Aryan_Links.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Covert_Atomic_Tests"
+		texturefile = "gfx/interface/goals/goal_ANT_Covert_Atomic_Tests.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Esoteric_Antarctica"
+		texturefile = "gfx/interface/goals/goal_ANT_Esoteric_Antarctica.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Establish_More_Bases"
+		texturefile = "gfx/interface/goals/goal_ANT_Establish_More_Bases.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Expand_Bases"
+		texturefile = "gfx/interface/goals/goal_ANT_Expand_Bases.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Explore_Supernatural"
+		texturefile = "gfx/interface/goals/goal_ANT_Explore_Supernatural.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Exploring_Frozen_Continent"
+		texturefile = "gfx/interface/goals/goal_ANT_Exploring_Frozen_Continent.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Kaisers_Continent"
+		texturefile = "gfx/interface/goals/goal_ANT_Kaisers_Continent.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Lonely_Colonial_Government"
+		texturefile = "gfx/interface/goals/goal_ANT_Lonely_Colonial_Government.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Mapping_Expeditions"
+		texturefile = "gfx/interface/goals/goal_ANT_Mapping_Expeditions.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_New_Naval_Stations"
+		texturefile = "gfx/interface/goals/goal_ANT_New_Naval_Stations.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_New_Prussia_Frozen_Waste"
+		texturefile = "gfx/interface/goals/goal_ANT_New_Prussia_Frozen_Waste.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Ritscher_Expedition_Survives"
+		texturefile = "gfx/interface/goals/goal_ANT_Ritscher_Expedition_Survives.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Status_Ahnenerbe_Expedition"
+		texturefile = "gfx/interface/goals/goal_ANT_Status_Ahnenerbe_Expedition.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Vril"
+		texturefile = "gfx/interface/goals/goal_ANT_Vril.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Rewards_For_Settlement"
+		texturefile = "gfx/interface/goals/goal_ANT_Rewards_For_Settlement.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_German_Air_Testing"
+		texturefile = "gfx/interface/goals/goal_ANT_German_Air_Testing.png"
+	}
 }
