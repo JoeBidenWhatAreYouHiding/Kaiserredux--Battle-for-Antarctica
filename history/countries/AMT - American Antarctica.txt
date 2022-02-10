@@ -111,9 +111,18 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Richard E. Byrd"
+	desc = "POLITICS_RICHARD_BYRD_DESC"
 	picture = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd.png"
 	expire = "1965.1.1"
 	ideology = antarctic_expedition_subtype
+}
+
+create_country_leader = {
+	name = "Richard E. Byrd"
+	desc = "POLITICS_RICHARD_BYRD_DESC"
+	picture = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd.png"
+	expire = "1965.1.1"
+	ideology = lovecraftianism_subtype
 }
 
 ### Field Marshals - For transfering ### 

@@ -59,6 +59,41 @@ no_military:0 "No Military"
 no_military_desc:0 ""
 battle_for_survival:0 "Battle for Survival"
 
+### Events ###
+antarctica.0.t:0 "Skirmishes Reach Antarctica"
+antarctica.0.d:0 ""
+antarctica.0.a:0 "I thought this was a Neutral Zone?"
+
+antarctica.1.t:0 "Antarctic Neutrality Ends with a Bang"
+antarctica.1.d:0 ""
+antarctica.1.a:0 "Can we have One Continent free of War?"
+
+antarctica.2.t:0 "The Germans Carve out a Chunk of Antarctica"
+antarctica.2.d:0 ""
+antarctica.2.a:0 "Colonialism reaches the White Continent."
+antarctica.2.b:0 "(Play as New Swabia)"
+
+antarctica.3.t:0 "The Entente Formalizes Antarctic Claims"
+antarctica.3.d:0 ""
+antarctica.3.a:0 "The British are at it again."
+antarctica.3.b:0 "(Play as the Dominion of Antarctica)"
+
+antarctica.4.t:0 "Americans Occupy Parts of Antarctica"
+antarctica.4.d:0 ""
+antarctica.4.a:0 "This is the last thing the Yanks need."
+antarctica.4.b:0 "(Play as the American Expedition)"
+
+antarctica.5.t:0 "Antactic Neutrality Ends"
+antarctica.5.d:0 ""
+antarctica.5.a:0 "Can we have One Continent free of War?"
+antarctica.5.b:0 "The Reactionaries need to Colonize Snow, Pathetic"
+
+antarctica.6.t:0 "Whispers from the Snow"
+antarctica.6.d:0 ""
+antarctica.6.a:0 "Nothing but Radio Static"
+antarctica.6.b:0 "Could it be, Trotsky?..."
+
+
 ### Focuses ###
 ANT_Frozen_Wasteland:0 "Surviving in a Frozen Wasteland"
 ANT_Frozen_Wasteland_desc:0 "Antarctica has been relatively untouched by humans for millennia, and Antarctica seems to be intent on staying that way; against our wishes. Survival here is a constant struggle: we are beset by blistering cold, constant snow and ice, and a complete lack of any tools to build a society. But while Antarctica is tough; mankind is tougher. We will survive and thrive here, no matter how much the frozen deserts of this continent try to repel us"
@@ -117,3 +152,8 @@ ANT_Hire_Mercs_desc:0 "Not many people are stupid enough to settle in Antarctica
 ANT_Learn_From_Inuit:0 "Learn from the Inuit"
 ANT_Learn_From_Inuit_desc:0 "Few societies that have managed to survive in the harsh frozen conditions we are in, one of those societies are the Inuit and Eskimo peoples of Northern Alaska and Canada. Using their knowledge, we will further adapt to our situation, and hopefully model a cold-resistant society in their image. " 
 
+ANT_eternal_neutral_zone:0 "Antarctic Neutral Zone"
+ANT_eternal_neutral_zone_desc:0 ""
+ANT_noot_noot:0 "Antarctica Free from Humans"
+ANT_noot_noot_desc:0 ""
+ANT_unchanging_ice:0 "Unchanging Ice and Snow"

@@ -1,0 +1,72 @@
+
+focus_tree = {
+	id = KX_Antarctica_American
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AAR
+		}
+	}
+	default = no
+	
+	focus = {
+		id = ANT_eternal_neutral_zone
+		icon = GFX_goal_ANT_eternal_neutral_zone
+		x = 6
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_noot_noot
+		icon = GFX_goal_ANT_eternal_neutral_zone
+		relative_position_id = ANT_eternal_neutral_zone
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ANT_eternal_neutral_zone
+		}
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_unchanging_ice
+		icon = GFX_goal_ANT_eternal_neutral_zone
+		relative_position_id = ANT_eternal_neutral_zone
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ANT_noot_noot
+		}
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
+			custom_effect_tooltip = ANT_expedition_2_tt
+		}
+	}
+}

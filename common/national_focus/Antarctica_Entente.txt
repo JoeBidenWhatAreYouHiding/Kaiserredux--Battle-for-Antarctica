@@ -467,6 +467,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
 			remove_ideas = ANT_undersupplied2
+			build_railway = {
+				start_province = 15089
+				target_province = 15025
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	

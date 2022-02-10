@@ -97,6 +97,8 @@ AAR_setup_trotsky = {
 		add_ideas = battle_for_survival
 		load_oob = AAR_SOV_OOB
 		
+		load_focus_tree = KX_Antarctica_Trotsky
+		
 		create_country_leader = {
 			name = "Leon Trotsky"
 			desc = "POLITICS_TROTSKY_DESC"
