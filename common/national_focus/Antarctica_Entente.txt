@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = ANT_his_majestys_antarctic_claim
-		icon = X
+		icon = GFX_goal_ANT_Status_Ententes_Antarctic_Claims
 		x = 5
 		y = 0
 		cost = 5
@@ -34,7 +34,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_settle_inter_entente_disputes
-		icon = X
+		icon = GFX_goal_ANT_Settle_Inter_Entente_Disputes
 		x = -1
 		y = 1
 		relative_position_id = ANT_his_majestys_antarctic_claim
@@ -49,13 +49,17 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_settle_inter_entente_disputes"
-			
+			swap_ideas = {
+				remove_idea = ANT_largest_slice
+				add_idea = ANT_largest_slice2
+			}
+			add_political_power = 20
 		}
 	}
 	
 	focus = {
 		id = ANT_more_supplies_from_home
-		icon = X
+		icon = GFX_goal_ANT_Shore_Up_Our_Supplies
 		x = 1
 		y = 1
 		relative_position_id = ANT_his_majestys_antarctic_claim
@@ -70,13 +74,21 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			swap_ideas = {
+				remove_idea = ANT_undersupplied
+				add_idea = ANT_undersupplied2
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 500
+				producer = CAN
+			}
 		}
 	}
 	
 	focus = {
 		id = ANT_appoint_a_high_commissioner
-		icon = X
+		icon = GFX_goal_ANT_Create_Position_High_Commissioner
 		prerequisite = {
 			focus = ANT_more_supplies_from_home
 		}
@@ -94,19 +106,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			custom_effect_tooltip = ANT_appoint_a_high_commissioner_tt
 		}
 	}
 	
 	focus = {
 		id = ANT_French_Antarctica
-		icon = X
+		icon = GFX_goal_ANT_French_Commissioner
 		prerequisite = {
 			focus = ANT_appoint_a_high_commissioner
 		}
 		available = {
-			has_government = authoritarian_democrat
-			has_country_flag = ANT_French_Antarctica
+			has_country_flag = EAR_Charcot_HOS
 		}
 		x = -2
 		y = 1
@@ -119,13 +130,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			set_cosmetic_tag = EAR_french
+			add_ideas = ANT_French_Antarctica
 		}
 	}
 	
 	focus = {
 		id = ANT_Replace_Anglo_Administrators
-		icon = X
+		icon = GFX_goal_ANT_Replace_Anglo_Administrators
 		prerequisite = {
 			focus = ANT_French_Antarctica
 		}
@@ -140,13 +152,27 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			create_field_marshal = {
+				name = "Jean-Baptiste Charcot"
+				portrait_path = "gfx/leaders/EAR/Portrait_Entente_Antarctica_Jean_Baptiste_Charcot.png"
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 1
+				#id = 1604
+			}
+			swap_ideas = {
+				remove_idea = ANT_French_Antarctica
+				add_idea = ANT_French_Antarctica2
+			}
 		}
 	}
 	
 	focus = {
 		id = ANT_Emphasize_NatFrance_Role
-		icon = X
+		icon = GFX_goal_ANT_Emphasize_Frances_Role
 		prerequisite = {
 			focus = ANT_Replace_Anglo_Administrators
 		}
@@ -161,13 +187,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			swap_ideas = {
+				remove_idea = ANT_French_Antarctica2
+				add_idea = ANT_French_Antarctica3
+			}
+			add_war_support = 0.05
+			add_command_power = 50
 		}
 	}
 	
 	focus = {
 		id = ANT_French_Antarctic_Dominance
-		icon = X
+		icon = GFX_goal_ANT_French_Dominance_Antarctica
 		prerequisite = {
 			focus = ANT_Expand_Ice_Roads
 		}
@@ -185,15 +216,31 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			swap_ideas = {
+				remove_idea = ANT_French_Antarctica3
+				add_idea = ANT_French_Antarctica4
+			}
+			swap_ideas = {
+				remove_idea = ANT_largest_slice2
+				add_idea = ANT_largest_slice3
+			}
+			add_political_power = 100
+			add_stability = 0.15
 		}
 	}
 	
 	focus = {
 		id = ANT_Anglo_Rule_Continues
-		icon = X
+		icon = GFX_goal_ANT_Anglo_Commissioner
 		prerequisite = {
 			focus = ANT_appoint_a_high_commissioner
+		}
+		available = {
+			OR = {
+				has_country_flag = EAR_Marr_HOS
+				has_country_flag = EAR_Mawson_HOS
+				has_country_flag = EAR_Stefansson_HOS
+			}
 		}
 		
 		x = 2
@@ -207,13 +254,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			add_ideas = ANT_Anglo_Rule_Continues
+			add_political_power = 50
 		}
 	}
 	
 	focus = {
 		id = ANT_Entente_Cooperation_in_Antarctica
-		icon = X
+		icon = GFX_goal_ANT_Antarctic_Entente_Cooperation
 		prerequisite = {
 			focus = ANT_Anglo_Rule_Continues
 		}
@@ -228,13 +276,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			swap_ideas = {
+				remove_idea = ANT_Anglo_Rule_Continues
+				add_idea = ANT_Anglo_Rule_Continues2
+			}
+			add_war_support = 0.05
+			add_command_power = 50
 		}
 	}
 	
 	focus = {
 		id = ANT_Rely_on_Australasia
-		icon = X
+		icon = GFX_goal_ANT_Rely_On_Australasia
 		prerequisite = {
 			focus = ANT_Entente_Cooperation_in_Antarctica
 		}
@@ -249,13 +302,26 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			swap_ideas = {
+				remove_idea = ANT_Anglo_Rule_Continues2
+				add_idea = ANT_Anglo_Rule_Continues3
+			}
+			add_opinion_modifier = {
+				target = AST
+				modifier = hol_likes_govt
+			}
+			AST = {
+				add_opinion_modifier = {
+					target = EAR
+					modifier = hol_likes_govt
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = ANT_ANZAC_Antarctica
-		icon = X
+		icon = GFX_goal_ANT_Antarctica_Under_Anzac
 		prerequisite = {
 			focus = ANT_Rely_on_Australasia
 		}
@@ -273,14 +339,23 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			swap_ideas = {
+				remove_idea = ANT_Anglo_Rule_Continues3
+				add_idea = ANT_Anglo_Rule_Continues4
+			}
+			swap_ideas = {
+				remove_idea = ANT_largest_slice2
+				add_idea = ANT_largest_slice3
+			}
+			add_political_power = 100
+			add_stability = 0.15
 		}
 	}
 	
 	
 	focus = {
 		id = ANT_Operation_Tabarin
-		icon = X
+		icon = GFX_goal_ANT_Operation_Tabarin
 		prerequisite = {
 			focus = ANT_Anglo_Rule_Continues
 			focus = ANT_French_Antarctica
@@ -296,13 +371,15 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			add_ideas = ANT_Operation_Tabarin
+			add_command_power = 100
+			army_experience = 100
 		}
 	}
 	
 	focus = {
 		id = ANT_Special_Forces_Focus
-		icon = X
+		icon = GFX_goal_ANT_Antarctic_Special_Forces
 		prerequisite = {
 			focus = ANT_Operation_Tabarin
 		}
@@ -317,13 +394,34 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			add_tech_bonus = {
+				name = FRA_special_forces
+				bonus = 1
+				uses = 1
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_mountaineers3
+			}
+			add_tech_bonus = {
+				name = MSF_army_wide_special_forces_training
+				bonus = 1
+				uses = 2
+				category = para_tech
+				category = marine_tech
+				technology = tech_recon2
+				technology = tech_recon3
+				technology = tech_recon4
+			}
+			swap_ideas = {
+				remove_idea = ANT_Operation_Tabarin
+				add_idea = ANT_Operation_Tabarin2
+			}
 		}
 	}
 	
 	focus = {
 		id = ANT_Expand_Supply_Lines
-		icon = X
+		icon = GFX_goal_ANT_Shore_Up_Supplies
 		prerequisite = {
 			focus = ANT_Anglo_Rule_Continues
 			focus = ANT_French_Antarcticas
@@ -339,13 +437,21 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 500
+				producer = CAN
+			}
+			swap_ideas = {
+				remove_idea = ANT_undersupplied2
+				add_idea = ANT_undersupplied3
+			}
 		}
 	}
 	
 	focus = {
 		id = ANT_Expand_Ice_Roads
-		icon = X
+		icon = GFX_goal_ANT_Expand_Ice_Roads
 		prerequisite = {
 			focus = ANT_Expand_Supply_Lines
 		}
@@ -360,13 +466,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			remove_ideas = ANT_undersupplied2
 		}
 	}
 	
 	focus = {
 		id = ANT_Bolster_Entente_Prescense
-		icon = x
+		icon = GFX_goal_ANT_Bolster_Entente_Presence
 		prerequisite = {
 			focus = ANT_Operation_Tabarin
 		}
@@ -384,13 +490,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			add_manpower = 2500
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 500
+				producer = CAN
+			}
 		}
 	}
 	
 	focus = {
 		id = ANT_Rule_Antarctica
-		icon = X
+		icon = GFX_goal_ANT_Colonizing_Antarctica
 		prerequisite = {
 			focus = ANT_Bolster_Entente_Prescense
 		}
@@ -411,7 +522,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
-			
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 100
+			}
+			swap_ideas = {
+				remove_idea = ANT_Operation_Tabarin2
+				add_idea = ANT_Operation_Tabarin3
+			}
 		}
 	}
 }

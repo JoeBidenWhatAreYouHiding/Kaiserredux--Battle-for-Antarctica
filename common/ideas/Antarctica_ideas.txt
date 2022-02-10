@@ -317,6 +317,8 @@ ideas = {
 				stability_factor = 0.05
 				war_support_factor = 0.05
 				army_morale_factor = 0.04
+				political_power_cost = 0.05
+				political_power_gain = -0.05
 			}
 		}
 		
@@ -326,6 +328,215 @@ ideas = {
 			modifier = {
 				supply_consumption_factor = 0.4
 				out_of_supply_factor = 0.15
+			}
+		}
+		
+		ANT_undersupplied2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			name = ANT_undersupplied
+			picture = ANT_undersupplied
+			modifier = {
+				supply_consumption_factor = 0.3
+				out_of_supply_factor = 0.1
+			}
+		}
+		
+		ANT_undersupplied3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			name = ANT_undersupplied
+			picture = ANT_undersupplied
+			modifier = {
+				supply_consumption_factor = 0.2
+				out_of_supply_factor = 0.05
+			}
+		}
+		
+		ANT_largest_slice2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_largest_slice
+			name = ANT_largest_slice
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				army_morale_factor = 0.04
+				political_power_cost = 0.02
+				political_power_gain = -0.02
+			}
+		}
+		
+		ANT_largest_slice3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			picture = ANT_largest_slice
+			name = ANT_largest_slice
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				army_morale_factor = 0.04
+			}
+		}
+		
+		### French ###
+		
+		ANT_French_Antarctica = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_French_Antarctica"}
+			picture = ANT_largest_slice
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				political_power_gain = 0.02
+			}
+		}
+		
+		ANT_French_Antarctica2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_French_Antarctica2"}
+			picture = ANT_largest_slice
+			name = ANT_French_Antarctica
+			modifier = {
+				stability_factor = -0.02
+				war_support_factor = -0.02
+				political_power_gain = 0.02
+			}
+		}
+		
+		ANT_French_Antarctica3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_French_Antarctica2"}
+			picture = ANT_largest_slice
+			name = ANT_French_Antarctica
+			modifier = {
+				stability_factor = -0.01
+				war_support_factor = 0.02
+				political_power_gain = 0.02
+				command_power_gain_mult = 0.05
+			}
+		}
+		
+		ANT_French_Antarctica4 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_French_Antarctica2"}
+			picture = ANT_largest_slice
+			name = ANT_French_Antarctica
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.05
+				command_power_gain_mult = 0.05
+			}
+		}
+		
+		### Anglo ###
+		
+		ANT_Anglo_Rule_Continues = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Anglo_Rule_Continues"}
+			picture = ANT_largest_slice
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				political_power_gain = 0.02
+			}
+		}
+		
+		ANT_Anglo_Rule_Continues2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Anglo_Rule_Continues"}
+			picture = ANT_largest_slice
+			name = ANT_Anglo_Rule_Continues
+			modifier = {
+				stability_factor = -0.02
+				war_support_factor = 0.02
+				political_power_gain = 0.02
+				command_power_gain_mult = 0.05
+			}
+		}
+		
+		ANT_Anglo_Rule_Continues3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Anglo_Rule_Continues"}
+			picture = ANT_largest_slice
+			name = ANT_Anglo_Rule_Continues
+			modifier = {
+				stability_factor = -0.01
+				war_support_factor = 0.02
+				political_power_gain = 0.05
+				command_power_gain_mult = 0.05
+			}
+			targeted_modifier = {
+				tag = AST
+				trade_cost_for_target_factor = -0.4
+			}
+		}
+		
+		ANT_Anglo_Rule_Continues4 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Anglo_Rule_Continues4"}
+			picture = ANT_largest_slice
+			name = ANT_Anglo_Rule_Continues
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.05
+				command_power_gain_mult = 0.05
+			}
+			targeted_modifier = {
+				tag = AST
+				trade_cost_for_target_factor = -0.4
+			}
+		}
+		
+		### Shared ###
+		ANT_Operation_Tabarin = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ANT_Operation_Tabarin"}
+			picture = tfv_can_conscription_crisis
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				experience_gain_army = 0.05
+			}
+		}
+		
+		ANT_Operation_Tabarin2 = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ANT_Operation_Tabarin2"}
+			picture = tfv_can_conscription_crisis
+			name = ANT_Operation_Tabarin
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				experience_gain_army = 0.05
+				special_forces_min = 10
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+				special_forces_out_of_supply_factor = -0.05
+			}
+		}
+		
+		ANT_Operation_Tabarin3 = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ANT_Operation_Tabarin2"}
+			picture = tfv_can_conscription_crisis
+			name = ANT_Operation_Tabarin
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				experience_gain_army = 0.05
+				special_forces_min = 10
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+				special_forces_out_of_supply_factor = -0.05
+			}
+			targeted_modifier = {
+				tag = AMT
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = NSL
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = AAR
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
 			}
 		}
 		

@@ -5,6 +5,10 @@ EAR:0 "Dominion of Antarctica"
 EAR_ADJ:0 "Dominionist Antarctic"
 EAR_DEF:0 "Dominion of Antarctica"
 
+EAR_french:0 "French Southern and Antarctic Lands"
+EAR_french_ADJ:0 "French Antarctic"
+EAR_french_DEF:0 "the French Southern and Antarctic Lands"
+
 ### Parties ###
 EAR_totalist_party:0 "Ostatki bol'shevikov-loyalistov"
 EAR_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov (Pingviny)"
@@ -33,14 +37,34 @@ ANT_largest_slice_desc:0 ""
 ANT_undersupplied:0 "Undersupplied and Overstretched"
 ANT_undersupplied_desc:0 ""
 
+### Flags ###
+EAR_Marr_HOS:0 "§YJames Marr§! is Antarctic High-Commissioner"
+EAR_Mawson_HOS:0 "§YDouglas Mawson§! is Antarctic High-Commissioner"
+EAR_Stefansson_HOS:0 "§YVilhjalmur Stefansson§! is Antarctic High-Commissioner"
+EAR_Charcot_HOS:0 "§YJean-Baptiste Charcot§! is Antarctic High-Commissioner"
+
 ### Tooltips ###
+ANT_appoint_a_high_commissioner_tt:0 "The Position of §GHigh Commissioner for Entente Antarctic Territories§! will be created"
+
+### Events ###
+ententeantarctica.1.t:0 "The Entente's Spearhead in Antarctica"
+ententeantarctica.1.d:0 ""
+ententeantarctica.1.a:0 "God Save the King!"
+
+ententeantarctica.2.t:0 "On the High-Commissioner's Post"
+ententeantarctica.2.d:0 ""
+ententeantarctica.2.a:0 "Keep Marr as Head of State"
+ententeantarctica.2.b:0 "Mawson will represent Australasia's Interests"
+ententeantarctica.2.c:0 "Stefansson will closen our ties with Canada"
+ententeantarctica.2.e:0 "Charcot will make sure French Interests are priority in the Antarctic"
+
 
 ### Focuses ###
 ANT_his_majestys_antarctic_claim:0 "Status of the Entente's Antarctic Claim"
 ANT_his_majestys_antarctic_claim_desc:0 ""
 ANT_settle_inter_entente_disputes:0 "Settle Inter-Entente Disputes"
 ANT_settle_inter_entente_disputes_desc:0 ""
-ANT_more_supplies_from_home:0 "Shore up Supplies"
+ANT_more_supplies_from_home:0 "Request More Supplies from Home"
 ANT_more_supplies_from_home_desc:0 ""
 ANT_appoint_a_high_commissioner:0 "Create the Position of High-Commissioner"
 ANT_appoint_a_high_commissioner_desc:0 ""

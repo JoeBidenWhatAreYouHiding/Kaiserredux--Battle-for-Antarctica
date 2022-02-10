@@ -327,4 +327,76 @@ SpriteTypes = {
 		name = "GFX_goal_ANT_German_Air_Testing"
 		texturefile = "gfx/interface/goals/goal_ANT_German_Air_Testing.png"
 	}
+	spriteType = {
+		name = "GFX_goal_ANT_French_Commissioner"
+		texturefile = "gfx/interface/goals/goal_ANT_French_Commissioner.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Anglo_Commissioner"
+		texturefile = "gfx/interface/goals/goal_ANT_Anglo_Commissioner.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Antarctic_Entente_Cooperation"
+		texturefile = "gfx/interface/goals/goal_ANT_Antarctic_Entente_Cooperation.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Antarctic_Special_Forces"
+		texturefile = "gfx/interface/goals/goal_ANT_Antarctic_Special_Forces.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Antarctica_Under_Anzac"
+		texturefile = "gfx/interface/goals/goal_ANT_Antarctica_Under_Anzac.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Bolster_Entente_Presence"
+		texturefile = "gfx/interface/goals/goal_ANT_Bolster_Entente_Presence.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Colonizing_Antarctica"
+		texturefile = "gfx/interface/goals/goal_ANT_Colonizing_Antarctica.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Create_Position_High_Commissioner"
+		texturefile = "gfx/interface/goals/goal_ANT_Create_Position_High_Commissioner.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Emphasize_Frances_Role"
+		texturefile = "gfx/interface/goals/goal_ANT_Emphasize_Frances_Role.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Expand_Ice_Roads"
+		texturefile = "gfx/interface/goals/goal_ANT_Expand_Ice_Roads.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Shore_Up_Our_Supplies"
+		texturefile = "gfx/interface/goals/goal_ANT_Shore_Up_Our_Supplies.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Settle_Inter_Entente_Disputes"
+		texturefile = "gfx/interface/goals/goal_ANT_Settle_Inter_Entente_Disputes.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Replace_Anglo_Administrators"
+		texturefile = "gfx/interface/goals/goal_ANT_Replace_Anglo_Administrators.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Rely_On_Australasia"
+		texturefile = "gfx/interface/goals/goal_ANT_Rely_On_Australasia.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Operation_Tabarin"
+		texturefile = "gfx/interface/goals/goal_ANT_Operation_Tabarin.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_French_Dominance_Antarctica"
+		texturefile = "gfx/interface/goals/goal_ANT_French_Dominance_Antarctica.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Status_Ententes_Antarctic_Claims"
+		texturefile = "gfx/interface/goals/goal_ANT_Status_Ententes_Antarctic_Claims.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Shore_Up_Supplies"
+		texturefile = "gfx/interface/goals/goal_ANT_Shore_Up_Supplies.png"
+	}
 }

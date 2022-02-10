@@ -2111,3 +2111,7 @@ AAR_NOBODY = {
 	color = rgb { 200 217 227 }
 	color_ui = rgb { 200 217 227 }
 }
+EAR_french = {
+	color = rgb { 0 38 84 }
+	color_ui = rgb { 0 38 84 }
+}
