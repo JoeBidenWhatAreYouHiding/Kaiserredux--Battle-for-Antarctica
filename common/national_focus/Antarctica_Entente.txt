@@ -17,19 +17,401 @@ focus_tree = {
 
 	focus = {
 		id = ANT_his_majestys_antarctic_claim
-		icon = GFX_goal_ANT_new_swabia
-		x = 8
+		icon = X
+		x = 5
 		y = 0
-		cost = 10
+		cost = 5
 		available_if_capitulated = no
 		cancelable = no
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			custom_effect_tooltip = ANT_his_majestys_antarctic_claim_2_tt
+		}
+	}
+	
+	focus = {
+		id = ANT_settle_inter_entente_disputes
+		icon = X
+		x = -1
+		y = 1
+		relative_position_id = ANT_his_majestys_antarctic_claim
+		prerequisite = {
+			focus = ANT_his_majestys_antarctic_claim
+		}
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_settle_inter_entente_disputes"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_more_supplies_from_home
+		icon = X
+		x = 1
+		y = 1
+		relative_position_id = ANT_his_majestys_antarctic_claim
+		prerequisite = {
+			focus = ANT_his_majestys_antarctic_claim
+		}
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_appoint_a_high_commissioner
+		icon = X
+		prerequisite = {
+			focus = ANT_more_supplies_from_home
+		}
+		prerequisite = {
+			focus = ANT_settle_inter_entente_disputes
+		}
+		x = 0
+		y = 2
+		relative_position_id = ANT_his_majestys_antarctic_claim
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_French_Antarctica
+		icon = X
+		prerequisite = {
+			focus = ANT_appoint_a_high_commissioner
+		}
+		available = {
+			has_government = authoritarian_democrat
+			has_country_flag = ANT_French_Antarctica
+		}
+		x = -2
+		y = 1
+		relative_position_id = ANT_appoint_a_high_commissioner
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Replace_Anglo_Administrators
+		icon = X
+		prerequisite = {
+			focus = ANT_French_Antarctica
+		}
+		x = -1
+		y = 1
+		relative_position_id = ANT_French_Antarctica
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Emphasize_NatFrance_Role
+		icon = X
+		prerequisite = {
+			focus = ANT_Replace_Anglo_Administrators
+		}
+		x = -2
+		y = 2
+		relative_position_id = ANT_French_Antarctica
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_French_Antarctic_Dominance
+		icon = X
+		prerequisite = {
+			focus = ANT_Expand_Ice_Roads
+		}
+		prerequisite = {
+			focus = ANT_Emphasize_NatFrance_Role
+		}
+		x = -1
+		y = 3
+		relative_position_id = ANT_French_Antarctica
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Anglo_Rule_Continues
+		icon = X
+		prerequisite = {
+			focus = ANT_appoint_a_high_commissioner
+		}
+		
+		x = 2
+		y = 1
+		relative_position_id = ANT_appoint_a_high_commissioner
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Entente_Cooperation_in_Antarctica
+		icon = X
+		prerequisite = {
+			focus = ANT_Anglo_Rule_Continues
+		}
+		x = 1
+		y = 1
+		relative_position_id = ANT_Anglo_Rule_Continues
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Rely_on_Australasia
+		icon = X
+		prerequisite = {
+			focus = ANT_Entente_Cooperation_in_Antarctica
+		}
+		x = 2
+		y = 2
+		relative_position_id = ANT_Anglo_Rule_Continues
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
 		}
 	}
 
+	focus = {
+		id = ANT_ANZAC_Antarctica
+		icon = X
+		prerequisite = {
+			focus = ANT_Rely_on_Australasia
+		}
+		prerequisite = {
+			focus = ANT_Special_Forces_Focus
+		}
+		x = 1
+		y = 3
+		relative_position_id = ANT_Anglo_Rule_Continues
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	
+	focus = {
+		id = ANT_Operation_Tabarin
+		icon = X
+		prerequisite = {
+			focus = ANT_Anglo_Rule_Continues
+			focus = ANT_French_Antarctica
+		}
+		x = -1
+		y = 1
+		relative_position_id = ANT_Anglo_Rule_Continues
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Special_Forces_Focus
+		icon = X
+		prerequisite = {
+			focus = ANT_Operation_Tabarin
+		}
+		x = 0
+		y = 2
+		relative_position_id = ANT_Anglo_Rule_Continues
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Expand_Supply_Lines
+		icon = X
+		prerequisite = {
+			focus = ANT_Anglo_Rule_Continues
+			focus = ANT_French_Antarcticas
+		}
+		x = 1
+		y = 1
+		relative_position_id = ANT_French_Antarctica
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Expand_Ice_Roads
+		icon = X
+		prerequisite = {
+			focus = ANT_Expand_Supply_Lines
+		}
+		x = 0
+		y = 2
+		relative_position_id = ANT_French_Antarctica
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Bolster_Entente_Prescense
+		icon = x
+		prerequisite = {
+			focus = ANT_Operation_Tabarin
+		}
+		prerequisite = {
+			focus = ANT_Expand_Supply_Lines
+		}
+		x = 0
+		y = 3
+		relative_position_id = ANT_appoint_a_high_commissioner
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
+	
+	focus = {
+		id = ANT_Rule_Antarctica
+		icon = X
+		prerequisite = {
+			focus = ANT_Bolster_Entente_Prescense
+		}
+		prerequisite = {
+			focus = ANT_Expand_Ice_Roads
+		}
+		prerequisite = {
+			focus = ANT_Special_Forces_Focus
+		}
+		x = 0
+		y = 4
+		relative_position_id = ANT_appoint_a_high_commissioner
+		cost = 5
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_his_majestys_antarctic_claim"
+			
+		}
+	}
 }

@@ -111,7 +111,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Richard E. Byrd"
-	picture = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd.png"
+	picture = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd.png"
 	expire = "1965.1.1"
 	ideology = antarctic_expedition_subtype
 }
@@ -120,7 +120,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Richard E. Byrd"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd.png"
 	traits = { winter_expert naval_liason  }
 	skill = 2
 	attack_skill = 2
@@ -133,7 +133,7 @@ create_field_marshal = {
 ### Corps Commanders ### 
 create_corps_commander = {
 	name = "Richard H. Cruzen"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_H_Cruzen.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_H_Cruzen.png"
 	traits = { winter_expert naval_liason  }
 	skill = 2
 	attack_skill = 2
@@ -145,7 +145,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "George J. Dufek"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_George_J_Dufek.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_George_J_Dufek.png"
 	traits = { winter_expert naval_liason  }
 	skill = 2
 	attack_skill = 2
@@ -157,7 +157,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "George W. Gibbs Jr."
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_George_W_Gibbs_Jr.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_George_W_Gibbs_Jr.png"
 	traits = { winter_expert naval_liason  }
 	skill = 2
 	attack_skill = 2
@@ -170,7 +170,7 @@ create_corps_commander = {
 ### Navy Leaders ###
 create_navy_leader = {
 	name = "Richard E Byrd"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_Byrd_Admiral.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd_Admiral.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -182,7 +182,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Richard H Cruzen"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Richard_H_Cruzen.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_H_Cruzen.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -194,7 +194,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "George J Dufek"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_George_J_Dufek.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_George_J_Dufek.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -206,7 +206,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "George W. Gibbs Jr"
-	portrait_path = "gfx/leaders/AAR/Portrait_ANT_George_W_Gibbs_Jr.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_George_W_Gibbs_Jr.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
