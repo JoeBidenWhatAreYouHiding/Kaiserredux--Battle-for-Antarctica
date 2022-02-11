@@ -2115,3 +2115,7 @@ EAR_french = {
 	color = rgb { 0 38 84 }
 	color_ui = rgb { 0 38 84 }
 }
+AMT_ARGARTHA = {
+	color = rgb { 26 29 26 }
+	color_ui = rgb { 26 29 26 }
+}
