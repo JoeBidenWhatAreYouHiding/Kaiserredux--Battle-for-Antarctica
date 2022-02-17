@@ -13,6 +13,9 @@ AMT_ARGARTHA:0 "Agartha"
 AMT_ARGARTHA_ADJ:0 "Agartha"
 AMT_ARGARTHA_DEF:0 "Agartha"
 
+### Leader Bios ###
+POLITICS_RICHARD_BYRD_DESC:0 "Admiral Richard Evelyn Byrd Jr. is famous far and wide for both his illustrious naval career and his personal achievements as an explorer of the unknown and the extreme. Born in 1888 in Virginia to a family that has been in America since the first Pilgrim landings, Byrd is related to major colonial figures such as John Rolfe and his wife Pocahontas. After getting his education at the Virginia Military Institute, then the University of Virginia before finally landing at the United States Naval Academy, Byrd would slowly climb up the ranks while marrying his beloved Marie. Serving valiantly aboard the USS Wyoming as the Great War waged outside of America’s borders, Byrd would show an adept talent for exploration and command, leading to a swift series of promotions - a rare occurrence in peacetime. After the Great War ended, Byrd was free to pursue his passion of naval, aeronautical, and land-based exploration, exploring both the North and South Poles, as well as other harsh environments in Canada, Russia, and Scandinavia. Separate from his military career and kept secret from the public, Byrd is also a devoted skeptic, conspiracy theorist, esoteric thinker, UFOlogist, and all around dabble in what many consider to be pseudoscience or just plain madness. Despite this, Admiral Byrd has proven himself to be a sound naval commander and experienced, if boastful and exaggerative, polar explorer. With this in mind, it was no wonder why he was chosen to lead this very expedition, even as the world heats up around us in this frozen hellscape."
+
 ### Parties ###
 AMT_totalist_party:0 "Ostatki bol'shevikov-loyalistov"
 AMT_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov (Pingviny)"

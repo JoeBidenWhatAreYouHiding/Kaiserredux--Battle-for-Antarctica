@@ -1,0 +1,22 @@
+trotskyism_subtype = {can_be_randomly_selected = no} #Revolutionary Savinkovism
+governmentlessness_subtype = {can_be_randomly_selected = no} #Broad Communism
+antarctic_expedition_subtype = {can_be_randomly_selected = no} #Authoritarian Liberalism
+
+text = {
+		trigger = {
+			has_country_leader_ideology = antarctic_expedition_subtype
+		}
+		localization_key = antarctic_expedition_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = trotskyism_subtype
+		}
+		localization_key = trotskyism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = governmentlessness_subtype
+		}
+		localization_key = governmentlessness_subtype
+	}
