@@ -88,7 +88,7 @@ ideas = {
 		## Shared - Economy ##
 		ANT_Heating_Technology = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Heating_Technology"}
-			picture = X
+			picture = ANT_Heating_Technology
 			modifier = {
 				winter_attrition_factor = -0.30
 				acclimatization_cold_climate_gain_factor = 0.3
@@ -97,7 +97,7 @@ ideas = {
 		
 		ANT_New_Economy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_New_Economy" }
-			picture = HOL_welfare_state
+			picture = ANT__Ice_Cold_Economy
 			modifier = {
 				production_speed_buildings_factor = 0.02
 				industrial_capacity_factory = 0.02
@@ -110,7 +110,7 @@ ideas = {
 		
 		ANT_Flamethrowers = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_New_Economy" }
-			picture = HOL_welfare_state
+			picture = ANT_Flamethrowers
 			modifier = {
 				army_morale_factor = 0.05
 				army_attack_factor = 0.05
@@ -122,7 +122,7 @@ ideas = {
 		
 		ANT_Melee_Weapons = { 
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Melee_Weapons"}
-			picture = X
+			picture = ANT_Melee_Weapons
 			modifier = {
 				land_reinforce_rate = 0.2
 				army_morale_factor = -0.05
@@ -134,7 +134,7 @@ ideas = {
 		
 		ANT_shitty_guns = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_shitty_guns"}
-			picture = tfv_can_conscription_crisis
+			picture = ANT_Unreliable_Equipment
 			equipment_bonus = {
 				infantry_equipment = {
 					reliability = -0.25
@@ -145,7 +145,7 @@ ideas = {
 		
 		ANT_Use_our_Terrain = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Use_our_Terrain"}
-			picture = ast_all_in
+			picture = ANT_Using_Our_Terrain
 			modifier = {
 				army_core_attack_factor = 0.05
 				army_core_defence_factor = 0.05
@@ -156,7 +156,7 @@ ideas = {
 		
 		ANT_Battle_for_Survival = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_Battle_for_Survival"}
-			picture = ast_all_in
+			picture = ANT_Battle_For_Survival
 			modifier = {
 				army_core_attack_factor = 0.05
 				army_core_defence_factor = 0.1
@@ -188,7 +188,7 @@ ideas = {
 		
 		ANT_german_support = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_german_support"}
-			picture = ANT_expidition_idea
+			picture = ANT_German_Backing
 			modifier = {
 				political_power_cost = -0.02
 			}
@@ -202,7 +202,7 @@ ideas = {
 		
 		ANT_ritshcher_govt = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_ritshcher_govt"}
-			picture = ANT_expidition_idea
+			picture = ANT_Ritscher_Government
 			modifier = {
 				political_power_gain = 0.02
 				stability_factor = 0.02
@@ -220,7 +220,7 @@ ideas = {
 		
 		ANT_the_kaisers_continent = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_the_kaisers_continent"}
-			picture = ANT_expidition_idea
+			picture = ANT_Kaisers_Continent
 			modifier = {
 				political_power_gain = 0.05
 				stability_factor = 0.05
@@ -230,7 +230,7 @@ ideas = {
 		
 		ANT_prussia_in_antarctica = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_prussia_in_antarctica"}
-			picture = GER_imperial_pride
+			picture = ANT_Prussia_In_Antarctica
 			modifier = {
 				conscription_factor = 0.05
 				army_morale_factor = 0.15
@@ -263,7 +263,7 @@ ideas = {
 		
 		ANT_aryan_links = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_aryan_links"}
-			picture = ANT_expidition_idea
+			picture = ANT_Aryan_Links
 			modifier = {
 				political_power_gain = 0.05
 				stability_factor = 0.05
@@ -273,7 +273,7 @@ ideas = {
 		
 		ANT_coming_of_vril = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ANT_coming_of_vril"}
-			picture = NEE_signs
+			picture = ANT_Coming_Vril
 			modifier = {
 				conscription = 0.01
 				national_populist_drift = 0.01
@@ -284,7 +284,7 @@ ideas = {
 		
 		ANT_explore_the_supernatural = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ANT_explore_the_supernatural"}
-			picture = NEE_signs
+			picture = ANT_Explore_Supernatural
 			modifier = {
 				conscription = 0.01
 				national_populist_drift = 0.01
@@ -574,7 +574,7 @@ ideas = {
 		}
 		
 		ANT_Funding = {
-			picture = atlanta_fire
+			picture = ANT_Ford_Funding
 			modifier = {
 				production_speed_buildings_factor = 0.05
 				industry_repair_factor = 0.05
@@ -585,7 +585,7 @@ ideas = {
 		### Byrd Sane Path ###
 		ANT_home_away_from_home = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
-			picture = NFA_anti_communard
+			picture = ANT_Home_Away_From_Home
 			modifier = {
 				production_speed_buildings_factor = 0.05
 				research_speed_factor = 0.05
@@ -594,7 +594,7 @@ ideas = {
 		
 		ANT_home_away_from_home2 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home2"}
-			picture = NFA_anti_communard
+			picture = ANT_Home_Away_From_Home
 			name = ANT_home_away_from_home
 			modifier = {
 				production_speed_buildings_factor = 0.08
@@ -605,7 +605,7 @@ ideas = {
 		
 		ANT_home_away_from_home3 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home3"}
-			picture = NFA_anti_communard
+			picture = ANT_Home_Away_From_Home
 			name = ANT_home_away_from_home
 			modifier = {
 				production_speed_buildings_factor = 0.08
@@ -618,7 +618,7 @@ ideas = {
 		
 		ANT_a_little_america = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_a_little_america"}
-			picture = NFA_anti_communard
+			picture = ANT_Little_America
 			name = ANT_home_away_from_home
 			modifier = {
 				production_speed_buildings_factor = 0.08
@@ -632,7 +632,7 @@ ideas = {
 		
 		ANT_antarctic_admirality = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_antarctic_admirality"}
-			picture = NFA_anti_communard
+			picture = ANT_Antarctic_Admiralty
 			modifier = {
 				naval_doctrine_cost_factor = -0.1
 			}
@@ -646,13 +646,13 @@ ideas = {
 				stability_factor = 0.02
 				consumer_goods_factor = -0.02
 			}
-			picture = received_attache
+			picture = ANT_Antarctic_Tourism
 		}
 		
 		### Agartha ###
 		ANT_truth1 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
-			picture = NFA_anti_communard
+			picture = ANT_Truth_Agartha
 			modifier = {
 				research_speed_factor = 0.05
 			}
@@ -660,7 +660,7 @@ ideas = {
 		
 		ANT_truth2 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
-			picture = NFA_anti_communard
+			picture = ANT_Truth_Agartha
 			name = ANT_truth1
 			modifier = {
 				production_speed_buildings_factor = 0.05
@@ -670,7 +670,7 @@ ideas = {
 		
 		ANT_truth3 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
-			picture = NFA_anti_communard
+			picture = ANT_Truth_Agartha
 			name = ANT_truth1
 			modifier = {
 				production_speed_buildings_factor = 0.05
@@ -681,7 +681,7 @@ ideas = {
 		
 		ANT_truth4 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
-			picture = NFA_anti_communard
+			picture = ANT_Truth_Agartha
 			name = ANT_truth1
 			modifier = {
 				production_speed_buildings_factor = 0.05
@@ -689,6 +689,37 @@ ideas = {
 				stability_factor = 0.05
 				war_support_factor = 0.05
 				political_power_gain = 0.05
+			}
+		}
+		
+		ANT_truth5 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_home_away_from_home"}
+			picture = ANT_Truth_Agartha
+			name = ANT_truth1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.15
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.05
+				army_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.05
+			}
+		}
+		
+		ANT_fund_Miskatonic_expedition = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_fund_Miskatonic_expedition"}
+			picture = ANT_expidition_idea
+			modifier = {
+				political_power_cost = -0.02
+				research_speed_factor = 0.03
+				consumer_goods_factor = -0.02
+			}
+			targeted_modifier = {
+				tag = NEE
+				trade_cost_for_target_factor = -0.01
+				extra_trade_to_target_factor = 0.01
 			}
 		}
 		

@@ -48,4 +48,85 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ANT/no_economy_idea.png"
 	}
 	
+	### Spirits ###
+	spriteType = {
+		name = "GFX_idea_ANT__Ice_Cold_Economy"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT__Ice_Cold_Economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Antarctic_Admiralty"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Antarctic_Admiralty.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Antarctic_Tourism"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Antarctic_Tourism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Aryan_Links"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Aryan_Links.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Battle_For_Survival"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Battle_For_Survival.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Coming_Vril"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Coming_Vril.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Explore_Supernatural"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Explore_Supernatural.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Ford_Funding"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Ford_Funding.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_German_Backing"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_German_Backing.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Heating_Technology"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Heating_Technology.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Home_Away_From_Home"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Home_Away_From_Home.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Kaisers_Continent"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Kaisers_Continent.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Little_America"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Little_America.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Melee_Weapons"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Melee_Weapons.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Prussia_In_Antarctica"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Prussia_In_Antarctica.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Ritscher_Government"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Ritscher_Government.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Truth_Agartha"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Truth_Agartha.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_ANT_Unreliable_Equipment"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Unreliable_Equipment.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Using_Our_Terrain"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Using_Our_Terrain.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Flamethrowers"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Flamethrowers.png"
+	}
 }

@@ -109,6 +109,10 @@ americanexpedition.11.d:0 ""
 americanexpedition.11.a:0 "Finally, we can escape this frozen hell..."
 americanexpedition.11.b:0 "No, Antarctica is our home now!"
 
+americanexpedition.12.t:0 "Admiral Richard Byrd contacts us"
+americanexpedition.12.d:0 ""
+americanexpedition.12.a:0 "A Loyal ally of Providence!"
+
 ### Focuses ###
 ANT_byrd_expedition:0 "Status of the Byrd Expedition"
 ANT_byrd_expedition_desc:0 ""
@@ -157,3 +161,11 @@ ANT_work_with_mac:0 "Support from MacArthur"
 ANT_work_with_mac_desc:0 ""
 ANT_old_friends_with_ford:0 "Old Friends with Ford"
 ANT_old_friends_with_ford_desc:0 ""
+
+ANT_loyal_to_lovecraft:0 "Loyal to Lovecraft"
+ANT_loyal_to_lovecraft_desc:0 ""
+ANT_fund_Miskatonic_expedition:0 "Fund Miskatonic Exploration"
+ANT_fund_Miskatonic_expedition_desc:0 ""
+ANT_at_the_mountains_of_madness:0 "At the Mountains of Madness"
+ANT_at_the_mountains_of_madness_desc:0 ""
+

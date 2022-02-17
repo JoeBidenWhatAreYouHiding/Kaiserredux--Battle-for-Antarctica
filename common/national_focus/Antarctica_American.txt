@@ -575,6 +575,14 @@ focus_tree = {
 		available = {
 			has_global_flag = USA_civil_war_begun_flag
 		}
+		allow_branch = {
+			NOT = {
+				NEE = {
+					has_country_leader_ideology = lovecraftianism_subtype
+				}
+				has_cosmetic_tag = AMT_ARGARTHA
+			}
+		}
 		
 		cost = 10
 		available_if_capitulated = no
@@ -658,5 +666,102 @@ focus_tree = {
 			}
 		}
 	}
-
+	
+	focus = {
+		id = ANT_loyal_to_lovecraft
+		icon = X
+		x = 0
+		y = 3
+		relative_position_id = ANT_antarctic_admirality
+		
+		prerequisite = {
+			focus = ANT_antarctic_admirality
+		}
+		available = {
+			has_global_flag = USA_civil_war_begun_flag
+		}
+		allow_branch = {
+			NEE = {
+				exists = yes
+				has_country_leader_ideology = lovecraftianism_subtype
+			}
+			has_cosmetic_tag = AMT_ARGARTHA
+		}
+		
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_status_of_the_americans"
+			set_politics = {
+				ruling_party = national_populist
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = national_populist
+				popularity = 1
+			}
+			add_war_support = 0.05
+			add_command_power = 100
+		}
+	}
+	
+	focus = {
+		id = ANT_fund_Miskatonic_expedition
+		icon = X
+		x = -1
+		y = 1
+		relative_position_id = ANT_loyal_to_lovecraft
+		
+		prerequisite = {
+			focus = ANT_loyal_to_lovecraft
+		}
+		available = {
+			has_global_flag = USA_civil_war_begun_flag
+		}
+		
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_fund_Miskatonic_expedition"
+			add_ideas = ANT_fund_Miskatonic_expedition
+		}
+	}
+	
+	focus = {
+		id = ANT_at_the_mountains_of_madness
+		icon = X
+		x = 1
+		y = 1
+		relative_position_id = ANT_loyal_to_lovecraft
+		
+		prerequisite = {
+			focus = ANT_loyal_to_lovecraft
+		}
+		available = {
+			has_global_flag = USA_civil_war_begun_flag
+			has_idea = ANT_truth4
+		}
+		
+		cost = 10
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ANT_at_the_mountains_of_madness"
+			swap_ideas = {
+				remove_idea = ANT_truth4
+				add_idea = ANT_truth5
+			}
+		}
+	}
 }

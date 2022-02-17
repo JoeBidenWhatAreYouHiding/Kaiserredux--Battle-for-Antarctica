@@ -825,6 +825,23 @@ country_event = { #A Way Home
 	}
 }
 
+country_event = { #Byrd Contacts us
+	id = americanexpedition.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.12"}
+	title = americanexpedition.12.t
+	desc = americanexpedition.12.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #A Loyal ally of Providence
+		name = americanexpedition.12.a
+		
+	}
+}
+
 add_namespace = ententeantarctica
 
 country_event = { #Intro
