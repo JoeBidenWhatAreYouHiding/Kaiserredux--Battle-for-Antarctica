@@ -129,4 +129,16 @@ spriteTypes = {
 		name = "GFX_idea_ANT_Flamethrowers"
 		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Flamethrowers.png"
 	}
+	spriteType = {
+		name = "GFX_idea_ANT_French_Antarctica"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_French_Antarctica.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Anglo_Rule_Continues"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Anglo_Rule_Continues.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ANT_Operation_Tabarin"
+		texturefile = "gfx/interface/ideas/ANT/spirits/ANT_Operation_Tabarin.png"
+	}
 }

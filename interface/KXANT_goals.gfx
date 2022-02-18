@@ -399,4 +399,20 @@ SpriteTypes = {
 		name = "GFX_goal_ANT_Shore_Up_Supplies"
 		texturefile = "gfx/interface/goals/goal_ANT_Shore_Up_Supplies.png"
 	}
+	spriteType = {
+		name = "GFX_goal_ANT_Fund_Miskatonic_Exploration"
+		texturefile = "gfx/interface/goals/goal_ANT_Fund_Miskatonic_Exploration.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_Loyal_Lovecraft"
+		texturefile = "gfx/interface/goals/goal_ANT_Loyal_Lovecraft.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_At_The_Mountains_Of_Madness"
+		texturefile = "gfx/interface/goals/goal_ANT_At_The_Mountains_Of_Madness.png"
+	}
+	spriteType = {
+		name = "GFX_goal_ANT_free_from_humans"
+		texturefile = "gfx/interface/goals/goal_ANT_free_from_humans.png"
+	}
 }

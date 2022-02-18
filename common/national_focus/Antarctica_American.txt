@@ -669,7 +669,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_loyal_to_lovecraft
-		icon = X
+		icon = GFX_goal_ANT_Loyal_Lovecraft
 		x = 0
 		y = 3
 		relative_position_id = ANT_antarctic_admirality
@@ -711,7 +711,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_fund_Miskatonic_expedition
-		icon = X
+		icon = GFX_goal_ANT_Fund_Miskatonic_Exploration
 		x = -1
 		y = 1
 		relative_position_id = ANT_loyal_to_lovecraft
@@ -737,7 +737,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_at_the_mountains_of_madness
-		icon = X
+		icon = GFX_goal_ANT_At_The_Mountains_Of_Madness
 		x = 1
 		y = 1
 		relative_position_id = ANT_loyal_to_lovecraft
