@@ -1,6 +1,6 @@
 state={
-	id=1224
-	name="STATE_1224" # Queen Maud Land
+	id=1287
+	name="STATE_1287" # Queen Maud Land
 	manpower = 10
 	
 	state_category = zero
