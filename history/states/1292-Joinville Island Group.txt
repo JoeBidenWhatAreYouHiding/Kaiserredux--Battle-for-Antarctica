@@ -1,26 +1,23 @@
 state={
-	id=1242
-	name="STATE_1242" # Admiralty Bay
-	manpower = 10
+	id=1292
+	name="STATE_1292"
+	manpower = 100
 	
 	state_category = zero
 
 	history={
 		add_claim_by = ARG
-		victory_points = {
-			15043 1
-		}
 		buildings = {
-			15043 = {
+			infrastructure = 1
+			15221 = {
 				naval_base = 1
 			}
-			infrastructure = 0
 		}
 		owner = AAR
 	}
 
 	provinces={
-		15043
+		15221 15220 15219
 
 	}
 }

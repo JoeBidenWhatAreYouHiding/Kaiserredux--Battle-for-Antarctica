@@ -1,17 +1,17 @@
 state={
-	id=1236
-	name="STATE_1236" # Goudier Island
+	id=1308
+	name="STATE_1308" # Cape Margerie
 	manpower = 10
 	
 	state_category = zero
 
 	history={
-		add_claim_by = ARG
+		owner = NFA
 		victory_points = {
-			15037 1
+			15046 1
 		}
 		buildings = {
-			15037 = {
+			15046 = {
 				naval_base = 1
 			}
 			infrastructure = 0
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		15037
+		15046
 
 	}
 }

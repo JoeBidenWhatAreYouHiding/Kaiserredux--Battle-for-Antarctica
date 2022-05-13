@@ -1,17 +1,17 @@
 state={
-	id=1244
-	name="STATE_1244" # Maudheim
+	id=1302
+	name="STATE_1302" # Greenwich Island
 	manpower = 10
 	
 	state_category = zero
 
 	history={
-		add_claim_by = GER
+		add_claim_by = ARG
 		victory_points = {
-			15045 1
+			15040 1
 		}
 		buildings = {
-			15045 = {
+			15040 = {
 				naval_base = 1
 			}
 			infrastructure = 0
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		15045
+		15040
 
 	}
 }

@@ -1,23 +1,27 @@
 state={
-	id=1228
-	name="STATE_1228"
-	manpower = 100
+	id=1295
+	name="STATE_1295" # Laurie Island
+	manpower = 20
 	
 	state_category = zero
 
 	history={
-		owner = SAF
+		owner = ARG
+		victory_points = {
+			15034 1
+		}
 		buildings = {
 			infrastructure = 1
-			15226 = {
+			15034 = {
 				naval_base = 1
 			}
+			infrastructure = 0
 		}
 		add_claim_by = AAR
 	}
 
 	provinces={
-		15226
+		15034
 
 	}
 }

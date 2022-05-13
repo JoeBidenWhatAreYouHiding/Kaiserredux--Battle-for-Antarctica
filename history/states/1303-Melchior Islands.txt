@@ -1,23 +1,26 @@
 state={
-	id=1229
-	name="STATE_1229"
-	manpower = 100
+	id=1303
+	name="STATE_1303" # Melchior Islands
+	manpower = 10
 	
 	state_category = zero
 
 	history={
 		add_claim_by = ARG
+		victory_points = {
+			15041 1
+		}
 		buildings = {
-			infrastructure = 1
-			15221 = {
+			15041 = {
 				naval_base = 1
 			}
+			infrastructure = 0
 		}
 		owner = AAR
 	}
 
 	provinces={
-		15221 15220 15219
+		15041
 
 	}
 }

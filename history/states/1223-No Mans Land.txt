@@ -9,11 +9,11 @@ state = {
 		owner = AAR
 		add_core_of = AAR
 		victory_points = {
-			14603 0
+			15240 0
 		}
 	}
 
 	provinces = {
-		14603
+		15240
 	}
 }

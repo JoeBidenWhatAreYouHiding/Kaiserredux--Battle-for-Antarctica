@@ -1,6 +1,6 @@
 state={
-	id=1243
-	name="STATE_1243" # Cape Legoupil
+	id=1306
+	name="STATE_1306" # Cape Legoupil
 	manpower = 10
 	
 	state_category = zero

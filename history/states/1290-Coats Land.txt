@@ -1,6 +1,6 @@
 state={
-	id=1226
-	name="STATE_1226" # Adelei Land
+	id=1290
+	name="STATE_1290" # Coats Land
 	manpower = 10
 	
 	state_category = zero
@@ -8,7 +8,7 @@ state={
 	
 
 	history={
-		owner = NFA
+		add_claim_by = CAN
 		buildings = {
 			infrastructure = 0
 		}
@@ -16,6 +16,7 @@ state={
 	}
 
 	provinces={
-		15030
+		15010
+
 	}
 }

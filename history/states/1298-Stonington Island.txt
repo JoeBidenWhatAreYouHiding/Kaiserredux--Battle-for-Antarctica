@@ -1,17 +1,17 @@
 state={
-	id=1234
-	name="STATE_1234" # Little America
-	manpower = 20
+	id=1298
+	name="STATE_1298" # Stonington Island
+	manpower = 10
 	
 	state_category = zero
 
 	history={
-		add_claim_by = USA
+		add_claim_by = ARG
 		victory_points = {
-			15035 1
+			15036 1
 		}
 		buildings = {
-			15035 = {
+			15036 = {
 				naval_base = 1
 			}
 			infrastructure = 0
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		15035
+		15036
 
 	}
 }

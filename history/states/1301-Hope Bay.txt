@@ -1,6 +1,6 @@
 state={
-	id=1237
-	name="STATE_1237" # Deception Island
+	id=1301
+	name="STATE_1301" # Hope Bay
 	manpower = 10
 	
 	state_category = zero
@@ -8,10 +8,10 @@ state={
 	history={
 		add_claim_by = ARG
 		victory_points = {
-			15038 1
+			15039 1
 		}
 		buildings = {
-			15038 = {
+			15039 = {
 				naval_base = 1
 			}
 			infrastructure = 0
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		15038
+		15039
 
 	}
 }

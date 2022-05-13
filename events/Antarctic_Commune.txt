@@ -57,7 +57,7 @@ country_event = { #Antarctic Commune Spawn
 			add_state_core = 299
 			add_state_core = 1028
 			add_state_core = 1247
-			add_state_core = 1232
+			add_state_core = 1295
 			country_event = {
 				id = antcommune.4 
 			}
@@ -69,7 +69,7 @@ country_event = { #Antarctic Commune Spawn
 			transfer_state = 720
 			transfer_state = 299
 			transfer_state = 1247
-			transfer_state = 1232
+			transfer_state = 1295
 			transfer_state = 1028
 		}
 	}

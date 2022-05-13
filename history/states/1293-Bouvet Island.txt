@@ -1,6 +1,6 @@
 state={
-	id=1230
-	name="STATE_1230" # Bouvet Island
+	id=1293
+	name="STATE_1293" # Bouvet Island
 	manpower = 10
 	
 	state_category = zero
