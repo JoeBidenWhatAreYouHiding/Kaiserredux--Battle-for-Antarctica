@@ -9,9 +9,7 @@ state={
 
 	history={
 		owner = AAR
-		buildings = {
-			infrastructure = 0
-		}
+		
 		owner = AAR
 	}
 

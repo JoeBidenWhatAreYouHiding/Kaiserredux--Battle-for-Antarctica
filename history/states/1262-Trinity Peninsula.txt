@@ -11,9 +11,7 @@ state={
 
 	history = {
 		add_claim_by = ARG
-		buildings = {
-			infrastructure = 0
-		}
+		
 		owner = AAR
 	}
 

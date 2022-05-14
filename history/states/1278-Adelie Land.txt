@@ -11,9 +11,7 @@ state={
 
 	history = {
 		owner = NFA
-		buildings = {
-			infrastructure = 0
-		}
+		
 		owner = AAR
 	}
 
