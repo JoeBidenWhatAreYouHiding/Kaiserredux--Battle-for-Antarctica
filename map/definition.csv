@@ -3975,7 +3975,7 @@
 3974;46;192;183;land;false;hills;1
 3975;46;195;98;land;false;mountain;2
 3976;46;195;148;land;false;mountain;1
-3977;46;198;63;land;false;hills;6
+3977;46;198;63;land;true;hills;6
 3978;46;198;168;land;false;mountain;6
 3979;46;201;28;land;false;mountain;7
 3980;46;201;133;land;false;hills;1
@@ -14601,7 +14601,7 @@
 14600;253;193;18;land;false;jungle;5
 14601;185;12;250;land;false;jungle;5
 14602;122;50;196;land;true;jungle;5
-14603;153;111;117;land;true;urban;1
+14603;153;111;117;land;true;ice_sheet;1
 14604;103;168;252;land;false;mountain;7
 14605;237;187;209;land;false;mountain;7
 14606;109;63;179;land;false;mountain;7
@@ -15239,7 +15239,7 @@
 15237;25;108;229;sea;false;ocean;0
 15238;37;117;241;sea;true;ocean;0
 15239;5;4;145;sea;false;ocean;0
-15240;153;111;117;land;true;ice_sheet;10
+15240;114;153;138;land;true;ice_sheet;10
 15241;57;65;229;sea;false;ocean;0
 15242;49;10;212;sea;false;ocean;0
 15243;18;113;212;sea;false;ocean;0

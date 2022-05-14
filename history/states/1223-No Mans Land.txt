@@ -6,8 +6,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = AAR
-		add_core_of = AAR
+		owner = NSW
+		add_core_of = NSW
 		victory_points = {
 			15240 0
 		}
@@ -15,5 +15,6 @@ state = {
 
 	provinces = {
 		15240
+		14603
 	}
 }

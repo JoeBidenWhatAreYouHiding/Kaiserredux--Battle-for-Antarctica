@@ -21,7 +21,6 @@ setup_american_antarctica = {
 		transfer_state = 1251
 		transfer_state = 1297
 		transfer_state = 1282
-		transfer_state = 1223
 		load_oob = AAR_USA_OOB
 	}
 }
