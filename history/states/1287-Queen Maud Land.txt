@@ -8,8 +8,10 @@ state={
 	
 
 	history={
-		add_claim_by = NOR
-		
+		owner = NOR
+		buildings = {
+			infrastructure = 0
+		}
 		owner = AAR
 	}
 

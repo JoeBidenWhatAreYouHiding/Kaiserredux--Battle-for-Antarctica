@@ -9,7 +9,9 @@ state={
 
 	history={
 		add_claim_by = NFA
-		
+		buildings = {
+			infrastructure = 0
+		}
 		owner = AAR
 	}
 
