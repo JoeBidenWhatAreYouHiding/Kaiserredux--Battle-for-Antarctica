@@ -13,7 +13,7 @@
 units = {
 	division = {
 		name = "1st. Izgnannyy Krasnaya Gvardiya"
-		location = 15148
+		location = 16637
 		division_template = "Izgnannyy Krasnaya Gvardiya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -21,7 +21,7 @@ units = {
 	
 	division = {
 		name = "2nd. Izgnannyy Krasnaya Gvardiya"
-		location = 15136
+		location = 16625
 		division_template = "Izgnannyy Krasnaya Gvardiya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -29,7 +29,7 @@ units = {
 	
 	division = {
 		name = "3rd. Izgnannyy Krasnaya Gvardiya"
-		location = 15140
+		location = 16629
 		division_template = "Izgnannyy Krasnaya Gvardiya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8

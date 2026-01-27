@@ -1,0 +1,22 @@
+state={
+	id=1406
+	name="STATE_1406" # Wilkes Land
+	manpower = 10
+	
+	state_category = zero
+	
+	
+
+	history={
+		add_claim_by = AST
+		buildings = {
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16509 16510 16511 16512 16513 16514 16515 16516 16517 16518
+
+	}
+}

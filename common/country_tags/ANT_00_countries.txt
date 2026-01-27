@@ -1,4 +1,3 @@
-
 EAR = "countries/WestEur.txt" #Entente Antarctica
 AMT = "countries/WestEur.txt" #American Antarctica
 NSL = "countries/WestEur.txt" #New Swabia

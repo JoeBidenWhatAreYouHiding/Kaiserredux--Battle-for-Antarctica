@@ -1,0 +1,22 @@
+state={
+	id=1402
+	name="STATE_1402" # Ellsworth Land
+	manpower = 10
+	
+	state_category = zero
+	
+	
+
+	history={
+		add_claim_by = CHL
+		buildings = {
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16493
+
+	}
+}

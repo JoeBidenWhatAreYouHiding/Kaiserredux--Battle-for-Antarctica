@@ -1,0 +1,26 @@
+state={
+	id=1369
+	name="STATE_1369"
+	provinces={
+		16545 16585 16588 16604 16655 16668 16684 16693
+
+	}
+	manpower = 10
+
+	state_category = one
+
+	history = {
+		owner = AAR
+		victory_points = {
+			16545 10
+		}
+		buildings = {
+			16545 = {
+				naval_base = 1
+			}
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+state={
+	id=1403
+	name="STATE_1403" # Palmer Land
+	manpower = 10
+	
+	state_category = zero
+	
+	
+
+	history={
+		add_claim_by = ARG
+		buildings = {
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16494 16495 16496 16497 16498
+
+	}
+}

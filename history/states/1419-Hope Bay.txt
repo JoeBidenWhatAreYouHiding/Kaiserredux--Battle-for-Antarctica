@@ -1,0 +1,26 @@
+state={
+	id=1419
+	name="STATE_1419" # Hope Bay
+	manpower = 10
+	
+	state_category = zero
+
+	history={
+		add_claim_by = ARG
+		victory_points = {
+			16528 1
+		}
+		buildings = {
+			16528 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16528
+
+	}
+}

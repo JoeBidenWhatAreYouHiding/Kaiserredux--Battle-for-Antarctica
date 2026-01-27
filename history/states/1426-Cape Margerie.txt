@@ -1,0 +1,26 @@
+state={
+	id=1426
+	name="STATE_1426" # Cape Margerie
+	manpower = 10
+	
+	state_category = zero
+
+	history={
+		owner = NFA
+		victory_points = {
+			16535 1
+		}
+		buildings = {
+			16535 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16535
+
+	}
+}

@@ -9,12 +9,12 @@ state = {
 		owner = NSW
 		add_core_of = NSW
 		victory_points = {
-			15240 0
+			16729 0
 		}
 	}
 
 	provinces = {
-		15240
+		16729
 		14603
 	}
 }

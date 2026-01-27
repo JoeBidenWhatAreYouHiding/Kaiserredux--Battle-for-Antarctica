@@ -1,0 +1,22 @@
+state={
+	id=1414
+	name="STATE_1414" # New Swabia
+	manpower = 10
+	
+	state_category = zero
+	
+	
+
+	history={
+		add_claim_by = GER
+		buildings = {
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16500 16501
+
+	}
+}

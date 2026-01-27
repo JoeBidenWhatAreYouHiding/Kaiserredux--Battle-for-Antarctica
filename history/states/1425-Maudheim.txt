@@ -1,0 +1,26 @@
+state={
+	id=1425
+	name="STATE_1425" # Maudheim
+	manpower = 10
+	
+	state_category = zero
+
+	history={
+		add_claim_by = GER
+		victory_points = {
+			16534 1
+		}
+		buildings = {
+			16534 = {
+				naval_base = 1
+			}
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16534
+
+	}
+}

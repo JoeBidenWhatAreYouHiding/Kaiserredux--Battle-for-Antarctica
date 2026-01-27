@@ -1,49 +1,49 @@
 setup_new_swabia = {
 	NSL = {
-		transfer_state = 1268
-		transfer_state = 1267
-		transfer_state = 1266
-		transfer_state = 1265
-		transfer_state = 1264
-		transfer_state = 1296
-		transfer_state = 1307
-		transfer_state = 1287
-		transfer_state = 1290
+		transfer_state = 1386
+		transfer_state = 1385
+		transfer_state = 1384
+		transfer_state = 1383
+		transfer_state = 1382
+		transfer_state = 1414
+		transfer_state = 1425
+		transfer_state = 1405
+		transfer_state = 1408
 		load_oob = AAR_GER_OOB
 	}
 }
 
 setup_american_antarctica = {
 	AMT = {
-		transfer_state = 1253
-		transfer_state = 1252
-		transfer_state = 1250
-		transfer_state = 1251
-		transfer_state = 1297
-		transfer_state = 1282
+		transfer_state = 1371
+		transfer_state = 1370
+		transfer_state = 1368
+		transfer_state = 1369
+		transfer_state = 1415
+		transfer_state = 1400
 		load_oob = AAR_USA_OOB
 	}
 }
 
 setup_entente_antarctica = {
 	EAR = {
-		transfer_state = 1280
-		transfer_state = 1279
-		transfer_state = 1278
-		transfer_state = 1277
-		transfer_state = 1276
-		transfer_state = 1275
-		transfer_state = 1274
-		transfer_state = 1273
-		transfer_state = 1272
-		transfer_state = 1271
-		transfer_state = 1270
-		transfer_state = 1269
-		transfer_state = 1288
-		transfer_state = 1289
-		transfer_state = 1249
-		transfer_state = 1286
-		transfer_state = 1308
+		transfer_state = 1398
+		transfer_state = 1397
+		transfer_state = 1396
+		transfer_state = 1395
+		transfer_state = 1394
+		transfer_state = 1393
+		transfer_state = 1392
+		transfer_state = 1391
+		transfer_state = 1390
+		transfer_state = 1389
+		transfer_state = 1388
+		transfer_state = 1387
+		transfer_state = 1406
+		transfer_state = 1407
+		transfer_state = 1367
+		transfer_state = 1404
+		transfer_state = 1426
 		load_oob = AAR_ENT_OOB
 	}
 }

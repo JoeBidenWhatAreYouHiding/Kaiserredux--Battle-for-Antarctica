@@ -1,0 +1,22 @@
+state={
+	id=1405
+	name="STATE_1405" # Queen Maud Land
+	manpower = 10
+	
+	state_category = zero
+	
+	
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16502 16503 16504 16505 16506 16507 16508
+
+	}
+}

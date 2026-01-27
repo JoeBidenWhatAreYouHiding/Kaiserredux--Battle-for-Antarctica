@@ -1,0 +1,22 @@
+state={
+	id=1404
+	name="STATE_1404" # George V Land
+	manpower = 10
+	
+	state_category = wasteland
+	
+	
+
+	history={
+		add_claim_by = AST
+		buildings = {
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16520 16521
+
+	}
+}

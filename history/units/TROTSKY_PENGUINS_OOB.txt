@@ -105,7 +105,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 15148
+		location = 16637
 		division_template = "Pingvin Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -115,7 +115,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 15136
+		location = 16625
 		division_template = "Pingvin Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -125,7 +125,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 15140
+		location = 16629
 		division_template = "Pingvin Garnizon"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -135,7 +135,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 15051
+		location = 16540
 		division_template = "Pingvin Krasnaya Gvardiya"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.5
@@ -145,7 +145,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 25
 		}
-		location = 15052
+		location = 16541
 		division_template = "Rockhoppers"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -155,7 +155,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 15160
+		location = 16649
 		division_template = "Gentoo Marines"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -165,7 +165,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 15127
+		location = 16616
 		division_template = "Adélie Marines"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

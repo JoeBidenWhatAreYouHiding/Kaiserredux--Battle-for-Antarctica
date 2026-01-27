@@ -1,0 +1,20 @@
+state={
+	id=1378
+	name="STATE_1378"
+	provinces={
+		16573 16649 16658 16678 16695
+
+	}
+	manpower = 10
+
+	state_category = zero
+
+	history = {
+		add_claim_by = ARG
+		buildings = {
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+}

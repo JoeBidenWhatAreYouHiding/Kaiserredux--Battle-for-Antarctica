@@ -13,7 +13,7 @@
 units = {
 	division = {
 		name = "1st. Entente Antarctica Expedition Force"
-		location = 15046
+		location = 16535
 		division_template = "Entente Antarctica Expedition Force"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -21,7 +21,7 @@ units = {
 	
 	division = {
 		name = "2nd. Entente Antarctica Expedition Force"
-		location = 15046
+		location = 16535
 		division_template = "Entente Antarctica Expedition Force"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -29,7 +29,7 @@ units = {
 	
 	division = {
 		name = "3rd. Entente Antarctica Expedition Force"
-		location = 15046
+		location = 16535
 		division_template = "Entente Antarctica Expedition Force"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8

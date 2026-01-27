@@ -131,6 +131,7 @@ if = {
 set_research_slots = 5
 set_stability = 0.55
 set_war_support = 0.99
+country_event = { id = antarctica.0 days = 626 }
 
 set_politics = {
 	ruling_party = radical_socialist

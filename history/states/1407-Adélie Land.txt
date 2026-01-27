@@ -1,0 +1,21 @@
+state={
+	id=1407
+	name="STATE_1407" # Adelei Land
+	manpower = 10
+	
+	state_category = zero
+	
+	
+
+	history={
+		add_claim_by = NFA
+		buildings = {
+			infrastructure = 0
+		}
+		owner = AAR
+	}
+
+	provinces={
+		16519
+	}
+}

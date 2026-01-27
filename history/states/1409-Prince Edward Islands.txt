@@ -1,0 +1,23 @@
+state={
+	id=1409
+	name="STATE_1409"
+	manpower = 100
+	
+	state_category = zero
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+			16715 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = AAR
+	}
+
+	provinces={
+		16715
+
+	}
+}

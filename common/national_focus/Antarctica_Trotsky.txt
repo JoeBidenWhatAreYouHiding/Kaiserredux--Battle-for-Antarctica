@@ -23,7 +23,6 @@ focus_tree = {
 			has_government = totalist
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -46,7 +45,6 @@ focus_tree = {
 			focus = ANT_the_revolution_never_ended
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -67,7 +65,6 @@ focus_tree = {
 			focus = ANT_the_revolution_never_ended
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -102,7 +99,6 @@ focus_tree = {
 			focus = ANT_revenge_revenge_revenge
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -129,7 +125,6 @@ focus_tree = {
 			focus = ANT_reveal_ourselves_to_the_world
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -159,7 +154,6 @@ focus_tree = {
 			focus = ANT_revenge_revenge_revenge
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -182,7 +176,6 @@ focus_tree = {
 			focus = ANT_penguin_cavalry
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -205,7 +198,6 @@ focus_tree = {
 			focus = ANT_revenge_revenge_revenge
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -230,7 +222,6 @@ focus_tree = {
 			focus = ANT_antartic_liberation
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -260,14 +251,17 @@ focus_tree = {
 			focus = ANT_denounce_the_false_socialists
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_fourth_internationale"
 			add_ideas = ANT_fourth_internationale
-			create_faction = "Fourth Internationale"
+			create_faction_from_template = { 
+				template = faction_template_internationale
+				name = fourth_internationale
+				icon = GFX_faction_fourth_internationale
+			}
 		}
 	}
 	
@@ -287,7 +281,6 @@ focus_tree = {
 			focus = ANT_denounce_the_false_socialists
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -313,7 +306,6 @@ focus_tree = {
 			focus = ANT_denounce_the_false_socialists
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -335,7 +327,6 @@ focus_tree = {
 			focus = ANT_general_secretary_trotsky
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -360,7 +351,6 @@ focus_tree = {
 			focus = ANT_general_secretary_trotsky
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -386,7 +376,6 @@ focus_tree = {
 			focus = ANT_gather_supplies
 		}
 		cost = 5
-		available_if_capitulated = no
 		ai_will_do = {
 			factor = 1
 		}
