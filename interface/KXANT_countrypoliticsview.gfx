@@ -7,8 +7,4 @@ spriteTypes = {
 		name = "GFX_ideology_trotskyism_subtype"
 		texturefile = "gfx/interface/ideologies/subideologies/trotskyism_group.png"
 	}
-	spriteType = {
-		name = "GFX_ideology_antarctic_expedition_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/antarctic_expedition_group.png"
-	}
 }

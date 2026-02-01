@@ -13,8 +13,9 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_Evelyn_Byrd_hog_ade" 
+				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_Evelyn_Byrd_hog_ade"
 			}
 			traits = {
 				head_of_government
@@ -35,6 +36,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_H_Cruzen_for_ade" 
 			}
@@ -55,6 +57,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AMT_George_J_Dufek_eco_ade" 
 			}
@@ -75,6 +78,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AMT_George_W_Gibbs_Jr_sec_ade" 
 			}
@@ -88,7 +92,6 @@ ideas = {
 	chief_of_staff = {
 		AMT_Richard_Evelyn_Byrd_cos_ade = {
 			allowed = { original_tag = AMT }
-			
 			visible = {
 				NOT = { has_country_flag = AMT_Richard_Evelyn_Byrd_dead }
 			}
@@ -103,13 +106,10 @@ ideas = {
 		}
 		AMT_Richard_H_Cruzen_cos_ade = {
 			allowed = { original_tag = AMT }
-			
 			visible = {
 				NOT = { has_country_flag = AMT_Richard_H_Cruzen_dead }
 			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_H_Cruzen_cos_ade" 
-			}
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AMT_Richard_H_Cruzen_cos_ade" }
 			traits = {
 				chief_of_staff
 				cos_school_of_defence
@@ -196,6 +196,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea EAR_Inter_Entente_Antarctic_Commission_hog_ade" 
 			}
@@ -218,6 +219,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea EAR_Douglas_Mawson_for_ade" 
 			}
@@ -238,6 +240,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea EAR_Brian_Birley_Roberts_eco_ade" 
 			}
@@ -258,6 +261,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea EAR_Vilhjalmur_Stefansson_sec_ade" 
 			}
@@ -379,6 +383,7 @@ ideas = {
 			visible = {
 				has_government = totalist
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Leon_Trotsky_hog_tot" 
 			}
@@ -397,6 +402,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Blank_hog_rso" 
 			}
@@ -420,6 +426,7 @@ ideas = {
 			visible = {
 				has_government = totalist
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Dmitry_Karbyshev_for_tot" 
 			}
@@ -437,6 +444,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Blank_for_rso" 
 			}
@@ -458,6 +466,7 @@ ideas = {
 			visible = {
 				has_government = totalist
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Ivan_Konev_eco_tot" 
 			}
@@ -475,6 +484,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Blank_eco_rso" 
 			}
@@ -496,6 +506,7 @@ ideas = {
 			visible = {
 				has_government = totalist
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Juan_Posadas_sec_tot" 
 			}
@@ -513,6 +524,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Blank_sec_rso" 
 			}
@@ -534,6 +546,7 @@ ideas = {
 			visible = {
 				NOT = { has_country_flag = AAR_Demilitarized_dead }
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Demilitarized_cos_rso" 
 			}
@@ -548,6 +561,7 @@ ideas = {
 			visible = {
 				NOT = { has_country_flag = AAR_Leon_Trotsky_dead }
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Leon_Trotsky_cos_tot" 
 			}
@@ -563,6 +577,7 @@ ideas = {
 			visible = {
 				NOT = { has_country_flag = AAR_Ivan_Konev_dead }
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea AAR_Ivan_Konev_cos_tot" 
 			}
@@ -706,6 +721,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NSL_Alfred_Ritscher_hog_ade" 
 			}
@@ -723,6 +739,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NSL_Karl_Maria_Wiligut_hog_npo" 
 			}
@@ -745,6 +762,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NSL_Wilhelm_Filchner_for_ade" 
 			}
@@ -762,6 +780,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NSL_Herman_Wirth_for_npo" 
 			}
@@ -782,6 +801,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NSL_Erich_von_Drygalski_eco_ade" 
 			}
@@ -799,6 +819,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NSL_Wolfram_Sievers_eco_npo" 
 			}
@@ -819,6 +840,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NSL_Ernst_Herrmann_sec_ade" 
 			}
@@ -836,6 +858,7 @@ ideas = {
 					always = no
 				}
 			}
+			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NSL_Karl_Wolff_sec_npo" 
 			}

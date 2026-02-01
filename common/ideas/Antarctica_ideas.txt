@@ -799,7 +799,7 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANT_penguin_proletariat"}
             allowed = { always = no }
             removal_cost = -1
-            picture = FRA_society
+            picture = ANT_fourth_international
 			modifier = {
 				stability_factor = 0.05
 				war_support_factor = 0.05
@@ -919,7 +919,7 @@ ideas = {
 			}
 		}
 	}
-	KR_economy = {
+	economy = {
 		law = yes
 		use_list_view = yes
 
@@ -968,8 +968,6 @@ ideas = {
 			}
 
 			modifier = {
-				unit_limit_factory_bonus = -0.50
-				unit_limit_max = 50
 				consumer_goods_factor = 0.50
 				generate_wargoal_tension = 1.00
 				lend_lease_tension = 1.00
@@ -989,7 +987,7 @@ ideas = {
 		}
 	}
 	
-	KR_trade_laws = {
+	trade_laws = {
 		law = yes
 		use_list_view = yes
 		
@@ -1027,7 +1025,7 @@ ideas = {
 		}
 	}
 	
-	KR_mobilization_laws = {
+	mobilization_laws = {
 		law = yes
 		use_list_view = yes
 

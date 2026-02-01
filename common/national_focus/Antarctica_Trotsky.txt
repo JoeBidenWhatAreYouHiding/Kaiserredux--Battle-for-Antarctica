@@ -1,4 +1,3 @@
-
 focus_tree = {
 	id = KX_Antarctica_Trotsky
 	country = {

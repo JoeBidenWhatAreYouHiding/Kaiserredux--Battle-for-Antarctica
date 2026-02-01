@@ -111,14 +111,14 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Alfred Ritscher"
-	picture = "gfx/leaders/NSL/Portrait_New_Swabia_Alfred_Ritscher.png"
+	picture = "gfx/leaders/AAR/Portrait_ANT_Alfred_Ritscher.png"
 	expire = "1965.1.1"
 	ideology = colonial_govt_subtype
 }
 
 create_country_leader = {
 	name = "Ahnenerbe Society"
-	picture = "gfx/leaders/NSL/Portrait_New_Swabia_Ahnenerbe_Society.png"
+	picture = "gfx/leaders/NSL/Portrait_NSL_Ahnenerbe_Society.png"
 	expire = "1965.1.1"
 	ideology = occultism_subtype
 }
@@ -127,50 +127,42 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Ernst Herrmann"
-	portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Ernst_Herrmann.png"
-	traits = { }
+	portrait_path = "gfx/leaders/NSL/Portrait_NSL_Ernst_Herrmann.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 
 ### Corps Commanders ### 
 create_corps_commander = {
 	name = "Wilhelm Filchner"
-	portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Wilhelm_Filchner.png"
-	traits = { }
+	portrait_path = "gfx/leaders/NSL/Portrait_NSL_Wilhelm_Filchner.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_corps_commander = {
 	name = "Erich von Drygalski"
 	portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Erich_von_Drygalski.png"
-	traits = { }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_corps_commander = {
 	name = "Alfred Ritscher"
-	portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Alfred_Ritscher.png"
-	traits = { }
+	portrait_path = "gfx/leaders/AAR/Portrait_ANT_Alfred_Ritscher.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }

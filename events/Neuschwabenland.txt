@@ -1,0 +1,171 @@
+add_namespace = newswabia
+
+country_event = { #Intro
+	id = newswabia.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.1"}
+	title = newswabia.1.t
+	desc = newswabia.1.d
+	picture = GFX_report_event_ANT_trotsky
+	fire_only_once = yes
+	trigger = { tag = NSL }
+	option = {
+		name = newswabia.1.a
+	}
+}
+
+country_event = { #Scizos
+	id = newswabia.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.2"}
+	title = newswabia.2.t
+	desc = newswabia.2.d
+	picture = GFX_report_event_ANT_trotsky
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = newswabia.2.a
+		set_country_flag = NSL_Ahnenerbe
+	}
+	option = {
+		name = newswabia.2.b
+		add_manpower = -200
+		remove_ideas = ANT_Ahnenerbe_Tagalong_idea
+	}
+}
+
+country_event = { #Stuff
+	id = newswabia.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.3"}
+	title = newswabia.3.t
+	desc = newswabia.3.d
+	picture = GFX_report_event_ANT_trotsky
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = newswabia.3.a
+		hidden_effect = {
+			country_event = {	
+				id = newswabia.4
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = newswabia.3.b
+		add_political_power = 10
+		set_country_flag = ANT_ritshcher_govt
+	}
+}
+
+country_event = { #They gone bro
+	id = newswabia.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.4"}
+	title = newswabia.4.t
+	desc = newswabia.4.d
+	picture = GFX_report_event_ANT_trotsky
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = newswabia.4.a
+		add_manpower = -200
+		if = {
+			limit = { has_country_flag = NSL_Ahnenerbe }
+			country_event = {	
+				id = newswabia.6
+				days = 2
+			}
+		}
+		if = {
+			limit = { NOT = { has_country_flag = NSL_Ahnenerbe } }
+			country_event = {	
+				id = newswabia.5
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #They gone bro
+	id = newswabia.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.5"}
+	title = newswabia.5.t
+	desc = newswabia.5.d
+	picture = GFX_report_event_ANT_trotsky
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = newswabia.5.a
+		AAR = {
+			annex_country = {
+				target = NSL
+				transfer_troops = no
+			}
+		}
+	}
+}
+
+country_event = { #They gone bro
+	id = newswabia.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.6"}
+	title = newswabia.6.t
+	desc = newswabia.6.d
+	picture = GFX_report_event_ANT_trotsky
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = newswabia.6.a
+		set_politics = {
+			ruling_party = national_populist
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_populist
+			popularity = 1
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			NSL_Karl_Maria_Wiligut_hog_npo
+			NSL_Herman_Wirth_for_npo
+			NSL_Wolfram_Sievers_eco_npo
+			NSL_Karl_Wolff_sec_npo
+		}
+		every_unit_leader = { set_nationality = NSW }
+		### Field Marshals ### 
+		create_field_marshal = {
+			name = "Karl Maria Wiligut"
+			portrait_path = "gfx/leaders/NSL/Portrait_NSL_Karl_Maria_Wiligut.png"
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		### Corps Commanders ### 
+		create_corps_commander = {
+			name = "Herman Wirth"
+			portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Herman_Wirth.png"
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Wolfram Sievers"
+			portrait_path = "gfx/leaders/NSL/Portrait_NSL_Wolfram_Sievers.png"
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Karl Wolff"
+			portrait_path = "gfx/leaders/NSL/Portrait_NSL_Karl_Wolff.png"
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+}

@@ -3,19 +3,19 @@
 ### Country Names ###
 EAR:0 "Dominion of Antarctica"
 EAR_ADJ:0 "Dominionist Antarctic"
-EAR_DEF:0 "Dominion of Antarctica"
+EAR_DEF:0 "the Dominion of Antarctica"
 
 EAR_french:0 "French Southern and Antarctic Lands"
 EAR_french_ADJ:0 "French Antarctic"
 EAR_french_DEF:0 "the French Southern and Antarctic Lands"
 
 ### Parties ###
-EAR_totalist_party:0 "Ostatki bol'shevikov-loyalistov"
-EAR_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov (Pingviny)"
+EAR_totalist_party:0 "-"
+EAR_totalist_party_long:0 "-"
 EAR_syndicalist_party:0 "-"
 EAR_syndicalist_party_long:0 "-"
-EAR_radical_socialist_party:0 "Frozen Wasteland"
-EAR_radical_socialist_party_long:0 "Frozen Wasteland"
+EAR_radical_socialist_party:0 "-"
+EAR_radical_socialist_party_long:0 "-"
 EAR_social_democrat_party:0 "-"
 EAR_social_democrat_party_long:0 "-"
 EAR_social_liberal_party:0 "-"
@@ -24,7 +24,7 @@ EAR_market_liberal_party:0 "-"
 EAR_market_liberal_party_long:0 "-"
 EAR_social_conservative_party:0 "-"
 EAR_social_conservative_party_long:0 "-"
-EAR_authoritarian_democrat_party:0 "Inter-Entente Antarctic Commission"
+EAR_authoritarian_democrat_party:0 "IEAC"
 EAR_authoritarian_democrat_party_long:0 "Inter-Entente Antarctic Commission"
 EAR_paternal_autocrat_party:0 "-"
 EAR_paternal_autocrat_party_long:0 "-"
@@ -33,9 +33,9 @@ EAR_national_populist_party_long:0 "-"
 
 ### Ideas ###
 ANT_largest_slice:0 "The Largest Slice of the Antarctic Pie"
-ANT_largest_slice_desc:0 ""
+ANT_largest_slice_desc:0 "Through early expeditions and bold claims, the Entente has secured a significant share of Antarctica. Yet holding the largest territory also brings the greatest burden, as vast distances and hostile conditions strain administration and defense."
 ANT_undersupplied:0 "Undersupplied and Overstretched"
-ANT_undersupplied_desc:0 ""
+ANT_undersupplied_desc:0 "The Dominion controls more ice than it can comfortably sustain. Limited shipments, fragile supply routes, and the unforgiving climate leave garrisons short of equipment and administrators struggling to keep order."
 
 ### Flags ###
 EAR_Marr_HOS:0 "§YJames Marr§! is Antarctic High-Commissioner"
@@ -44,58 +44,73 @@ EAR_Stefansson_HOS:0 "§YVilhjalmur Stefansson§! is Antarctic High-Commissioner
 EAR_Charcot_HOS:0 "§YJean-Baptiste Charcot§! is Antarctic High-Commissioner"
 
 ### Tooltips ###
+ANT_his_majestys_antarctic_claim_2_tt:0 "§YThe Entente will begin organizing its claims and preparing an administration on the White Continent§!"
 ANT_appoint_a_high_commissioner_tt:0 "The Position of §GHigh Commissioner for Entente Antarctic Territories§! will be created"
 
 ### Events ###
 ententeantarctica.1.t:0 "The Entente's Spearhead in Antarctica"
-ententeantarctica.1.d:0 ""
+ententeantarctica.1.d:0 "As rival powers push deeper into the White Continent, the Entente has moved to secure its own foothold before the situation spirals beyond control. What began as scattered research outposts is being reshaped into a coordinated administration meant to protect imperial interests and maintain order on the ice. Supporters call the new Dominion a necessary shield against foreign expansion, while critics fear that the frozen frontier will pull the Entente into conflicts far from home."
 ententeantarctica.1.a:0 "God Save the King!"
 
 ententeantarctica.2.t:0 "On the High-Commissioner's Post"
-ententeantarctica.2.d:0 ""
-ententeantarctica.2.a:0 "Keep Marr as Head of State"
-ententeantarctica.2.b:0 "Mawson will represent Australasia's Interests"
-ententeantarctica.2.c:0 "Stefansson will closen our ties with Canada"
-ententeantarctica.2.e:0 "Charcot will make sure French Interests are priority in the Antarctic"
+ententeantarctica.2.d:0 "With the Dominion now established, the question of who should guide its future has become urgent. The High Commissioner will oversee settlements, manage relations within the Entente, and define how the Entente presents itself on the continent. Each candidate offers a different path, from continuity and stability to stronger ties with distant partners or a renewed focus on exploration and science."
+ententeantarctica.2.a:0 "Keep Marr as head of state."
+ententeantarctica.2.b:0 "Mawson will represent Australasia's interests."
+ententeantarctica.2.c:0 "Stefansson will closen our ties with Canada."
+ententeantarctica.2.e:0 "Charcot will make sure French Interests are priority in the Antarctic."
 
 
 ### Focuses ###
 ANT_his_majestys_antarctic_claim:0 "Status of the Entente's Antarctic Claim"
-ANT_his_majestys_antarctic_claim_desc:0 ""
+ANT_his_majestys_antarctic_claim_desc:0 "The collapse of Antarctic neutrality has forced the Entente to clarify its position on the White Continent. What were once scattered expeditions and informal understandings must now be shaped into a coherent claim, lest rivals seize the ice for themselves."
+
 ANT_settle_inter_entente_disputes:0 "Settle Inter-Entente Disputes"
-ANT_settle_inter_entente_disputes_desc:0 ""
+ANT_settle_inter_entente_disputes_desc:0 "Overlapping claims and competing ambitions among Entente members threaten to undermine the Antarctic project. Careful negotiation and compromise are required to present a united front on the frozen frontier."
+
 ANT_more_supplies_from_home:0 "Request More Supplies from Home"
-ANT_more_supplies_from_home_desc:0 ""
+ANT_more_supplies_from_home_desc:0 "Life and administration in Antarctica depend entirely on distant supply lines. Securing greater material support from Entente partners is essential if our presence on the continent is to be more than symbolic."
+
 ANT_appoint_a_high_commissioner:0 "Create the Position of High-Commissioner"
-ANT_appoint_a_high_commissioner_desc:0 ""
+ANT_appoint_a_high_commissioner_desc:0 "With the Entente presence formalized, Antarctica requires clear leadership. A High Commissioner will oversee governance, coordinate Entente interests, and guide the Dominion through the growing tensions of the White Continent."
 
 ANT_French_Antarctica:0 "A French Commissioner"
-ANT_French_Antarctica_desc:0 ""
+ANT_French_Antarctica_desc:0 "Appointing a French High Commissioner signals a shift in the balance of influence within the Dominion. France will seek to ensure that its scientific legacy and strategic interests are fully reflected in Antarctic governance."
+
 ANT_Replace_Anglo_Administrators:0 "Replace Anglo Administrators"
-ANT_Replace_Anglo_Administrators_desc:0 ""
+ANT_Replace_Anglo_Administrators_desc:0 "Many of the current administrative structures reflect earlier British dominance. Replacing them with officials loyal to the new French leadership will consolidate authority and reduce internal resistance."
+
 ANT_Emphasize_NatFrance_Role:0 "Emphasize France's Role in the Antarctic"
-ANT_Emphasize_NatFrance_Role_desc:0 ""
+ANT_Emphasize_NatFrance_Role_desc:0 "Antarctica offers an opportunity for France to project prestige and purpose far from Europe. By highlighting French leadership, the Dominion can be tied more closely to the vision of National France."
+
 ANT_French_Antarctic_Dominance:0 "French Dominance in Antarctica"
-ANT_French_Antarctic_Dominance_desc:0 ""
+ANT_French_Antarctic_Dominance_desc:0 "With administration, security, and policy firmly aligned, Antarctica can be reshaped into a cornerstone of French influence within the Entente. The ice will no longer be shared equally."
 
 ANT_Anglo_Rule_Continues:0 "An Anglo Commissioner"
-ANT_Anglo_Rule_Continues_desc:0 ""
+ANT_Anglo_Rule_Continues_desc:0 "Maintaining Anglo leadership promises continuity and stability. Britain and its partners will prioritize cautious expansion, cooperation, and the preservation of existing Entente arrangements."
+
 ANT_Entente_Cooperation_in_Antarctica:0 "Antarctic Entente Cooperation"
-ANT_Entente_Cooperation_in_Antarctica_desc:0 ""
+ANT_Entente_Cooperation_in_Antarctica_desc:0 "Rather than competing internally, the Entente can use Antarctica as a model of joint administration. Shared responsibilities and mutual support will strengthen the Dominion against external threats."
+
 ANT_Rely_on_Australasia:0 "Rely on Australasia"
-ANT_Rely_on_Australasia_desc:0 ""
+ANT_Rely_on_Australasia_desc:0 "Geography makes Australasia a natural partner in Antarctic affairs. Deepening reliance on Australasian expertise and logistics will anchor the Dominion to the southern oceans."
+
 ANT_ANZAC_Antarctica:0 "Antarctica under the ANZAC"
-ANT_ANZAC_Antarctica_desc:0 ""
+ANT_ANZAC_Antarctica_desc:0 "Placing Antarctica under ANZAC leadership reflects the growing role of Australasia in Entente defense. The frozen continent will be guarded by those closest and most prepared to hold it."
 
 ANT_Operation_Tabarin:0 "Operation Tabarin"
-ANT_Operation_Tabarin_desc:0 ""
+ANT_Operation_Tabarin_desc:0 "What began as a wartime precaution has become a permanent commitment. Operation Tabarin expands the military and intelligence role of the Dominion, ensuring the Entente is never surprised on the ice."
+
 ANT_Special_Forces_Focus:0 "Antarctic Special Forces Focus"
-ANT_Special_Forces_Focus_desc:0 ""
+ANT_Special_Forces_Focus_desc:0 "The harsh conditions of Antarctica demand elite troops trained for cold, isolation, and difficult terrain. Specialized forces will turn the environment itself into a strategic advantage."
+
 ANT_Expand_Supply_Lines:0 "Shore Up Our Supplies"
-ANT_Expand_Supply_Lines_desc:0 ""
+ANT_Expand_Supply_Lines_desc:0 "As the Dominion grows, existing supply routes strain under the pressure. Expanding and securing these lines is vital for both civilian administration and military readiness."
+
 ANT_Expand_Ice_Roads:0 "Expand Ice Roads"
-ANT_Expand_Ice_Roads_desc:0 ""
+ANT_Expand_Ice_Roads_desc:0 "Permanent routes across the ice will bind distant outposts together. Roads and infrastructure will transform Antarctica from a collection of stations into a functioning territory."
+
 ANT_Bolster_Entente_Prescense:0 "Bolster the Entente Presence in Antarctica"
-ANT_Bolster_Entente_Prescense_desc:0 ""
+ANT_Bolster_Entente_Prescense_desc:0 "Rivals have shown that weakness invites encroachment. Reinforcing manpower and equipment will ensure the Entente remains a decisive force on the White Continent."
+
 ANT_Rule_Antarctica:0 "Colonizing Antarctica"
-ANT_Rule_Antarctica_desc:0 ""
+ANT_Rule_Antarctica_desc:0 "The age of treaties and assumptions has ended. Antarctica will now be ruled, settled, and developed as a true Dominion, fully integrated into the global struggle for power."

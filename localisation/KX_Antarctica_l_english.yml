@@ -31,10 +31,11 @@ AAR_national_populist_party_long:0 ""
 AAR_neutral_zone:0 "International Neutral Zone"
 
 ### Tooltips ###
-ANT_Dont_Rock_The_Boat:0 "We Will Aim for Peaceful Coexistence with the Other Settlements on this Frozen Continent"
+ANT_Dont_Rock_The_Boat:0 "§YWe Will Aim for Peaceful Coexistence with the Other Settlements on this Frozen Continent§!"
 ANT_fail_tt:0 "We Have Failed to Scavenge Arms"
 ANT_alone_tt:0 "§RIts Awful Quiet Down Here...§!"
 ANT_no_army_tt:0 "§RAntarctica is a global demilitarized zone, it has no Standing Army §!"
+ANT_status_quo_tt:0 "§YHumans struggle. The cold endures. The penguins watch.§!"
 
 ### Decisions ###
 ANT_arms_raiding:0 "Getting Guns"
@@ -51,46 +52,42 @@ ANT_shitty_guns:0 "Unreliable Weaponry"
 ### Laws ###
 no_economy:0 "Nonexistent Economy"
 antarctic_economy:0 "Antarctic 'Economy'"
-
 no_trade:0 "Complete Isolation"
-no_trade_desc:0 ""
-
 no_military:0 "No Military"
-no_military_desc:0 ""
 battle_for_survival:0 "Battle for Survival"
 
 ### Events ###
 antarctica.0.t:0 "Skirmishes Reach Antarctica"
-antarctica.0.d:0 ""
-antarctica.0.a:0 "I thought this was a Neutral Zone?"
+antarctica.0.d:0 "Long-standing tensions between Argentina and Chile have spilled onto the frozen wastes of Antarctica. Patrols from both nations have clashed over overlapping territorial claims, turning what was meant to be a demilitarized scientific preserve into an unexpected battleground."
+antarctica.0.a:0 "I thought this was a neutral zone?"
 
 antarctica.1.t:0 "Antarctic Neutrality Ends with a Bang"
-antarctica.1.d:0 ""
-antarctica.1.a:0 "Can we have One Continent free of War?"
+antarctica.1.d:0 "The fighting between South American claimants has sent shockwaves across the world. Treaties and understandings that once kept Antarctica neutral are now openly questioned, as the great powers watch closely and prepare to act."
+antarctica.1.a:0 "Can we have one continent free of war?"
 
 antarctica.2.t:0 "The Germans Carve out a Chunk of Antarctica"
-antarctica.2.d:0 ""
+antarctica.2.d:0 "Seizing the opportunity presented by chaos and inaction, Germany has formally asserted control over large swathes of Antarctica, citing historic expeditions and scientific stations. The reborn project of New Swabia is no longer a rumor. It is a reality."
 antarctica.2.a:0 "Colonialism reaches the White Continent."
 antarctica.2.b:0 "(Play as New Swabia)"
 
 antarctica.3.t:0 "The Entente Formalizes Antarctic Claims"
-antarctica.3.d:0 ""
+antarctica.3.d:0 "Unwilling to allow rivals free rein over the southernmost continent, the Entente powers have moved to formalize and consolidate their Antarctic claims. Administrative structures are being established, and the ice is no longer ruled by treaties alone."
 antarctica.3.a:0 "The British are at it again."
 antarctica.3.b:0 "(Play as the Dominion of Antarctica)"
 
 antarctica.4.t:0 "Americans Occupy Parts of Antarctica"
-antarctica.4.d:0 ""
+antarctica.4.d:0 "Under the banner of stability and scientific necessity, the United States has landed forces in Antarctica, occupying key claimed regions. What began as an expedition now looks increasingly like a permanent presence."
 antarctica.4.a:0 "This is the last thing the Yanks need."
 antarctica.4.b:0 "(Play as the American Expedition)"
 
 antarctica.5.t:0 "Antactic Neutrality Ends"
-antarctica.5.d:0 ""
-antarctica.5.a:0 "Can we have One Continent free of War?"
-antarctica.5.b:0 "The Reactionaries need to Colonize Snow, Pathetic"
+antarctica.5.d:0 "With multiple powers entrenched across the ice, the idea of a neutral Antarctica has collapsed entirely. Fortifications rise where research stations once stood, and the White Continent has been fully drawn into the world’s conflicts."
+antarctica.5.a:0 "Can we have one continent free of war?"
+antarctica.5.b:0 "The reactionaries need to colonize snow, pathetic."
 
 antarctica.6.t:0 "Whispers from the Snow"
-antarctica.6.d:0 ""
-antarctica.6.a:0 "Nothing but Radio Static"
+antarctica.6.d:0 "Long-range receivers stationed across Antarctica have begun picking up strange and intermittent broadcasts that are barely distinguishable from background static. Technicians report fragments of ideological slogans, distorted revolutionary anthems, and references to discipline, endurance, and a coming awakening. Some believe the signals are nothing more than atmospheric interference or echoes from abandoned stations, while others whisper about something far more unsettling, a possibility that the ice itself is speaking and that a forgotten revolutionary may still endure beneath the snow."
+antarctica.6.a:0 "Nothing but radio static."
 antarctica.6.b:0 "Could it be, Trotsky?..."
 
 
@@ -135,7 +132,7 @@ ANT_Icebreakers:0 "Breaking the Ice"
 ANT_Icebreakers_desc:0 "Antarctica is the land of ice cold, and as a result of that cold our harbors remain frozen nearly year-round. If we are to survive, it would be wise to invest in icebreakers to clear our ice from our ports, opening up the gateway for new supplies to be shipped in."
 ANT_Air_Connections:0 "Air Connections"
 ANT_Air_Connections_desc:0 "Air is the main mode of transport in Antarctica as of now, with ice roads being unreliable. We will expand airports on this frozen continent and work to link up the white continent via air. "
-ANT_Use_our_Terrain:0 "Use our Terrain"
+ANT_Use_our_Terrain:0 "Use Our Terrain"
 ANT_Use_our_Terrain_desc:0 "We inhabit some of the most unique and pristine land on this planet, and with that unique land, we have to adapt warfare for the Antarctic theater. Our Soldiers will be equipped with Skis, Ice Roads will be carved into the vast Antarctic Ice Shelves : all will be of use to us in the coming Battle for Antarctica.  "
 ANT_Battle_for_Survival:0 "A Battle for Survival"
 ANT_Battle_for_Survival_desc:0 "From the Wildlife, to the Weather, to our Neighbors, it seems as if everything in this miserable wind-swept frozen continent is trying its best to kill us. While men less brave than us would have heeded nature's word and abandoned ship, we don't fear the unknown; we embrace it. No matter how the creatures of this frozen hell may try, we will not be dislodged. We will endure, we will survive, and one day, one day, we will thrive"
@@ -153,7 +150,8 @@ ANT_Learn_From_Inuit:0 "Learn from the Inuit"
 ANT_Learn_From_Inuit_desc:0 "Few societies that have managed to survive in the harsh frozen conditions we are in, one of those societies are the Inuit and Eskimo peoples of Northern Alaska and Canada. Using their knowledge, we will further adapt to our situation, and hopefully model a cold-resistant society in their image. " 
 
 ANT_eternal_neutral_zone:0 "Antarctic Neutral Zone"
-ANT_eternal_neutral_zone_desc:0 ""
+ANT_eternal_neutral_zone_desc:0 "Protected by international agreement and mutual suspicion, Antarctica is meant to remain untouched by war. Research stations and flags exist, but weapons and armies are forbidden, at least on paper."
 ANT_noot_noot:0 "Antarctica Free from Humans"
-ANT_noot_noot_desc:0 ""
+ANT_noot_noot_desc:0 "The frozen continent belongs to no nation and no ideology. Ice, wind, and wildlife reign supreme, and humanity is better kept far away from this inhospitable land."
 ANT_unchanging_ice:0 "Unchanging Ice and Snow"
+ANT_unchanging_ice_desc:0 "Blizzards sweep across a land that seems untouched by time. Empires rise and fall elsewhere, but here the ice endures, indifferent to human ambition."

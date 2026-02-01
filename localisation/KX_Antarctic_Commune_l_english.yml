@@ -1,56 +1,61 @@
 ﻿l_english:
 
 ### Tooltips ###
-
 ANT_trotsky_return_tt:0 "§RThe Long-Missing leader of the old Bolshevik Revolution has returned to Liberate Antarctica...§!"
 AAR_revolution_begin_tt:0 "§RThe World Revolution will Begin...§!"
 ANT_gain_7_divisions_tt:0 "Gains §Y7§! §GPenguin Divisions§!"
 
 #### Parties ###
-AAR_trotsky_totalist_party:0 "Bolshevik Exiles"
-AAR_trotsky_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov"
+AAR_trotsky_totalist_party:0 "Bol'shevikov Izgnanniki"
+AAR_trotsky_totalist_party_long:0 "Ostatki Bol'shevikov-Loyalistov\n§LRemnants of Bolshevik Loyalists§!"
 
 ### Ideas ###
 AAR_spread_revolution:0 "Spreading the Revolution"
+AAR_spread_revolution_desc:0 "From the most inhospitable continent on Earth the revolutionary tide begins to move. Hardened by cold scarcity and discipline our forces march with endurance and clarity carrying the flame of permanent revolution far beyond the ice."
 
 ANT_reveal_ourselves_to_the_world_idea:0 "Southern Vanguard"
+ANT_reveal_ourselves_to_the_world_idea_desc:0 "Operating from the far south our agents strike where the enemy least expects it. Networks grow quietly risks are minimized and the enemies of the revolution find themselves watched studied and steadily undermined."
 
 ### Leader Traits ###
 AAR_permanent_revolutionary:0 "Permanent Revolutionary"
 
 ### Focuses ###
 ANT_the_revolution_never_ended:0 "The Revolution Never Ended!"
-ANT_the_revolution_never_ended_desc:0 ""
+ANT_the_revolution_never_ended_desc:0 "The world believes the revolutionary flame was extinguished long ago. Beneath the ice and silence of Antarctica it endured. Isolation hardened it. Betrayal purified it. Now the forgotten vanguard stirs once more."
 ANT_revenge_revenge_revenge:0 "Heralds of Revenge"
-ANT_revenge_revenge_revenge_desc:0 ""
+ANT_revenge_revenge_revenge_desc:0 "Those who hunted the revolution across continents thought distance and cold would finish the job. They were wrong. Memory has teeth and it remembers every exile every bullet every lie."
 ANT_glorious_liberation:0 "Glorious Liberation"
-ANT_glorious_liberation_desc:0 ""
+ANT_glorious_liberation_desc:0 "Antarctica will not be carved up by empires and expeditions. The ice shall be liberated first and from it the fire will spread northward to consume the oppressors of humanity."
 ANT_reveal_ourselves_to_the_world:0 "Reveal Ourselves to the World"
-ANT_reveal_ourselves_to_the_world_desc:0 ""
+ANT_reveal_ourselves_to_the_world_desc:0 "The time for whispers is over. Let the radios crackle with truth and discipline. Let the world hear that the revolution breathes still and it is watching."
 ANT_denounce_the_false_socialists:0 "Denounce the False Reds"
-ANT_denounce_the_false_socialists_desc:0 ""
+ANT_denounce_the_false_socialists_desc:0 "Not all who wear red serve the revolution. Compromise reform and cowardice have corrupted many who claim the cause. They must be named and cast out."
 ANT_penguin_cavalry:0 "Tame Antarctic Wildlife"
-ANT_penguin_cavalry_desc:0 ""
+ANT_penguin_cavalry_desc:0 "Necessity breeds innovation. If the enemy mocks our methods let them. Discipline and adaptation will turn even the harshest environment into a weapon."
 ANT_penguin_proletariat:0 "A Clean Societal Slate"
-ANT_penguin_proletariat_desc:0 ""
+ANT_penguin_proletariat_desc:0 "Here there are no landlords no bourgeois traditions no rotten institutions. A society can be built from nothing guided only by theory resolve and collective will."
 ANT_antartic_liberation:0 "Liberate the Frozen Tundra"
-ANT_antartic_liberation_desc:0 ""
-ANT_land_free_of_imperialism:0 "The Last Slice of Imperialist-Free Earth"
-ANT_land_free_of_imperialism_desc:0 ""
+ANT_antartic_liberation_desc:0 "Every station every outpost every foreign flag must be removed. Antarctica will belong to no empire no corporation no crown."
+ANT_land_free_of_imperialism:0 "The Last Slice of Imperialist Free Earth"
+ANT_land_free_of_imperialism_desc:0 "For the first time in generations there exists land untouched by imperial domination. It must be defended as proof that another world is possible."
 ANT_fourth_internationale:0 "The Fourth International"
-ANT_fourth_internationale_desc:0 ""
-ANT_eternal_antarctic_revolution:0 "Eternal Ice-Cold Revolution"
-ANT_eternal_antarctic_revolution_desc:0 ""
+ANT_fourth_internationale_desc:0 "The old internationals failed or betrayed the cause. From the ice a new one rises uncompromising global and permanent."
+ANT_eternal_antarctic_revolution:0 "Eternal Ice Cold Revolution"
+ANT_eternal_antarctic_revolution_desc:0 "The revolution here will never decay. The cold preserves clarity purpose and vigilance. What is built on the ice shall endure."
 ANT_general_secretary_trotsky:0 "Antarctic General Secretary Trotsky"
-ANT_general_secretary_trotsky_desc:0 ""
+ANT_general_secretary_trotsky_desc:0 "Against all odds the architect of permanent revolution stands at the helm once more. Hardened by exile sharpened by time and unburied by history."
 ANT_gather_supplies:0 "Prepare for the World Revolution"
-ANT_gather_supplies_desc:0 ""
+ANT_gather_supplies_desc:0 "Ideology alone cannot win wars. Arms food and manpower must be gathered quietly and efficiently for the struggle ahead."
 ANT_cultivate_legends:0 "Cultivate Myths and Legends"
-ANT_cultivate_legends_desc:0 ""
+ANT_cultivate_legends_desc:0 "A revolution needs symbols as much as rifles. Stories spread faster than divisions and belief can cross oceans."
 ANT_revolution_from_the_south:0 "The Revolution from the South"
-ANT_revolution_from_the_south_desc:0 ""
+ANT_revolution_from_the_south_desc:0 "The world does not expect the spark to come from the bottom of the map. That is precisely why it will succeed."
+
 
 ### Events ### 
+antarcticcommune.1.t:0 "The Pale Horse"
+antarcticcommune.1.d:0 "And I looked, and behold, a pale horse! And its rider’s name was Trotsky, and an army of penguins followed him. And they were given authority over a fourth of the earth, to kill with sword and with famine and with pestilence and by wild penguins of the earth"
+antarcticcommune.1.a:0 "...What have I done!?"
 
 antcommune.1.t:0 "The Pale Horse"
 antcommune.1.d:0 "And I looked, and behold, a pale horse! And its rider’s name was Trotsky, and an army of penguins followed him. And they were given authority over a fourth of the earth, to kill with sword and with famine and with pestilence and by wild penguins of the earth"
@@ -69,9 +74,5 @@ antcommune.4.d:0 "Glorious Secretary General Trotsky's invasion was a success! T
 antcommune.4.a:0 "We must stop this madness!"
 
 antcommune.5.t:0 "Triumph of the World Revolution"
-antcommune.5.d:0 ""
+antcommune.5.d:0 "From the frozen silence of Antarctica to the cities and plains of South America the impossible has become reality. What began as whispers in the snow has erupted into open revolution. Armies once dismissed as myth have shattered borders and overturned governments. Trotsky stands vindicated as the world watches in disbelief and fear. The old order burns and the southern horizon glows red with promise and terror alike."
 antcommune.5.a:0 "First South America, Next, the World..."
-
-antarcticcommune.1.t:0 "The Pale Horse"
-antarcticcommune.1.d:0 "And I looked, and behold, a pale horse! And its rider’s name was Trotsky, and an army of penguins followed him. And they were given authority over a fourth of the earth, to kill with sword and with famine and with pestilence and by wild penguins of the earth"
-antarcticcommune.1.a:0 "...What have I done!?"

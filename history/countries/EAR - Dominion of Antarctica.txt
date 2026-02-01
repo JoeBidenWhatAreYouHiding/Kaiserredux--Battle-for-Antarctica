@@ -111,7 +111,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "James Marr"
-	picture = "gfx/leaders/EAR/Portrait_Entente_Antarctica_James_Marr.png"
+	picture = "gfx/leaders/EAR/Portrait_EAR_James_Marr.png"
 	expire = "1965.1.1"
 	ideology = antarctic_expedition_subtype
 }
@@ -119,50 +119,41 @@ create_country_leader = {
 ### Field Marshals ### 
 create_field_marshal = {
 	name = "James Marr"
-	portrait_path = "gfx/leaders/EAR/Portrait_Entente_Antarctica_James_Marr.png"
-	traits = { }
+	portrait_path = "gfx/leaders/EAR/Portrait_EAR_James_Marr.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 ### Corps Commanders ### 
 create_corps_commander = {
 	name = "Douglas Mawson"
-	portrait_path = "gfx/leaders/EAR/Portrait_Entente_Antarctica_Douglas_Mawson.png"
-	traits = { }
+	portrait_path = "gfx/leaders/EAR/Portrait_EAR_Douglas_Mawson.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_corps_commander = {
 	name = "Brian Birley Roberts"
-	portrait_path = "gfx/leaders/EAR/Portrait_Entente_Antarctica_Brian_Birley_Roberts.png"
-	traits = { }
+	portrait_path = "gfx/leaders/EAR/Portrait_EAR_Brian_Birley_Roberts.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_corps_commander = {
 	name = "Vilhjalmur Stefansson"
-	portrait_path = "gfx/leaders/EAR/Portrait_Entente_Antarctica_Vilhjalmur_Stefansson.png"
-	traits = { }
+	portrait_path = "gfx/leaders/EAR/Portrait_EAR_Vilhjalmur_Stefansson.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
-

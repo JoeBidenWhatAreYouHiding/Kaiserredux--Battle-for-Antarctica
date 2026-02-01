@@ -112,15 +112,21 @@ add_ideas = {
 create_country_leader = {
 	name = "Richard E. Byrd"
 	desc = "POLITICS_RICHARD_BYRD_DESC"
-	picture = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd.png"
+	picture = "gfx/leaders/AMT/Portrait_AMT_Richard_Byrd.png"
 	expire = "1965.1.1"
 	ideology = antarctic_expedition_subtype
 }
-
 create_country_leader = {
 	name = "Richard E. Byrd"
 	desc = "POLITICS_RICHARD_BYRD_DESC"
-	picture = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd.png"
+	picture = "gfx/leaders/AMT/Portrait_AMT_Richard_Byrd.png"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}
+create_country_leader = {
+	name = "Richard E. Byrd"
+	desc = "POLITICS_RICHARD_BYRD_DESC"
+	picture = "gfx/leaders/AMT/Portrait_AMT_Richard_Byrd.png"
 	expire = "1965.1.1"
 	ideology = lovecraftianism_subtype
 }
@@ -129,99 +135,86 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Richard E. Byrd"
-	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_AMT_Richard_Byrd.png"
 	traits = { winter_expert naval_liason  }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 ### Corps Commanders ### 
 create_corps_commander = {
 	name = "Richard H. Cruzen"
-	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_H_Cruzen.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_AMT_Richard_H_Cruzen.png"
 	traits = { winter_expert naval_liason  }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_corps_commander = {
 	name = "George J. Dufek"
-	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_George_J_Dufek.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_AMT_George_J_Dufek.png"
 	traits = { winter_expert naval_liason  }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_corps_commander = {
 	name = "George W. Gibbs Jr."
-	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_George_W_Gibbs_Jr.png"
+	portrait_path = "gfx/leaders/AMT/Portrait_AMT_George_W_Gibbs_Jr.png"
 	traits = { winter_expert naval_liason  }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 ### Navy Leaders ###
 create_navy_leader = {
-	name = "Richard E Byrd"
-	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd_Admiral.png"
-	traits = { }
+	name = "Richard E. Byrd"
+	portrait_path = "gfx/leaders/AMT/Portrait_AMT_Richard_Byrd_Admiral.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_navy_leader = {
-	name = "Richard H Cruzen"
-	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_H_Cruzen.png"
-	traits = { }
+	name = "Richard H. Cruzen"
+	portrait_path = "gfx/leaders/AMT/Portrait_AMT_Richard_H_Cruzen.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_navy_leader = {
-	name = "George J Dufek"
-	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_George_J_Dufek.png"
-	traits = { }
+	name = "George J. Dufek"
+	portrait_path = "gfx/leaders/AMT/Portrait_AMT_George_J_Dufek.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
 
 create_navy_leader = {
 	name = "George W. Gibbs Jr"
-	portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_George_W_Gibbs_Jr.png"
-	traits = { }
+	portrait_path = "gfx/leaders/AMT/Portrait_AMT_George_W_Gibbs_Jr.png"
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
-	#id = 1604
 }
-

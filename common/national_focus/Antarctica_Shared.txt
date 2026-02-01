@@ -229,7 +229,7 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Encourage_Exploration"
-		random_owned_state = {
+		capital_scope = {
 			add_extra_state_shared_building_slots = 1
 		}
 		add_manpower = 120
@@ -285,7 +285,7 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Whale_Oil"
-		random_owned_controlled_state = {
+		capital_scope = {
 			add_resource = {
 				type = oil
 				amount = 6
@@ -313,13 +313,13 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Mineral_Exploration"
-		random_owned_controlled_state = {
+		capital_scope = {
 			add_resource = {
 				type = steel
 				amount = 10
 			}
 		}
-		random_owned_controlled_state = {
+		capital_scope = {
 			add_resource = {
 				type = tungsten
 				amount = 8
@@ -418,10 +418,12 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_New_Economy"
 		add_ideas = ANT_New_Economy
-		add_building_construction = {
-			type = industrial_complex
-			level = 1
-			instant_build = yes
+		capital_scope = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
 		}
 		swap_ideas = {
 			remove_idea = ANT_alone_idea5
@@ -471,7 +473,7 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Militarize"
-		random_owned_controlled_state = {
+		capital_scope = {
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
@@ -500,7 +502,7 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Frozen_Factories"
-		random_owned_controlled_state = {
+		capital_scope = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = arms_factory
@@ -633,7 +635,7 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Protect_Against_the_Elements"
-		random_owned_state = {
+		capital_scope = {
 			add_building_construction = {
 				type = bunker
 				level = 2
@@ -700,18 +702,18 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Air_Connections"
-		random_owned_controlled_state = {
+		capital_scope = {
 			add_building_construction = {
 				type = air_base
 				level = 2
 				instant_build = yes
 			}
-			add_doctrine_cost_reduction = {
-				name = ALA_FAB
-				cost_reduction = 0.7
-				uses = 1
-				category = air_doctrine
-			}
+		}
+		add_doctrine_cost_reduction = {
+			name = ALA_FAB
+			cost_reduction = 0.7
+			uses = 1
+			category = air_doctrine
 		}
 	}
 }
@@ -739,9 +741,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ANT_Use_our_Terrain"
 		add_ideas = ANT_Use_our_Terrain
-		random_owned_controlled_state = {	
-			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-		}
+		capital_scope = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
 		hidden_effect = {
 			set_technology = { tech_ski_infantry = 1 popup = no }
 		}
@@ -809,7 +809,7 @@ shared_focus = {
 				infantry = { x = 1 y = 1 }
 			}
 		}
-		random_owned_controlled_state = {
+		capital_scope = {
 			create_unit = {
 				division = "division_template = \"Mercenaries\" start_experience_factor = 0.1"
 				owner = ROOT

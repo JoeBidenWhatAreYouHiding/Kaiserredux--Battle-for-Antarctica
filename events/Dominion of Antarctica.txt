@@ -1,0 +1,70 @@
+add_namespace = ententeantarctica
+
+country_event = { #Intro
+	id = ententeantarctica.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ententeantarctica.1"}
+	title = ententeantarctica.1.t
+	desc = ententeantarctica.1.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = EAR
+	}
+
+	option = {
+		name = ententeantarctica.1.a
+		
+	}
+}
+
+country_event = { #Appoint a High Commissioner?
+	id = ententeantarctica.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ententeantarctica.2"}
+	title = ententeantarctica.2.t
+	desc = ententeantarctica.2.d
+	picture = GFX_report_event_ANT_trotsky
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ententeantarctica.2.a
+		set_country_flag = EAR_Marr_HOS
+	}
+	
+	option = {
+		name = ententeantarctica.2.b
+		create_country_leader = {
+			name = "Douglas Mawson"
+			picture = "gfx/leaders/EAR/Portrait_EAR_Douglas_Mawson.png"
+			expire = "1965.1.1"
+			ideology = antarctic_expedition_subtype
+		}
+		set_country_flag = EAR_Mawson_HOS
+	}
+	
+	option = {
+		name = ententeantarctica.2.c
+		create_country_leader = {
+			name = "Vilhjalmur Stefansson"
+			picture = "gfx/leaders/EAR/Portrait_EAR_Vilhjalmur_Stefansson.png"
+			expire = "1965.1.1"
+			ideology = antarctic_expedition_subtype
+		}
+		set_country_flag = EAR_Stefansson_HOS
+	}
+	
+	option = {
+		name = ententeantarctica.2.e
+		create_country_leader = {
+			name = "Jean-Baptiste Charcot"
+			picture = "gfx/leaders/EAR/Portrait_EAR_Jean_Baptiste_Charcot.png"
+			expire = "1965.1.1"
+			ideology = antarctic_expedition_subtype
+		}
+		set_country_flag = EAR_Charcot_HOS
+	}
+}

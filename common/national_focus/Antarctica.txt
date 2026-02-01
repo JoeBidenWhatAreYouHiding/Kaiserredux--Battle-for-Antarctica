@@ -1,9 +1,7 @@
-
 focus_tree = {
 	id = KX_Antarctica_American
 	country = {
 		factor = 0
-		
 		modifier = {
 			add = 10
 			tag = AAR
@@ -13,7 +11,7 @@ focus_tree = {
 	
 	focus = {
 		id = ANT_eternal_neutral_zone
-		icon = GFX_goal_ANT_eternal_neutral_zone
+		icon = GFX_goal_ANT_imperialism_free
 		x = 6
 		y = 0
 		cost = 10
@@ -23,13 +21,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			custom_effect_tooltip = ANT_status_quo_tt
 		}
 	}
 	
 	focus = {
 		id = ANT_noot_noot
-		icon = GFX_goal_ANT_eternal_neutral_zone
+		icon = GFX_goal_ANT_free_from_humans
 		relative_position_id = ANT_eternal_neutral_zone
 		x = 0
 		y = 1
@@ -43,13 +41,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			custom_effect_tooltip = ANT_status_quo_tt
 		}
 	}
 	
 	focus = {
 		id = ANT_unchanging_ice
-		icon = GFX_goal_ANT_eternal_neutral_zone
+		icon = GFX_goal_ANT_Protecting_Against_Elements
 		relative_position_id = ANT_eternal_neutral_zone
 		x = 0
 		y = 2
@@ -63,7 +61,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ANT_expedition"
-			custom_effect_tooltip = ANT_expedition_2_tt
+			custom_effect_tooltip = ANT_status_quo_tt
 		}
 	}
 }

@@ -7,13 +7,12 @@ add_namespace = antarctica
 # Argentina and Chile Fight in Antartica
 country_event = { #Skirmishes
 	id = antarctica.0
+	immediate = { log = "[GetDateText]: [Root.GetName]: event antarctica.0" }
 	title = antarctica.0.t
 	desc = antarctica.0.d
 	picture = GFX_report_event_british_artillery
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = antarctica.0.a
 		AAR = {
@@ -38,13 +37,12 @@ country_event = { #Skirmishes
 
 country_event = { #Factions Making Moves
 	id = antarctica.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event antarctica.1" }
 	title = antarctica.1.t
 	desc = antarctica.1.d
 	picture = GFX_report_event_british_artillery
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = antarctica.1.a
 		hidden_effect = {
@@ -58,19 +56,15 @@ country_event = { #Factions Making Moves
 
 country_event = { #RP Formalizes Claim
 	id = antarctica.2
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event antarctica.2"
+		hidden_effect = { setup_new_swabia = yes }
+	}
 	title = antarctica.2.t
 	desc = antarctica.2.d
 	picture = GFX_report_event_british_artillery
-
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			setup_new_swabia = yes
-		}
-	}
-
 	option = {
 		name = antarctica.2.a
 		AAR = {
@@ -97,19 +91,15 @@ country_event = { #RP Formalizes Claim
 
 country_event = { #Entente Formalizes Claim
 	id = antarctica.3
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event antarctica.3"
+		hidden_effect = { setup_entente_antarctica = yes }
+	}
 	title = antarctica.3.t
 	desc = antarctica.3.d
 	picture = GFX_report_event_british_artillery
-
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			setup_entente_antarctica = yes
-		}
-	}
-
 	option = {
 		name = antarctica.3.a
 		hidden_effect = {
@@ -136,19 +126,15 @@ country_event = { #Entente Formalizes Claim
 
 country_event = { #Americans Move in
 	id = antarctica.4
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event antarctica.4"
+		hidden_effect = { setup_american_antarctica = yes }
+	}
 	title = antarctica.4.t
 	desc = antarctica.4.d
 	picture = GFX_report_event_british_artillery
-
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			setup_american_antarctica = yes
-		}
-	}
-
 	option = {
 		name = antarctica.4.a
 		AAR = {
@@ -185,730 +171,57 @@ country_event = { #Americans Move in
 
 country_event = { #End of Antartic Neutrality
 	id = antarctica.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event antarctica.5" }
 	title = antarctica.5.t
 	desc = antarctica.5.d
 	picture = GFX_report_event_british_artillery
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
 		name = antarctica.5.a
-		trigger = {
-			has_socialist_government = no
-		}
+		trigger = { has_socialist_government = no }
 		AAR = {
-			every_owned_state = {
-				set_demilitarized_zone = no
-			}
+			every_owned_state = { set_demilitarized_zone = no }
+			country_event = { id = antarctica.6 days = 20 }
 		}
-		AMT = {
-			every_owned_state = {
-				set_demilitarized_zone = no
-			}
-		}
-		NSL = {
-			every_owned_state = {
-				set_demilitarized_zone = no
-			}
-		}
-		EAR = {
-			every_owned_state = {
-				set_demilitarized_zone = no
-			}
-		}
-	}'
-	
+		AMT = { every_owned_state = { set_demilitarized_zone = no } }
+		NSL = { every_owned_state = { set_demilitarized_zone = no } }
+		EAR = { every_owned_state = { set_demilitarized_zone = no } }
+	}
 	option = {
 		name = antarctica.5.b
-		trigger = {
-			has_socialist_government = yes
-		}
-		AAR = {
-			every_owned_state = {
-				set_demilitarized_zone = no
-			}
-		}
-		AMT = {
-			every_owned_state = {
-				set_demilitarized_zone = no
-			}
-		}
-		NSL = {
-			every_owned_state = {
-				set_demilitarized_zone = no
-			}
-		}
-		EAR = {
-			every_owned_state = {
-				set_demilitarized_zone = no
-			}
-		}
+		trigger = { has_socialist_government = yes }
+		AAR = { every_owned_state = { set_demilitarized_zone = no } }
+		AMT = { every_owned_state = { set_demilitarized_zone = no } }
+		NSL = { every_owned_state = { set_demilitarized_zone = no } }
+		EAR = { every_owned_state = { set_demilitarized_zone = no } }
 	}
 }
 
 country_event = { #Revolution from the South
 	id = antarctica.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event antarctica.6" }
 	title = antarctica.6.t
 	desc = antarctica.6.d
 	picture = GFX_report_event_british_artillery
-
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = { #its nothing
 		name = antarctica.6.a
-		
+		ai_chance = { 
+			base = 70
+		}
 	}
-	
 	option = { #Whispers grow
 		name = antarctica.6.b
+		ai_chance = { 
+			base = 30
+		}
 		hidden_effect = {
 			country_event = {
 				id = antarcticcommune.1
 				days = 10
 			}
 		}
-	}
-}
-
-add_namespace = antarcticcommune
-
-country_event = { #Trotsky
-	id = antarcticcommune.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event antarcticcommune.1"}
-	title = antarcticcommune.1.t
-	desc = antarcticcommune.1.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = antarcticcommune.1.a
-		AAR_setup_trotsky = yes
-	}
-}
-
-add_namespace = newswabia
-
-country_event = { #Intro
-	id = newswabia.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.1"}
-	title = newswabia.1.t
-	desc = newswabia.1.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = NSL
-	}
-
-	option = {
-		name = newswabia.1.a
-		
-	}
-}
-
-country_event = { #Scizos
-	id = newswabia.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.2"}
-	title = newswabia.2.t
-	desc = newswabia.2.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = newswabia.2.a
-		set_country_flag = NSL_Ahnenerbe
-	}
-	option = {
-		name = newswabia.2.b
-		add_manpower = -200
-		remove_ideas = ANT_Ahnenerbe_Tagalong_idea
-	}
-}
-
-country_event = { #Stuff
-	id = newswabia.3
-	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.3"}
-	title = newswabia.3.t
-	desc = newswabia.3.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = newswabia.3.a
-		hidden_effect = {
-			country_event = {	
-				id = newswabia.4
-				days = 5
-			}
-		}
-	}
-	option = {
-		name = newswabia.3.b
-		add_political_power = 10
-		set_country_flag = ANT_ritshcher_govt
-	}
-}
-
-country_event = { #They gone bro
-	id = newswabia.4
-	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.4"}
-	title = newswabia.4.t
-	desc = newswabia.4.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = newswabia.4.a
-		add_manpower = -200
-		if = {
-			limit = {
-				has_country_flag = NSL_Ahnenerbe
-			}
-			country_event = {	
-				id = newswabia.6
-				days = 2
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					has_country_flag = NSL_Ahnenerbe
-				}
-			}
-			country_event = {	
-				id = newswabia.5
-				days = 2
-			}
-		}
-	}
-}
-
-country_event = { #They gone bro
-	id = newswabia.5
-	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.5"}
-	title = newswabia.5.t
-	desc = newswabia.5.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = newswabia.5.a
-		AAR = {
-			annex_country = {
-				target = NSL
-				transfer_troops = no
-			}
-		}
-	}
-}
-
-country_event = { #They gone bro
-	id = newswabia.6
-	immediate = {log = "[GetDateText]: [Root.GetName]: event newswabia.6"}
-	title = newswabia.6.t
-	desc = newswabia.6.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = newswabia.6.a
-		set_politics = {
-			ruling_party = national_populist
-			elections_allowed = no
-		}
-		add_popularity = {
-			ideology = national_populist
-			popularity = 1
-		}
-		remove_all_ministers = yes
-		add_ideas = {
-			NSL_Karl_Maria_Wiligut_hog_npo
-			NSL_Herman_Wirth_for_npo
-			NSL_Wolfram_Sievers_eco_npo
-			NSL_Karl_Wolff_sec_npo
-		}
-		every_unit_leader = {
-			set_nationality = NSW
-		}
-		### Field Marshals ### 
-		create_field_marshal = {
-			name = "Karl Maria Wiligut"
-			portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Karl_Maria_Wiligut.png"
-			traits = { }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-			#id = 1604
-		}
-
-		### Corps Commanders ### 
-		create_corps_commander = {
-			name = "Herman Wirth"
-			portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Herman_Wirth.png"
-			traits = { }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-			#id = 1604
-		}
-
-		create_corps_commander = {
-			name = "Wolfram Sievers"
-			portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Wolfram_Sievers.png"
-			traits = { }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-			#id = 1604
-		}
-
-		create_corps_commander = {
-			name = "Karl Wolff"
-			portrait_path = "gfx/leaders/NSL/Portrait_New_Swabia_Karl_Wolff.png"
-			traits = { }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-			#id = 1604
-		}
-	}
-}
-
-add_namespace = americanexpedition
-
-country_event = { #Intro
-	id = americanexpedition.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.1"}
-	title = americanexpedition.1.t
-	desc = americanexpedition.1.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = AMT
-	}
-
-	option = {
-		name = americanexpedition.1.a
-		
-	}
-}
-
-country_event = { #Ford Funding
-	id = americanexpedition.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.2"}
-	title = americanexpedition.2.t
-	desc = americanexpedition.2.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = americanexpedition.2.a
-		add_political_power = 10
-	}
-}
-
-country_event = { #Well Fuck
-	id = americanexpedition.3
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.3"}
-	title = americanexpedition.3.t
-	desc = americanexpedition.3.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = americanexpedition.3.a
-		set_country_flag = ANT_byrd_sane
-	}
-	
-	option = {
-		name = americanexpedition.3.b
-		hidden_effect = {
-			country_event = {
-				id = americanexpedition.4
-				days = 4
-			}
-		}
-	}
-}
-
-country_event = { #Agartha found!
-	id = americanexpedition.4
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.4"}
-	title = americanexpedition.4.t
-	desc = americanexpedition.4.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = { #Madness
-		name = americanexpedition.4.a
-		set_country_flag = ANT_byrd_sane
-	}
-	
-	option = { #The Truth!
-		name = americanexpedition.4.a
-		hidden_effect = {
-			country_event = {
-				id = americanexpedition.5
-				days = 4
-			}
-		}
-	}
-}
-
-country_event = { #Agartha found!
-	id = americanexpedition.5
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.5"}
-	title = americanexpedition.5.t
-	desc = americanexpedition.5.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = { #Madness
-		name = americanexpedition.5.a
-		set_country_flag = ANT_byrd_sane
-	}
-	
-	option = { #The Truth!
-		name = americanexpedition.5.b
-		hidden_effect = {
-			country_event = {
-				id = americanexpedition.6
-				days = 4
-			}
-		}
-	}
-}
-
-country_event = { #Agartha found!
-	id = americanexpedition.6
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.6"}
-	title = americanexpedition.6.t
-	desc = americanexpedition.6.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = { #Madness
-		name = americanexpedition.6.a
-		set_country_flag = ANT_byrd_sane
-	}
-	
-	option = { #The Truth!
-		name = americanexpedition.6.b
-		hidden_effect = {
-			country_event = {
-				id = americanexpedition.7
-				days = 4
-			}
-		}
-	}
-}
-
-country_event = { #Agartha!
-	id = americanexpedition.7
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.7"}
-	title = americanexpedition.7.t
-	desc = americanexpedition.7.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = americanexpedition.7.a
-		set_country_flag = ANT_argartha_found_flag
-	}
-}
-
-country_event = { #Contact with Byrd
-	id = americanexpedition.8
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.8"}
-	title = americanexpedition.8.t
-	desc = americanexpedition.8.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = { #Send Stuff
-		name = americanexpedition.8.a
-		ai_chance = {
-			factor = 50
-		}
-		AMT = {
-			country_event = {
-				id = americanexpedition.9
-				days = 2
-			}
-		}
-	}
-	
-	option = { #nah
-		name = americanexpedition.8.b
-		ai_chance = {
-			factor = 50
-		}
-		AMT = {
-			country_event = {
-				id = americanexpedition.10
-				days = 2
-			}
-		}
-	}
-	
-	option = { #Evacuate
-		name = americanexpedition.8.c
-		ai_chance = {
-			factor = 50
-		}
-		AMT = {
-			country_event = {
-				id = americanexpedition.11
-				days = 2
-			}
-		}
-	}
-}
-
-country_event = { #Stuff
-	id = americanexpedition.9
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.9"}
-	title = americanexpedition.9.t
-	desc = americanexpedition.9.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = { #yay
-		name = americanexpedition.9.a
-		add_political_power = 10
-		add_ideas = ANT_Funding
-	}
-}
-
-country_event = { #no Stuff
-	id = americanexpedition.10
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.10"}
-	title = americanexpedition.10.t
-	desc = americanexpedition.10.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = { #not yay
-		name = americanexpedition.10.a
-		add_political_power = -10
-	}
-}
-
-country_event = { #A Way Home
-	id = americanexpedition.11
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.11"}
-	title = americanexpedition.11.t
-	desc = americanexpedition.11.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = { #Finally, thank god
-		name = americanexpedition.11.a
-		trigger = {
-			NOT = {
-				has_country_flag = ANT_argartha_found
-			}
-		}
-		AAR = {
-			annex_country = {
-				target = AMT
-				transfer_troops = no
-			}
-		}
-		if = {
-			limit = {
-				has_country_flag = AMT_COR
-			}
-			COR = {
-				add_manpower = 500
-				change_tag_from = AMT
-				create_navy_leader = {
-					name = "Richard Byrd"
-					portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd_Admiral.png"
-					traits = { }
-					skill = 2
-					attack_skill = 2
-					defense_skill = 2
-					planning_skill = 2
-					logistics_skill = 1
-					#id = 1604
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_country_flag = AMT_USA
-			}
-			USA = {
-				add_manpower = 500
-				change_tag_from = AMT
-				create_navy_leader = {
-					name = "Richard Byrd"
-					portrait_path = "gfx/leaders/AMT/Portrait_American_Antarctica_Richard_Byrd_Admiral.png"
-					traits = { }
-					skill = 2
-					attack_skill = 2
-					defense_skill = 2
-					planning_skill = 2
-					logistics_skill = 1
-					#id = 1604
-				}
-
-			}
-		}
-	}
-	
-	option = { #We are Home, General
-		name = americanexpedition.11.b
-	
-	}
-}
-
-country_event = { #Byrd Contacts us
-	id = americanexpedition.12
-	immediate = {log = "[GetDateText]: [Root.GetName]: event americanexpedition.12"}
-	title = americanexpedition.12.t
-	desc = americanexpedition.12.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = { #A Loyal ally of Providence
-		name = americanexpedition.12.a
-		
-	}
-}
-
-add_namespace = ententeantarctica
-
-country_event = { #Intro
-	id = ententeantarctica.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ententeantarctica.1"}
-	title = ententeantarctica.1.t
-	desc = ententeantarctica.1.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = EAR
-	}
-
-	option = {
-		name = ententeantarctica.1.a
-		
-	}
-}
-
-country_event = { #Appoint a High Commissioner?
-	id = ententeantarctica.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ententeantarctica.2"}
-	title = ententeantarctica.2.t
-	desc = ententeantarctica.2.d
-	picture = GFX_report_event_ANT_trotsky
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = ententeantarctica.2.a
-		set_country_flag = EAR_Marr_HOS
-	}
-	
-	option = {
-		name = ententeantarctica.2.b
-		create_country_leader = {
-			name = "Douglas Mawson"
-			picture = "gfx/leaders/EAR/Portrait_Entente_Antarctica_Douglas_Mawson.png"
-			expire = "1965.1.1"
-			ideology = antarctic_expedition_subtype
-		}
-		set_country_flag = EAR_Mawson_HOS
-	}
-	
-	option = {
-		name = ententeantarctica.2.c
-		create_country_leader = {
-			name = "Vilhjalmur Stefansson"
-			picture = "gfx/leaders/EAR/Portrait_Entente_Antarctica_Vilhjalmur_Stefansson.png"
-			expire = "1965.1.1"
-			ideology = antarctic_expedition_subtype
-		}
-		set_country_flag = EAR_Stefansson_HOS
-	}
-	
-	option = {
-		name = ententeantarctica.2.e
-		create_country_leader = {
-			name = "Jean-Baptiste Charcot"
-			picture = "gfx/leaders/EAR/Portrait_Entente_Antarctica_Jean_Baptiste_Charcot.png"
-			expire = "1965.1.1"
-			ideology = antarctic_expedition_subtype
-		}
-		set_country_flag = EAR_Charcot_HOS
 	}
 }

@@ -9,4 +9,5 @@ dependencies={
 	"Kaiserredux"
 }
 name="Kaiserredux: Battle for Antarctica"
-supported_version="1.11.4"
+picture="thumbnail.png"
+supported_version="1.17.*"

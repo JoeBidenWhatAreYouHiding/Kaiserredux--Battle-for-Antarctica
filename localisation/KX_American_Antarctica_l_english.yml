@@ -2,27 +2,27 @@
 
 ### Country Names ###
 AMT:0 "American Antarctic Expedition"
-AMT_ADJ:0 "American-Antarctic "
-AMT_DEF:0 "American Antarctic Expedition"
+AMT_ADJ:0 "American-Antarctic"
+AMT_DEF:0 "the American Antarctic Expedition"
 
 AMT_LITTLE_AMERICA:0 "United States of Little America"
 AMT_LITTLE_AMERICA_ADJ:0 "Little American"
 AMT_LITTLE_AMERICA_DEF:0 "the United States of Little America"
 
 AMT_ARGARTHA:0 "Agartha"
-AMT_ARGARTHA_ADJ:0 "Agartha"
+AMT_ARGARTHA_ADJ:0 "Agarthan"
 AMT_ARGARTHA_DEF:0 "Agartha"
 
 ### Leader Bios ###
 POLITICS_RICHARD_BYRD_DESC:0 "Admiral Richard Evelyn Byrd Jr. is famous far and wide for both his illustrious naval career and his personal achievements as an explorer of the unknown and the extreme. Born in 1888 in Virginia to a family that has been in America since the first Pilgrim landings, Byrd is related to major colonial figures such as John Rolfe and his wife Pocahontas. After getting his education at the Virginia Military Institute, then the University of Virginia before finally landing at the United States Naval Academy, Byrd would slowly climb up the ranks while marrying his beloved Marie. Serving valiantly aboard the USS Wyoming as the Great War waged outside of America’s borders, Byrd would show an adept talent for exploration and command, leading to a swift series of promotions - a rare occurrence in peacetime. After the Great War ended, Byrd was free to pursue his passion of naval, aeronautical, and land-based exploration, exploring both the North and South Poles, as well as other harsh environments in Canada, Russia, and Scandinavia. Separate from his military career and kept secret from the public, Byrd is also a devoted skeptic, conspiracy theorist, esoteric thinker, UFOlogist, and all around dabble in what many consider to be pseudoscience or just plain madness. Despite this, Admiral Byrd has proven himself to be a sound naval commander and experienced, if boastful and exaggerative, polar explorer. With this in mind, it was no wonder why he was chosen to lead this very expedition, even as the world heats up around us in this frozen hellscape."
 
 ### Parties ###
-AMT_totalist_party:0 "Ostatki bol'shevikov-loyalistov"
-AMT_totalist_party_long:0 "Ostatki bol'shevikov-loyalistov (Pingviny)"
+AMT_totalist_party:0 "-"
+AMT_totalist_party_long:0 "-"
 AMT_syndicalist_party:0 "-"
 AMT_syndicalist_party_long:0 "-"
-AMT_radical_socialist_party:0 "Frozen Wasteland"
-AMT_radical_socialist_party_long:0 "Frozen Wasteland"
+AMT_radical_socialist_party:0 "-"
+AMT_radical_socialist_party_long:0 "-"
 AMT_social_democrat_party:0 "-"
 AMT_social_democrat_party_long:0 "-"
 AMT_social_liberal_party:0 "-"
@@ -33,22 +33,24 @@ AMT_social_conservative_party:0 "-"
 AMT_social_conservative_party_long:0 "-"
 AMT_authoritarian_democrat_party:0 "Byrd's Expedition Force"
 AMT_authoritarian_democrat_party_long:0 "Byrd's Expedition Force"
-AMT_paternal_autocrat_party:0 "-"
-AMT_paternal_autocrat_party_long:0 "-"
+AMT_paternal_autocrat_party:0 "Byrd's Expedition Force"
+AMT_paternal_autocrat_party_long:0 "Byrd's Expedition Force"
 AMT_national_populist_party:0 "Byrd's Expedition Force"
 AMT_national_populist_party_long:0 "Byrd's Expedition Force"
 
 ### Ideas ###
 
 ANT_little_america_idea:0 "Little America"
-ANT_little_america_idea_desc:0 ""
+ANT_little_america_idea_desc:0 "What began as a temporary base has become a growing settlement. Improved infrastructure and steady population growth are turning Little America into a permanent presence on the ice."
 
 ANT_byrd_expedition_idea:0 "Byrd Expedition"
-ANT_byrd_expedition_idea_desc:0 ""
+ANT_byrd_expedition_idea_desc:0 "Led by Admiral Richard Byrd, the American Antarctic expedition is presented as a mission of exploration and science. Beneath the official reports, however, lie strategic surveys, military planning, and the quiet assertion of American influence at the edge of the world."
 
 ANT_Funding:0 "Funding Secure"
+ANT_Funding_desc:0 "Reliable financial backing ensures that construction continues, equipment is maintained, and the expedition can function despite the extreme conditions."
 
 ANT_truth1:0 "The Truth..."
+ANT_truth1_desc:0 "Something was found beneath the ice that should not exist. Official reports avoid the details, but doubt and unease have begun to spread."
 
 ### Tooltips ###
 ANT_byrd_expedition_tt:0 "§YAdmiral Byrd and his crew will Explore American Territories in Antarctica§!"
@@ -60,112 +62,129 @@ ANT_argartha_found_flag:0 "§RAdmiral Byrd has Found Agartha§!"
 
 ### Events ###
 americanexpedition.1.t:0 "Strangers in a Strange Land"
-americanexpedition.1.d:0 ""
-americanexpedition.1.a:0 "God Bless America."
+americanexpedition.1.d:0 "The American expedition has landed on the frozen continent with little more than ambition and faith. Cut off from the mainland and surrounded by ice and silence, the men look to their flag and their commander for reassurance that this desolate place can still serve a higher purpose."
+americanexpedition.1.a:0 "God bless America."
 
 americanexpedition.2.t:0 "Funding from Ford"
-americanexpedition.2.d:0 ""
+americanexpedition.2.d:0 "Private backers have stepped forward to support the expedition, with the Ford organization providing much needed funds and equipment. Their backing offers hope that Little America can survive the harsh Antarctic winter."
 americanexpedition.2.a:0 "Wonderful."
 
 americanexpedition.3.t:0 "Alone."
-americanexpedition.3.d:0 ""
+americanexpedition.3.d:0 "News from home has gone silent as America tears itself apart. No ships arrive, no messages follow, and the reality sets in that the expedition may have been forgotten entirely."
 americanexpedition.3.a:0 "Byrd is our only hope now!"
+americanexpedition.3.b:0 "Listen to what Byrd has to say."
 
 americanexpedition.4.t:0 "The Admiral's Diary."
-americanexpedition.4.d:0 ""
+americanexpedition.4.d:0 "Fragments from Admiral Byrds personal diary circulate among the officers. They speak of impossible distances, strange lights beneath the ice, and a growing certainty that Antarctica holds secrets never meant to be found."
 americanexpedition.4.a:0 "Its just the Polar Madness getting to him."
 americanexpedition.4.b:0 "Is there really more out there?"
 
 americanexpedition.5.t:0 "Strange Signals."
-americanexpedition.5.d:0 ""
+americanexpedition.5.d:0 "Radio operators report unfamiliar signals echoing across the ice, repeating patterns that do not match any known transmitter. Some dismiss them as interference, while others feel they are being watched."
 americanexpedition.5.a:0 "Nothing but an odd Practical Joke?"
 americanexpedition.5.b:0 "What are you seeing?"
 
 americanexpedition.6.t:0 "The Final Truth, Revealed."
-americanexpedition.6.d:0 ""
-americanexpedition.6.a:0 "Just ignore him and hope he gets better"
-americanexpedition.6.b:0 "It's... Real..."
+americanexpedition.6.d:0 "Byrd gathers the expedition leaders and speaks openly of what lies beyond the ice. His words defy science and reason, yet the fear in his voice suggests he truly believes them."
+americanexpedition.6.a:0 "Just ignore him and hope he gets better."
+americanexpedition.6.b:0 "It's real..."
 
 americanexpedition.7.t:0 "Agartha Found."
-americanexpedition.7.d:0 ""
+americanexpedition.7.d:0 "The hidden world beneath the ice stands revealed at last. Ancient structures and impossible machines confirm that humanity was never alone on this continent."
 americanexpedition.7.a:0 "The Government kept me silent, but there is no Government anymore!"
 
 americanexpedition.8.t:0 "The Antarctic Expedition Contacts us."
-americanexpedition.8.d:0 ""
-americanexpedition.8.a:0 "Give them some Aid"
-americanexpedition.8.b:0 "We dont have the supplies"
+americanexpedition.8.d:0 "A message arrives from the Antarctic expedition, desperate and uncertain. They ask for aid, evacuation, or at least recognition that they have not been abandoned."
+americanexpedition.8.a:0 "Give them some aid."
+americanexpedition.8.b:0 "We don't have the supplies."
 americanexpedition.8.c:0 "Offer them a way home!"
 
 americanexpedition.9.t:0 "America Sends us Supplies!"
-americanexpedition.9.d:0 ""
+americanexpedition.9.d:0 "Against all odds, ships break through the ice carrying food, fuel, and equipment. Morale surges as the stars and stripes once again bring relief."
 americanexpedition.9.a:0 "Hoorah"
 
 americanexpedition.10.t:0 "America Sends us no Supplies..."
-americanexpedition.10.d:0 ""
+americanexpedition.10.d:0 "The reply from home is brief and cold. There is nothing to spare, and the expedition must endure on its own."
 americanexpedition.10.a:0 "Damn..."
 
 americanexpedition.11.t:0 "America Evacuates us!"
-americanexpedition.11.d:0 ""
+americanexpedition.11.d:0 "Transports arrive with orders to bring the expedition home. As preparations begin, a difficult question arises about whether Antarctica should be abandoned or embraced."
 americanexpedition.11.a:0 "Finally, we can escape this frozen hell..."
 americanexpedition.11.b:0 "No, Antarctica is our home now!"
 
-americanexpedition.12.t:0 "Admiral Richard Byrd contacts us"
-americanexpedition.12.d:0 ""
-americanexpedition.12.a:0 "A Loyal ally of Providence!"
+americanexpedition.12.t:0 "Admiral Richard Byrd Contacts Us"
+americanexpedition.12.d:0 "Admiral Byrd himself reaches out, offering loyalty and cooperation in exchange for protection. His expedition stands ready to serve a new master."
+americanexpedition.12.a:0 "A loyal ally of Providence!"
 
 ### Focuses ###
 ANT_byrd_expedition:0 "Status of the Byrd Expedition"
-ANT_byrd_expedition_desc:0 ""
+ANT_byrd_expedition_desc:0 "The Byrd Expedition was meant to be a scientific mission at the edge of the world. Instead it has become Americas foothold on the White Continent, isolated yet full of promise and danger."
+
 ANT_secure_backing:0 "Secure Financial Backing for the Expedition"
-ANT_secure_backing_desc:0 ""
+ANT_secure_backing_desc:0 "With government attention divided, the expedition must turn to private benefactors and industrial patrons to secure the funding needed to survive and expand."
+
 ANT_expand_little_america:0 "Expand Little America"
-ANT_expand_little_america_desc:0 ""
+ANT_expand_little_america_desc:0 "Little America must grow beyond a fragile outpost. New facilities and improved infrastructure will help transform it into a permanent settlement on the ice."
+
 ANT_stranded_at_the_bottom_of_the_world:0 "Stranded At the Bottom of the World"
-ANT_stranded_at_the_bottom_of_the_world_desc:0 ""
+ANT_stranded_at_the_bottom_of_the_world_desc:0 "Civil war at home has severed all reliable contact. The expedition now faces the terrifying reality that no help may be coming."
 
 ANT_great_restructuring:0 "Evaluate Our Situation"
-ANT_great_restructuring_desc:0 ""
+ANT_great_restructuring_desc:0 "Cut off from the mainland, the expedition must reorganize itself to survive. New priorities and leadership structures are needed if order is to be maintained."
 
 ANT_home_away_from_home:0 "Our Home, Far Away from Home"
-ANT_home_away_from_home_desc:0 ""
+ANT_home_away_from_home_desc:0 "If rescue is uncertain, then Antarctica must become more than a workplace. It must become a home."
+
 ANT_american_ammenities:0 "'American' Amenities"
-ANT_american_ammenities_desc:0 ""
+ANT_american_ammenities_desc:0 "Comforts from home help preserve morale and identity. Even at the end of the world, American habits and luxuries still matter."
+
 ANT_american_spirit:0 "American Spirit"
-ANT_american_spirit_desc:0 ""
+ANT_american_spirit_desc:0 "Hardship has only strengthened the resolve of the expedition. Patriotism and unity bind the settlers together against the endless ice."
+
 ANT_a_little_america:0 "A Little America!"
-ANT_a_little_america_desc:0 ""
+ANT_a_little_america_desc:0 "Little America has become something more. It now stands as a true extension of the homeland, proudly flying its flag at the bottom of the world."
 
 ANT_reveal_the_truth:0 "There Was a Hole at the Bottom of the Earth..."
-ANT_reveal_the_truth_desc:0 ""
+ANT_reveal_the_truth_desc:0 "What was discovered beneath the ice defies explanation. Suppressing the truth may be safer, but some secrets refuse to stay buried."
+
 ANT_city_in_the_snow:0 "The Gates Opened..."
-ANT_city_in_the_snow_desc:0 ""
+ANT_city_in_the_snow_desc:0 "Beyond the ice lies a city untouched by time. Its existence challenges everything humanity believes about its place in the world."
+
 ANT_strange_vessels:0 "Strange Vessels Accompanied Me..."
-ANT_strange_vessels_desc:0 ""
+ANT_strange_vessels_desc:0 "Unfamiliar machines move through the sky and the depths below. Their design suggests knowledge far beyond modern science."
+
 ANT_argartha_found:0 "And There It Was... Agartha"
-ANT_argartha_found_desc:0 ""
+ANT_argartha_found_desc:0 "The legends were true. A hidden world lies beneath Antarctica, ancient and powerful, waiting to shape the future of those who find it."
 
 ANT_antarctic_admirality:0 "The Antarctic Admiralty"
-ANT_antarctic_admirality_desc:0 ""
+ANT_antarctic_admirality_desc:0 "With conflict spreading south, the expedition must take control of its own defense. A naval command will protect Antarctic waters."
+
 ANT_requisition_fleet:0 "Seize the Southern Fleets"
-ANT_requisition_fleet_desc:0 ""
+ANT_requisition_fleet_desc:0 "Scattered ships in the southern seas can be pressed into service. Desperate times demand decisive action."
+
 ANT_harass_southern_shipping_lines:0 "Harass Southern Shipping Lines"
-ANT_harass_southern_shipping_lines_desc:0 ""
+ANT_harass_southern_shipping_lines_desc:0 "Control of the sea lanes will give the expedition leverage and resources, even far from traditional centers of power."
+
 ANT_further_the_expeditions_reach:0 "Further the Expedition's Reach"
-ANT_further_the_expeditions_reach_desc:0 ""
+ANT_further_the_expeditions_reach_desc:0 "New patrols and outposts will extend our presence deeper into the continent, securing manpower and territory."
+
 ANT_antarctic_tourism:0 "Antarctic Tourism?"
-ANT_antarctic_tourism_desc:0 ""
+ANT_antarctic_tourism_desc:0 "What once sounded absurd may now be practical. Visitors bring money, attention, and legitimacy to our claims."
 
 ANT_status_of_the_americans:0 "Groveling to our American Benefactors"
-ANT_status_of_the_americans_desc:0 ""
+ANT_status_of_the_americans_desc:0 "Though America is fractured, its factions still hold power. Appealing to them may decide our survival."
+
 ANT_work_with_mac:0 "Support from MacArthur"
-ANT_work_with_mac_desc:0 ""
+ANT_work_with_mac_desc:0 "General MacArthur offers strength and discipline. In exchange, the expedition may become part of his vision for America."
+
 ANT_old_friends_with_ford:0 "Old Friends with Ford"
-ANT_old_friends_with_ford_desc:0 ""
+ANT_old_friends_with_ford_desc:0 "Old industrial ties still matter. Ford and his allies can provide resources without demanding full political submission."
 
 ANT_loyal_to_lovecraft:0 "Loyal to Lovecraft"
-ANT_loyal_to_lovecraft_desc:0 ""
-ANT_fund_Miskatonic_expedition:0 "Fund Miskatonic Exploration"
-ANT_fund_Miskatonic_expedition_desc:0 ""
-ANT_at_the_mountains_of_madness:0 "At the Mountains of Madness"
-ANT_at_the_mountains_of_madness_desc:0 ""
+ANT_loyal_to_lovecraft_desc:0 "Lovecrafts vision embraces the truths uncovered beneath the ice. Loyalty to him means accepting a darker understanding of the world."
 
+ANT_fund_Miskatonic_expedition:0 "Fund Miskatonic Exploration"
+ANT_fund_Miskatonic_expedition_desc:0 "Scholars from Miskatonic University are eager to study what was found. Their research may unlock terrible knowledge."
+
+ANT_at_the_mountains_of_madness:0 "At the Mountains of Madness"
+ANT_at_the_mountains_of_madness_desc:0 "The final revelations lie deep within the mountains. Few who venture there return unchanged."
