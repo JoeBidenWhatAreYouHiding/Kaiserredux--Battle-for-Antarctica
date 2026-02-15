@@ -7,6 +7,7 @@ tags={
 }
 dependencies={
 	"Kaiserredux"
+	"KaiserreduX"
 }
 name="Kaiserredux: Battle for Antarctica"
 picture="thumbnail.png"
